@@ -1,0 +1,84 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "0e592cec1",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "type": "cc.Texture2D",
+    "data": [
+      [
+        "2,2,2,2,0,0",
+        [
+          "5e81GxD59DC6y6ry4nSiQX"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "9e64H0UnZMyYntvWssjvBP"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "9f2QDdIhtPiY8s+6NCQ8g1"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "24pwTaKGdEbY0aXpIMdeCd"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "54TknWPwVPqJqeCR+Y/Czo"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "21NatXHylKE6L3YGOkptCw"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "20g1ukYUVPvKWKBRznAKo+"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "65ZEL/ciVCGaa3VObOa7GC"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "95EkngnxZFbYuFpsqVTaFr"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "bdG8q6vX1KcbFDmXyII4Pk"
+        ]
+      ],
+      [
+        "2,2,2,2,0,0",
+        [
+          "c4em8qkSlOlJmwKxNqWHjB"
+        ]
+      ],
+      [
+        "2,2,0,0,2,8",
+        [
+          "feUDyHr+BEY7ww719g7Bqu"
+        ]
+      ]
+    ]
+  }
+}

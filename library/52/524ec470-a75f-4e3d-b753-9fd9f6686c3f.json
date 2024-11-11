@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "011f1178-9ba1-4609-93f4-9b6da3e96a59",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": [
+    1,
+    0,
+    0,
+    [
+      "cc.ImageAsset"
+    ],
+    0,
+    [
+      {
+        "fmt": "4",
+        "w": 0,
+        "h": 0
+      },
+      -1
+    ],
+    [
+      0
+    ],
+    0,
+    [],
+    [],
+    []
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "simatap_frontend",
+  "uuid": "4fd60b67-1718-48d4-8b32-9a30bb670b08",
+  "creator": {
+    "version": "3.8.4"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/socket.io-client": "^3.0.0"
+  },
+  "dependencies": {
+    "socket.io-client": "^3.1.3",
+    "vec2": "^1.6.1",
+    "vec3": "^0.1.10"
+  }
+}

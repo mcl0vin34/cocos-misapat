@@ -1,0 +1,209 @@
+
+all.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 1501, 606
+  size: 546, 549
+  orig: 595, 549
+  offset: 22, 0
+  index: -1
+Curl 1
+  rotate: true
+  xy: 635, 68
+  size: 203, 447
+  orig: 203, 447
+  offset: 0, 0
+  index: -1
+Curl 10
+  rotate: false
+  xy: 978, 619
+  size: 277, 577
+  orig: 279, 592
+  offset: 0, 15
+  index: -1
+Curl 2
+  rotate: false
+  xy: 1661, 1766
+  size: 97, 281
+  orig: 97, 286
+  offset: 0, 5
+  index: -1
+Curl 3
+  rotate: 180
+  xy: 2, 66
+  size: 204, 392
+  orig: 204, 400
+  offset: 0, 8
+  index: -1
+Curl 5
+  rotate: false
+  xy: 1838, 1093
+  size: 209, 192
+  orig: 251, 238
+  offset: 42, 46
+  index: -1
+Curl 6
+  rotate: false
+  xy: 1577, 1199
+  size: 153, 131
+  orig: 160, 145
+  offset: 0, 14
+  index: -1
+Curl 7
+  rotate: false
+  xy: 1960, 1868
+  size: 85, 179
+  orig: 87, 179
+  offset: 0, 0
+  index: -1
+Curl 8
+  rotate: false
+  xy: 1935, 1382
+  size: 111, 148
+  orig: 111, 151
+  offset: 0, 0
+  index: -1
+Curl 9
+  rotate: false
+  xy: 1247, 649
+  size: 143, 167
+  orig: 143, 171
+  offset: 0, 0
+  index: -1
+Ear 1
+  rotate: false
+  xy: 1503, 1873
+  size: 164, 174
+  orig: 164, 178
+  offset: 0, 0
+  index: -1
+Ear 2
+  rotate: false
+  xy: 978, 1874
+  size: 164, 173
+  orig: 164, 178
+  offset: 0, 0
+  index: -1
+Eye 1
+  rotate: false
+  xy: 1448, 2002
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+Eye 2
+  rotate: false
+  xy: 1226, 1942
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Eye Lid 1
+  rotate: false
+  xy: 1445, 1991
+  size: 67, 38
+  orig: 71, 45
+  offset: 2, 3
+  index: -1
+Eye Lid 2
+  rotate: false
+  xy: 1141, 1957
+  size: 48, 36
+  orig: 53, 40
+  offset: 2, 2
+  index: -1
+Eye White 1
+  rotate: false
+  xy: 1134, 1980
+  size: 77, 67
+  orig: 77, 67
+  offset: 0, 0
+  index: -1
+Eye White 2
+  rotate: false
+  xy: 1213, 1985
+  size: 68, 61
+  orig: 70, 61
+  offset: 2, 0
+  index: -1
+Face
+  rotate: true
+  xy: 246, 47
+  size: 343, 389
+  orig: 349, 398
+  offset: 3, 7
+  index: -1
+Hair
+  rotate: false
+  xy: 978, 965
+  size: 728, 1082
+  orig: 731, 1102
+  offset: 3, 20
+  index: -1
+Mustache 1
+  rotate: false
+  xy: 1350, 695
+  size: 186, 150
+  orig: 186, 168
+  offset: 0, 18
+  index: -1
+Mustache 2
+  rotate: false
+  xy: 1256, 823
+  size: 187, 156
+  orig: 193, 163
+  offset: 0, 7
+  index: -1
+Paw 1
+  rotate: true
+  xy: 891, 389
+  size: 276, 753
+  orig: 302, 763
+  offset: 2, 0
+  index: -1
+Paw 2
+  rotate: false
+  xy: 1698, 1283
+  size: 260, 764
+  orig: 260, 768
+  offset: 0, 4
+  index: -1
+Paw 3
+  rotate: 270
+  xy: 795, 208
+  size: 223, 643
+  orig: 223, 645
+  offset: 0, 2
+  index: -1
+Shadow
+  rotate: false
+  xy: 1508, 185
+  size: 538, 421
+  orig: 565, 434
+  offset: 5, 13
+  index: -1
+Tail
+  rotate: true
+  xy: 1077, 114
+  size: 117, 762
+  orig: 117, 768
+  offset: 0, 6
+  index: -1
+Слой 37
+  rotate: true
+  xy: 2, 332
+  size: 240, 681
+  orig: 266, 682
+  offset: 13, 1
+  index: -1
+Фон
+  rotate: false
+  xy: 2, 573
+  size: 974, 1473
+  orig: 974, 1473
+  offset: 0, 0
+  index: -1
