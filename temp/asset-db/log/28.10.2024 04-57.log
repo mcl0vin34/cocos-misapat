@@ -1,794 +1,0 @@
-28.10.2024 04:57:59-debug: start **** info
-28.10.2024 04:58:00-log: Cannot access game frame or container.
-28.10.2024 04:58:01-debug: asset-db:require-engine-code (1649ms)
-28.10.2024 04:58:01-log: meshopt wasm decoder initialized
-28.10.2024 04:58:01-log: [bullet]:bullet wasm lib loaded.
-28.10.2024 04:58:01-log: [box2d]:box2d wasm lib loaded.
-28.10.2024 04:58:01-log: Cocos Creator v3.8.4
-28.10.2024 04:58:01-log: Using legacy pipeline
-28.10.2024 04:58:01-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:29.81MB, end 82.15MB, increase: 52.34MB
-28.10.2024 04:58:04-debug: [Assets Memory track]: asset-db-plugin-register: builder start:86.46MB, end 205.65MB, increase: 119.19MB
-28.10.2024 04:58:01-log: Forward render pipeline initialized.
-28.10.2024 04:58:02-debug: [Assets Memory track]: asset-db-plugin-register: programming start:82.96MB, end 86.43MB, increase: 3.47MB
-28.10.2024 04:58:04-debug: [Assets Memory track]: asset-db-plugin-register: project start:82.83MB, end 205.25MB, increase: 122.42MB
-28.10.2024 04:58:04-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:82.17MB, end 205.28MB, increase: 123.11MB
-28.10.2024 04:58:04-debug: asset-db:worker-init: initPlugin (2827ms)
-28.10.2024 04:58:04-debug: [Assets Memory track]: asset-db:worker-init start:29.81MB, end 205.37MB, increase: 175.57MB
-28.10.2024 04:58:04-debug: Run asset db hook programming:beforePreStart ...
-28.10.2024 04:58:04-debug: Run asset db hook programming:beforePreStart success!
-28.10.2024 04:58:04-debug: Run asset db hook engine-extends:beforePreStart success!
-28.10.2024 04:58:04-debug: Run asset db hook engine-extends:beforePreStart ...
-28.10.2024 04:58:04-debug: asset-db:worker-init (5030ms)
-28.10.2024 04:58:04-debug: asset-db-hook-programming-beforePreStart (251ms)
-28.10.2024 04:58:04-debug: asset-db-hook-engine-extends-beforePreStart (250ms)
-28.10.2024 04:58:04-debug: Preimport db internal success
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\internalbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\mainbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\internal\import\06background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\01background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\02background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\03background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\04background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\05background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\06background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\08background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\0abackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\0bbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\0ebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\13background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\1dbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\0cbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\22background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\20background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\21background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\24background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\2cbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\33background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\28background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\38background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\54background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\48background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\7ebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\92background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\95background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\65background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\98background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\5ebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\96background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\9ebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\9fbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\afbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\b7background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\babackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\c4background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\bdbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\dcbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\e2background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\d8background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\fabackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\febackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\fdbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\01background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\13background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\1dbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\20background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\22background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\21background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\import\ffbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\05background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\24background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\28background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\2cbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\38background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\33background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\54background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\48background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\65background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\7ebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\95background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\96background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\5ebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\9ebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\98background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\92background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\9fbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\afbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\bdbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\b7background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\c4background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\d8background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\e2background: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\dcbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\fabackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\febackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\main\native\ffbackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:04-debug: Preimport db assets success
-28.10.2024 04:58:04-debug: Run asset db hook programming:afterPreStart ...
-28.10.2024 04:58:04-debug: starting packer-driver...
-28.10.2024 04:58:05-debug: initialize scripting environment...
-28.10.2024 04:58:05-debug: Set detail map pack:///resolution-detail-map.json: {}
-28.10.2024 04:58:05-debug: Run asset db hook engine-extends:afterPreStart success!
-28.10.2024 04:58:05-debug: Run asset db hook engine-extends:afterPreStart ...
-28.10.2024 04:58:05-debug: [Assets Memory track]: asset-db:worker-init: preStart start:205.39MB, end 212.90MB, increase: 7.51MB
-28.10.2024 04:58:05-debug: Start up the 'internal' database...
-28.10.2024 04:58:05-debug: Run asset db hook programming:afterPreStart success!
-28.10.2024 04:58:06-debug: asset-db-hook-programming-afterPreStart (1282ms)
-28.10.2024 04:58:06-debug: asset-db:worker-effect-data-processing (653ms)
-28.10.2024 04:58:06-debug: asset-db-hook-engine-extends-afterPreStart (653ms)
-28.10.2024 04:58:06-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:205.48MB, end 224.58MB, increase: 19.10MB
-28.10.2024 04:58:06-debug: Start up the 'assets' database...
-28.10.2024 04:58:06-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:206.71MB, end 222.43MB, increase: 15.72MB
-28.10.2024 04:58:06-debug: lazy register asset handler *
-28.10.2024 04:58:06-debug: lazy register asset handler directory
-28.10.2024 04:58:06-debug: [Assets Memory track]: asset-db:worker-init: startup start:212.91MB, end 222.45MB, increase: 9.54MB
-28.10.2024 04:58:06-debug: lazy register asset handler json
-28.10.2024 04:58:06-debug: lazy register asset handler spine-data
-28.10.2024 04:58:06-debug: lazy register asset handler dragonbones
-28.10.2024 04:58:06-debug: lazy register asset handler dragonbones-atlas
-28.10.2024 04:58:06-debug: lazy register asset handler javascript
-28.10.2024 04:58:06-debug: lazy register asset handler terrain
-28.10.2024 04:58:06-debug: lazy register asset handler scene
-28.10.2024 04:58:06-debug: lazy register asset handler typescript
-28.10.2024 04:58:06-debug: lazy register asset handler prefab
-28.10.2024 04:58:06-debug: lazy register asset handler sprite-frame
-28.10.2024 04:58:06-debug: lazy register asset handler buffer
-28.10.2024 04:58:06-debug: lazy register asset handler tiled-map
-28.10.2024 04:58:06-debug: lazy register asset handler sign-image
-28.10.2024 04:58:06-debug: lazy register asset handler alpha-image
-28.10.2024 04:58:06-debug: lazy register asset handler image
-28.10.2024 04:58:06-debug: lazy register asset handler texture
-28.10.2024 04:58:06-debug: lazy register asset handler texture-cube
-28.10.2024 04:58:06-debug: lazy register asset handler render-texture
-28.10.2024 04:58:06-debug: lazy register asset handler erp-texture-cube
-28.10.2024 04:58:06-debug: lazy register asset handler texture-cube-face
-28.10.2024 04:58:06-debug: lazy register asset handler text
-28.10.2024 04:58:06-debug: lazy register asset handler rt-sprite-frame
-28.10.2024 04:58:06-debug: lazy register asset handler gltf-animation
-28.10.2024 04:58:06-debug: lazy register asset handler gltf
-28.10.2024 04:58:06-debug: lazy register asset handler gltf-mesh
-28.10.2024 04:58:06-debug: lazy register asset handler gltf-material
-28.10.2024 04:58:06-debug: lazy register asset handler gltf-scene
-28.10.2024 04:58:06-debug: lazy register asset handler gltf-embeded-image
-28.10.2024 04:58:06-debug: lazy register asset handler material
-28.10.2024 04:58:06-debug: lazy register asset handler fbx
-28.10.2024 04:58:06-debug: lazy register asset handler physics-material
-28.10.2024 04:58:06-debug: lazy register asset handler gltf-skeleton
-28.10.2024 04:58:06-debug: lazy register asset handler effect-header
-28.10.2024 04:58:06-debug: lazy register asset handler audio-clip
-28.10.2024 04:58:06-debug: lazy register asset handler animation-clip
-28.10.2024 04:58:06-debug: lazy register asset handler animation-graph
-28.10.2024 04:58:06-debug: lazy register asset handler animation-graph-variant
-28.10.2024 04:58:06-debug: lazy register asset handler animation-mask
-28.10.2024 04:58:06-debug: lazy register asset handler effect
-28.10.2024 04:58:06-debug: lazy register asset handler ttf-font
-28.10.2024 04:58:06-debug: lazy register asset handler bitmap-font
-28.10.2024 04:58:06-debug: lazy register asset handler sprite-atlas
-28.10.2024 04:58:06-debug: lazy register asset handler particle
-28.10.2024 04:58:06-debug: lazy register asset handler auto-atlas
-28.10.2024 04:58:06-debug: lazy register asset handler label-atlas
-28.10.2024 04:58:06-debug: lazy register asset handler render-stage
-28.10.2024 04:58:06-debug: lazy register asset handler render-pipeline
-28.10.2024 04:58:06-debug: lazy register asset handler instantiation-material
-28.10.2024 04:58:06-debug: lazy register asset handler render-flow
-28.10.2024 04:58:06-debug: lazy register asset handler instantiation-skeleton
-28.10.2024 04:58:06-debug: lazy register asset handler instantiation-animation
-28.10.2024 04:58:06-debug: lazy register asset handler video-clip
-28.10.2024 04:58:06-debug: lazy register asset handler instantiation-mesh
-28.10.2024 04:58:07-debug: asset-db:worker-startup-database[internal] (3183ms)
-28.10.2024 04:58:07-debug: asset-db:worker-startup-database[assets] (2838ms)
-28.10.2024 04:58:07-debug: asset-db:start-database (3188ms)
-28.10.2024 04:58:07-debug: asset-db:ready (12467ms)
-28.10.2024 04:58:07-debug: init worker message success
-28.10.2024 04:58:08-debug: [Build Memory track]: builder:worker-init start:224.81MB, end 234.36MB, increase: 9.55MB
-28.10.2024 04:58:08-debug: Query all assets info in project
-28.10.2024 04:58:08-debug: programming:execute-script (33ms)
-28.10.2024 04:58:08-debug: builder:worker-init (1173ms)
-28.10.2024 04:58:09-debug: init custom config: keepNodeUuid: false, useCache: true
-28.10.2024 04:58:09-debug: Query asset bundle start, progress: 0%
-28.10.2024 04:58:09-debug: // ---- build task Query asset bundle ----
-28.10.2024 04:58:09-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-28.10.2024 04:58:09-debug:   Number of all scenes: 1
-28.10.2024 04:58:09-debug:   Number of all scripts: 14
-28.10.2024 04:58:09-debug:   Number of other assets: 541
-28.10.2024 04:58:09-debug: // ---- build task Query asset bundle ---- (19ms)
-28.10.2024 04:58:09-debug: run build task Query asset bundle success in 19 ms√, progress: 5%
-28.10.2024 04:58:09-debug: [Build Memory track]: Query asset bundle start:236.89MB, end 237.58MB, increase: 705.66KB
-28.10.2024 04:58:09-debug: // ---- build task Query asset bundle ----
-28.10.2024 04:58:09-debug: Query asset bundle start, progress: 5%
-28.10.2024 04:58:09-debug: // ---- build task Query asset bundle ---- (7ms)
-28.10.2024 04:58:09-debug: run build task Query asset bundle success in 7 ms√, progress: 10%
-28.10.2024 04:58:09-debug: [Build Memory track]: Query asset bundle start:237.61MB, end 237.73MB, increase: 120.53KB
-28.10.2024 04:58:09-debug: Sort some build options to settings.json start, progress: 10%
-28.10.2024 04:58:09-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 04:58:09-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
-28.10.2024 04:58:09-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
-28.10.2024 04:58:09-debug: [Build Memory track]: Sort some build options to settings.json start:237.77MB, end 237.80MB, increase: 31.32KB
-28.10.2024 04:58:09-debug: Fill script data to settings start, progress: 12%
-28.10.2024 04:58:09-debug: // ---- build task Fill script data to settings ----
-28.10.2024 04:58:09-debug: // ---- build task Fill script data to settings ---- (2ms)
-28.10.2024 04:58:09-debug: run build task Fill script data to settings success in 2 ms√, progress: 13%
-28.10.2024 04:58:09-debug: [Build Memory track]: Fill script data to settings start:237.83MB, end 237.86MB, increase: 30.52KB
-28.10.2024 04:58:09-debug: Sort some build options to settings.json start, progress: 13%
-28.10.2024 04:58:09-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 04:58:09-debug: // ---- build task Sort some build options to settings.json ---- (7ms)
-28.10.2024 04:58:09-debug: run build task Sort some build options to settings.json success in 7 ms√, progress: 15%
-28.10.2024 04:58:09-debug: [Build Memory track]: Sort some build options to settings.json start:237.89MB, end 238.03MB, increase: 135.34KB
-28.10.2024 04:58:17-debug: Query all assets info in project
-28.10.2024 04:58:17-debug: init custom config: keepNodeUuid: false, useCache: true
-28.10.2024 04:58:17-debug: Query asset bundle start, progress: 0%
-28.10.2024 04:58:17-debug: // ---- build task Query asset bundle ----
-28.10.2024 04:58:17-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-28.10.2024 04:58:17-debug:   Number of all scenes: 1
-28.10.2024 04:58:17-debug:   Number of all scripts: 14
-28.10.2024 04:58:17-debug:   Number of other assets: 541
-28.10.2024 04:58:17-debug: // ---- build task Query asset bundle ---- (11ms)
-28.10.2024 04:58:17-debug: run build task Query asset bundle success in 11 ms√, progress: 5%
-28.10.2024 04:58:17-debug: [Build Memory track]: Query asset bundle start:234.16MB, end 234.82MB, increase: 668.21KB
-28.10.2024 04:58:17-debug: Query asset bundle start, progress: 5%
-28.10.2024 04:58:17-debug: // ---- build task Query asset bundle ----
-28.10.2024 04:58:17-debug: // ---- build task Query asset bundle ---- (4ms)
-28.10.2024 04:58:17-debug: run build task Query asset bundle success in 4 ms√, progress: 10%
-28.10.2024 04:58:17-debug: [Build Memory track]: Query asset bundle start:234.85MB, end 234.97MB, increase: 119.46KB
-28.10.2024 04:58:17-debug: Sort some build options to settings.json start, progress: 10%
-28.10.2024 04:58:17-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 04:58:17-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
-28.10.2024 04:58:17-debug: [Build Memory track]: Sort some build options to settings.json start:235.00MB, end 235.03MB, increase: 30.01KB
-28.10.2024 04:58:17-debug: Fill script data to settings start, progress: 12%
-28.10.2024 04:58:17-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
-28.10.2024 04:58:17-debug: // ---- build task Fill script data to settings ----
-28.10.2024 04:58:17-debug: // ---- build task Fill script data to settings ---- (1ms)
-28.10.2024 04:58:17-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
-28.10.2024 04:58:17-debug: [Build Memory track]: Fill script data to settings start:235.06MB, end 235.09MB, increase: 30.41KB
-28.10.2024 04:58:17-debug: Sort some build options to settings.json start, progress: 13%
-28.10.2024 04:58:17-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 04:58:17-debug: // ---- build task Sort some build options to settings.json ---- (4ms)
-28.10.2024 04:58:17-debug: run build task Sort some build options to settings.json success in 4 ms√, progress: 15%
-28.10.2024 04:58:17-debug: [Build Memory track]: Sort some build options to settings.json start:235.13MB, end 235.26MB, increase: 135.11KB
-28.10.2024 04:58:29-debug: %cImport%c: C:\Users\User\Desktop\simatap_frontend\assets\MainScene.scenebackground: #aaff85; color: #000;color: #000;
-28.10.2024 04:58:29-debug: asset-db:reimport-asset09136ac6-441e-4d95-b9ef-d60ba9e50594 (23ms)
-28.10.2024 04:58:30-debug: Query all assets info in project
-28.10.2024 04:58:30-debug: init custom config: keepNodeUuid: false, useCache: true
-28.10.2024 04:58:30-debug: Query asset bundle start, progress: 0%
-28.10.2024 04:58:30-debug: // ---- build task Query asset bundle ----
-28.10.2024 04:58:30-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-28.10.2024 04:58:30-debug:   Number of all scenes: 1
-28.10.2024 04:58:30-debug:   Number of all scripts: 14
-28.10.2024 04:58:30-debug:   Number of other assets: 541
-28.10.2024 04:58:30-debug: // ---- build task Query asset bundle ---- (10ms)
-28.10.2024 04:58:30-debug: run build task Query asset bundle success in 10 ms√, progress: 5%
-28.10.2024 04:58:30-debug: [Build Memory track]: Query asset bundle start:161.00MB, end 161.69MB, increase: 707.21KB
-28.10.2024 04:58:30-debug: Query asset bundle start, progress: 5%
-28.10.2024 04:58:30-debug: // ---- build task Query asset bundle ----
-28.10.2024 04:58:30-debug: // ---- build task Query asset bundle ---- (3ms)
-28.10.2024 04:58:30-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
-28.10.2024 04:58:30-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 04:58:30-debug: [Build Memory track]: Query asset bundle start:161.73MB, end 161.84MB, increase: 119.35KB
-28.10.2024 04:58:30-debug: Sort some build options to settings.json start, progress: 10%
-28.10.2024 04:58:30-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
-28.10.2024 04:58:30-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
-28.10.2024 04:58:30-debug: [Build Memory track]: Sort some build options to settings.json start:161.01MB, end 161.04MB, increase: 31.50KB
-28.10.2024 04:58:30-debug: Fill script data to settings start, progress: 12%
-28.10.2024 04:58:30-debug: // ---- build task Fill script data to settings ----
-28.10.2024 04:58:30-debug: // ---- build task Fill script data to settings ---- (1ms)
-28.10.2024 04:58:30-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
-28.10.2024 04:58:30-debug: [Build Memory track]: Fill script data to settings start:161.07MB, end 161.10MB, increase: 29.90KB
-28.10.2024 04:58:30-debug: Sort some build options to settings.json start, progress: 13%
-28.10.2024 04:58:30-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 04:58:30-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
-28.10.2024 04:58:30-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
-28.10.2024 04:58:30-debug: [Build Memory track]: Sort some build options to settings.json start:161.13MB, end 161.28MB, increase: 145.88KB
-28.10.2024 05:09:26-debug: refresh db internal success
-28.10.2024 05:09:26-debug: refresh db assets success
-28.10.2024 05:09:26-debug: Run asset db hook engine-extends:afterRefresh ...
-28.10.2024 05:09:26-debug: Run asset db hook engine-extends:afterRefresh success!
-28.10.2024 05:09:26-debug: asset-db:refresh-all-database (206ms)
-28.10.2024 05:09:26-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-28.10.2024 05:09:26-debug: asset-db:worker-effect-data-processing (1ms)
-28.10.2024 05:09:33-debug: refresh db internal success
-28.10.2024 05:09:33-debug: refresh db assets success
-28.10.2024 05:09:33-debug: Run asset db hook engine-extends:afterRefresh ...
-28.10.2024 05:09:33-debug: Run asset db hook engine-extends:afterRefresh success!
-28.10.2024 05:09:33-debug: asset-db:refresh-all-database (250ms)
-28.10.2024 05:09:33-debug: asset-db:worker-effect-data-processing (1ms)
-28.10.2024 05:09:33-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-28.10.2024 05:09:46-debug: refresh db internal success
-28.10.2024 05:09:46-debug: refresh db assets success
-28.10.2024 05:09:46-debug: Run asset db hook engine-extends:afterRefresh ...
-28.10.2024 05:09:46-debug: Run asset db hook engine-extends:afterRefresh success!
-28.10.2024 05:09:46-debug: asset-db:refresh-all-database (173ms)
-28.10.2024 05:09:46-debug: asset-db:worker-effect-data-processing (2ms)
-28.10.2024 05:09:46-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-28.10.2024 05:10:49-debug: Start record console... {file(C:\Users\User\Desktop\simatap_frontend\temp\builder\log\web-mobile23.10.2024 18-30.log)}
-28.10.2024 05:10:49-debug: =================================== build Task (web-mobile) Start ================================
-28.10.2024 05:10:49-debug: Start build task, options:{"name":"simatap_frontend","server":"","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"both","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"md5CacheOptions":{"excludes":[],"includes":[],"replaceOnly":[],"handleTemplateMd5Link":true},"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":false,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"09136ac6-441e-4d95-b9ef-d60ba9e50594","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/MainScene.scene","uuid":"09136ac6-441e-4d95-b9ef-d60ba9e50594"}],"wasmCompressionMode":false,"packages":{"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"web-mobile":{"useWebGPU":false,"orientation":"portrait","embedWebDebugger":false,"__version__":"1.0.1"},"cocos-service":{"configID":"e6b9b5","services":[]}},"__version__":"1.3.8","logDest":"project://temp/builder/log/web-mobile23.10.2024 18-30.log"}
-28.10.2024 05:10:49-debug: Build with Cocos Creator 3.8.4
-28.10.2024 05:10:49-debug: cocos-service:(onBeforeBuild) start..., progress: 0%
-28.10.2024 05:10:49-debug: // ---- build task cocos-service：onBeforeBuild ----
-28.10.2024 05:10:50-debug: // ---- build task cocos-service：onBeforeBuild ---- (702ms)
-28.10.2024 05:10:50-debug: // ---- build task scene：onBeforeBuild ----
-28.10.2024 05:10:50-debug: cocos-service:(onBeforeBuild) in 702 ms ✓, progress: 2%
-28.10.2024 05:10:50-debug: scene:(onBeforeBuild) start..., progress: 2%
-28.10.2024 05:10:50-debug: // ---- build task scene：onBeforeBuild ---- (38ms)
-28.10.2024 05:10:50-debug: scene:(onBeforeBuild) in 38 ms ✓, progress: 4%
-28.10.2024 05:10:50-log: Asset DB is paused with build!
-28.10.2024 05:10:50-debug: Start lock asset db..., progress: 4%
-28.10.2024 05:10:50-debug: Query all assets info in project
-28.10.2024 05:10:50-debug: init custom config: keepNodeUuid: false, useCache: true
-28.10.2024 05:10:50-debug: web-mobile:(onAfterInit) start..., progress: 4%
-28.10.2024 05:10:50-debug: // ---- build task web-mobile：onAfterInit ----
-28.10.2024 05:10:50-debug: // ---- build task web-mobile：onAfterInit ---- (25ms)
-28.10.2024 05:10:50-debug: cocos-service:(onAfterInit) start..., progress: 5%
-28.10.2024 05:10:50-debug: web-mobile:(onAfterInit) in 25 ms ✓, progress: 5%
-28.10.2024 05:10:50-debug: // ---- build task cocos-service：onAfterInit ----
-28.10.2024 05:10:51-debug: // ---- build task cocos-service：onAfterInit ---- (569ms)
-28.10.2024 05:10:51-debug: cocos-service:(onAfterInit) in 569 ms ✓, progress: 7%
-28.10.2024 05:10:51-debug: // ---- build task engine：onAfterInit ----
-28.10.2024 05:10:51-debug: engine:(onAfterInit) start..., progress: 7%
-28.10.2024 05:10:51-debug: // ---- build task engine：onAfterInit ---- (81ms)
-28.10.2024 05:10:51-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 9%
-28.10.2024 05:10:51-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
-28.10.2024 05:10:51-debug: engine:(onAfterInit) in 81 ms ✓, progress: 9%
-28.10.2024 05:10:51-debug: [adsense-h5g-plugin] remove script success
-28.10.2024 05:10:51-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (59ms)
-28.10.2024 05:10:51-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 59 ms ✓, progress: 9%
-28.10.2024 05:10:51-debug: Init all bundles start..., progress: 9%
-28.10.2024 05:10:51-debug: web-mobile:(onAfterBundleInit) start..., progress: 9%
-28.10.2024 05:10:51-debug: Num of bundles: 2..., progress: 9%
-28.10.2024 05:10:51-debug: // ---- build task web-mobile：onAfterBundleInit ----
-28.10.2024 05:10:51-debug: // ---- build task web-mobile：onAfterBundleInit ---- (76ms)
-28.10.2024 05:10:51-debug: web-mobile:(onAfterBundleInit) in 76 ms ✓, progress: 9%
-28.10.2024 05:10:51-debug: Query asset bundle start, progress: 9%
-28.10.2024 05:10:51-debug: // ---- build task Query asset bundle ----
-28.10.2024 05:10:51-debug: Init bundle root assets start..., progress: 9%
-28.10.2024 05:10:51-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-28.10.2024 05:10:51-debug:   Number of other assets: 541
-28.10.2024 05:10:51-debug:   Number of all scenes: 1
-28.10.2024 05:10:51-debug:   Number of all scripts: 14
-28.10.2024 05:10:51-debug: Init bundle root assets success..., progress: 9%
-28.10.2024 05:10:51-debug: reload all scripts.
-28.10.2024 05:10:51-debug: Set detail map pack:///resolution-detail-map.json: {}
-28.10.2024 05:10:51-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
-28.10.2024 05:10:51-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-28.10.2024 05:10:52-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\d6\d6137fe08bf966a053351bb405928e5a6390befd.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\d6\d6137fe08bf966a053351bb405928e5a6390befd.js is not in module cache!
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\b3\b349769b96cc4c1dff92d5d6f941366e27a02c6b.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\b3\b349769b96cc4c1dff92d5d6f941366e27a02c6b.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/d6/d6137fe08bf966a053351bb405928e5a6390befd.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/b3/b349769b96cc4c1dff92d5d6f941366e27a02c6b.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Register BuiltinPipelineSettings
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\59\59b7958b47eec6168615a6469581f8f48e26cb00.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\59\59b7958b47eec6168615a6469581f8f48e26cb00.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/59/59b7958b47eec6168615a6469581f8f48e26cb00.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\97\9758c8bdbb4fd247ebce274d105abb8265561b82.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\97\9758c8bdbb4fd247ebce274d105abb8265561b82.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/97/9758c8bdbb4fd247ebce274d105abb8265561b82.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Register DebugViewRuntimeControl
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\3e\3e055f0a5403badf9df878f6068a8b3f0e2a175f.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\3e\3e055f0a5403badf9df878f6068a8b3f0e2a175f.js is not in module cache!
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\cf\cf7437b4f87eca746e9822b9032e3a86210922b9.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\cf\cf7437b4f87eca746e9822b9032e3a86210922b9.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Register SocketManager
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/cf/cf7437b4f87eca746e9822b9032e3a86210922b9.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Register SpineController
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/3e/3e055f0a5403badf9df878f6068a8b3f0e2a175f.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\6a\6a11e8cfa30986daa1f071a532dd0ed30886c819.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\6a\6a11e8cfa30986daa1f071a532dd0ed30886c819.js is not in module cache!
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\a0\a0d063530de23ddade53e1a935bf64c81277c061.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\a0\a0d063530de23ddade53e1a935bf64c81277c061.js is not in module cache!
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\a6\a699d289f96b3e3620279cd964c53a7f91bcfd8d.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\a6\a699d289f96b3e3620279cd964c53a7f91bcfd8d.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/a6/a699d289f96b3e3620279cd964c53a7f91bcfd8d.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/6a/6a11e8cfa30986daa1f071a532dd0ed30886c819.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\ad\ad230d3f9615ff8418270ac757aaeb461c892457.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\ad\ad230d3f9615ff8418270ac757aaeb461c892457.js is not in module cache!
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\3e\3e698826ea9957e6232a95ea9021af2309cc33af.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\3e\3e698826ea9957e6232a95ea9021af2309cc33af.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/3e/3e698826ea9957e6232a95ea9021af2309cc33af.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/ad/ad230d3f9615ff8418270ac757aaeb461c892457.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\5a\5a103e7a2c094e0cf964b247228c185a192c831e.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\5a\5a103e7a2c094e0cf964b247228c185a192c831e.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Register FloatingText
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/5a/5a103e7a2c094e0cf964b247228c185a192c831e.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\ba\baf61abfec37bb4fb81afe83d2e9a7ba2d503c50.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\ba\baf61abfec37bb4fb81afe83d2e9a7ba2d503c50.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Register FriendsPage
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/ba/baf61abfec37bb4fb81afe83d2e9a7ba2d503c50.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\66\669b898c4bb3300e13d122d3fb4ee5aedd30d197.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\66\669b898c4bb3300e13d122d3fb4ee5aedd30d197.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/66/669b898c4bb3300e13d122d3fb4ee5aedd30d197.js" loaded.
-28.10.2024 05:10:52-debug: [[Executor]] Register IncomeManager
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\de\de5b42fc9174a22ebf9d4ab8cef38c4cad7d07e4.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\de\de5b42fc9174a22ebf9d4ab8cef38c4cad7d07e4.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Register LeaderBoardPage
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/de/de5b42fc9174a22ebf9d4ab8cef38c4cad7d07e4.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\d9\d9a5a57e853091cf71b8137e2caa2435a129d5a3.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\d9\d9a5a57e853091cf71b8137e2caa2435a129d5a3.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Register ReferralLinkManager
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/d9/d9a5a57e853091cf71b8137e2caa2435a129d5a3.js" loaded.
-28.10.2024 05:10:52-debug: C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\e0\e0e982550aa39e1e36a056eae0293c18225af400.js resolved to C:\Users\User\Desktop\simatap_frontend\temp\programming\packer-driver\targets\editor\chunks\e0\e0e982550aa39e1e36a056eae0293c18225af400.js is not in module cache!
-28.10.2024 05:10:52-debug: [[Executor]] Register TabBarController
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/e0/e0e982550aa39e1e36a056eae0293c18225af400.js" loaded.
-28.10.2024 05:10:52-debug: Init bundle share assets start..., progress: 9%
-28.10.2024 05:10:52-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-28.10.2024 05:10:52-debug: Incremental keys: 
-28.10.2024 05:10:52-debug: Init bundle share assets success..., progress: 9%
-28.10.2024 05:10:52-debug: handle json group in bundle internal
-28.10.2024 05:10:52-debug: handle json group in bundle internal success
-28.10.2024 05:10:52-debug: init image compress task 0 in bundle internal
-28.10.2024 05:10:52-debug: init image compress task 1 in bundle main
-28.10.2024 05:10:52-debug: handle json group in bundle main success
-28.10.2024 05:10:52-debug: handle json group in bundle main
-28.10.2024 05:10:52-debug: // ---- build task Query asset bundle ---- (925ms)
-28.10.2024 05:10:52-debug: run build task Query asset bundle success in 925 ms√, progress: 14%
-28.10.2024 05:10:52-debug: [Build Memory track]: Query asset bundle start:166.85MB, end 169.14MB, increase: 2.30MB
-28.10.2024 05:10:52-debug: Query asset bundle start, progress: 14%
-28.10.2024 05:10:52-debug: // ---- build task Query asset bundle ----
-28.10.2024 05:10:52-debug: // ---- build task Query asset bundle ---- (157ms)
-28.10.2024 05:10:52-debug: run build task Query asset bundle success in 157 ms√, progress: 19%
-28.10.2024 05:10:52-debug: [Build Memory track]: Query asset bundle start:169.18MB, end 169.34MB, increase: 160.01KB
-28.10.2024 05:10:52-debug: Build script start, progress: 19%
-28.10.2024 05:10:52-debug: // ---- build task Build script ----
-28.10.2024 05:10:52-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-28.10.2024 05:10:55-log: [build-script]enter sub process 13544, C:\ProgramData\cocos\editors\Creator\3.8.4\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\static\sub-process-index
-28.10.2024 05:10:59-debug: excute-script over with build-script 6683ms
-28.10.2024 05:10:59-debug: Generate systemJs..., progress: 19%
-28.10.2024 05:10:59-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-28.10.2024 05:11:03-debug: excute-script over with build-script 3833ms
-28.10.2024 05:11:03-debug: Build project script start..., progress: 19%
-28.10.2024 05:11:03-debug: Build script in bundle start, progress: 19%
-28.10.2024 05:11:03-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-28.10.2024 05:11:05-log: [build-script]Create cjs interop url for 'file:///C:/Users/User/Desktop/simatap_frontend/assets/internal/index.js'
-28.10.2024 05:11:05-log: [build-script]Create cjs interop url for 'file:///C:/Users/User/Desktop/simatap_frontend/assets/main/index.js'
-28.10.2024 05:11:05-log: [build-script]Create cjs interop url for 'file:///C:/Users/User/Desktop/simatap_frontend/assets/main/index.js'
-28.10.2024 05:11:05-log: [build-script]Create cjs interop url for 'file:///C:/Users/User/Desktop/simatap_frontend/assets/internal/index.js'
-28.10.2024 05:11:08-debug: excute-script over with build-script 5564ms
-28.10.2024 05:11:08-debug: Copy externalScripts success!
-28.10.2024 05:11:08-debug: Build script in bundle success, progress: 19%
-28.10.2024 05:11:08-debug: Build project script in (5655 ms) √, progress: 19%
-28.10.2024 05:11:08-debug: Build engine start..., progress: 19%
-28.10.2024 05:11:09-debug: Use cache engine: {link(C:\Users\User\AppData\Local\Temp\CocosCreator\3.8.4\builder\engine\ce93b6561ee6f958c9af608e6b3757a4)}
-28.10.2024 05:11:09-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","custom-pipeline","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview","custom-pipeline-builtin-scripts"],"engineVersion":"3.8.4","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"nativeCodeBundleMode":"both","wasmCompressionMode":false,"split":false,"assetURLFormat":"runtime-resolved","output":"C:\\Users\\User\\Desktop\\simatap_frontend\\build\\web-mobile\\cocos-js","flags":{"DEBUG":false,"WEBGPU":false},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.4\\resources\\resources\\3d\\engine"}
-28.10.2024 05:11:09-debug: Build engine in (169 ms) √, progress: 19%
-28.10.2024 05:11:09-debug: Copy plugin script ..., progress: 19%
-28.10.2024 05:11:09-debug: Generate import-map..., progress: 19%
-28.10.2024 05:11:09-debug: // ---- build task Build script ---- (16427ms)
-28.10.2024 05:11:09-debug: run build task Build script success in 16 s√, progress: 24%
-28.10.2024 05:11:09-debug: Build Assets start, progress: 24%
-28.10.2024 05:11:09-debug: // ---- build task Build Assets ----
-28.10.2024 05:11:09-debug: Pack Images start, progress: 24%
-28.10.2024 05:11:09-debug: [Build Memory track]: Build script start:169.47MB, end 169.06MB, increase: -419.59KB
-28.10.2024 05:11:09-debug: Build bundles..., progress: 24%
-28.10.2024 05:11:09-debug: builder:pack-auto-atlas-image (77ms)
-28.10.2024 05:11:09-debug: Compress image start..., progress: 24%
-28.10.2024 05:11:09-debug: Pack Images success, progress: 24%
-28.10.2024 05:11:10-debug: sort compress task {"astc":1,"etc":1,"pvr":1,"png":1}
-28.10.2024 05:11:10-debug: Num of all image compress task 1, really: 1, configTasks: 4
-28.10.2024 05:11:10-debug: execute compress task 0/4, 1 in progress}, progress: 24%
-28.10.2024 05:11:10-debug: start compress task 0 / 4, progress: 24%
-28.10.2024 05:11:10-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\library\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.astcastc_8x8
-28.10.2024 05:11:10-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\library\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.astc 8x8 -medium
-28.10.2024 05:11:10-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\library\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png    Color profile:              LDR    Dimensions:                 2D, 2048x2048    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.2448 s    Coding time:                 0.1838 s    Coding rate:                22.8188 MT/s
-28.10.2024 05:11:10-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:10-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.astc)}
-28.10.2024 05:11:10-debug: Start merge mipmaps file of asset fe503c87-afe0-4463-bc30-ef5f60ec1aae
-28.10.2024 05:11:10-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.astcastc_8x8
-28.10.2024 05:11:10-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.astc 8x8 -medium
-28.10.2024 05:11:10-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:10-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png    Color profile:              LDR    Dimensions:                 2D, 1024x1024    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.1426 s    Coding time:                 0.1241 s    Coding rate:                 8.4486 MT/s
-28.10.2024 05:11:10-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:10-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.astc)}
-28.10.2024 05:11:10-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.astcastc_8x8
-28.10.2024 05:11:10-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.astc 8x8 -medium
-28.10.2024 05:11:10-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png    Color profile:              LDR    Dimensions:                 2D, 512x512    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0686 s    Coding time:                 0.0604 s    Coding rate:                 4.3426 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.astc 8x8 -medium
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png    Color profile:              LDR    Dimensions:                 2D, 256x256    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0303 s    Coding time:                 0.0255 s    Coding rate:                 2.5665 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.astc 8x8 -medium
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png    Color profile:              LDR    Dimensions:                 2D, 128x128    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0136 s    Coding time:                 0.0095 s    Coding rate:                 1.7277 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.astc 8x8 -medium
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png    Color profile:              LDR    Dimensions:                 2D, 64x64    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0095 s    Coding time:                 0.0057 s    Coding rate:                 0.7170 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.astcastc_8x8
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.astc 8x8 -medium
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png    Color profile:              LDR    Dimensions:                 2D, 32x32    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0088 s    Coding time:                 0.0051 s    Coding rate:                 0.2000 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.astc 8x8 -medium
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png    Color profile:              LDR    Dimensions:                 2D, 16x16    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0055 s    Coding time:                 0.0018 s    Coding rate:                 0.1395 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.astc 8x8 -medium
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png    Color profile:              LDR    Dimensions:                 2D, 8x8    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0043 s    Coding time:                 0.0009 s    Coding rate:                 0.0705 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.astc 8x8 -medium
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.astc)}
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png    Color profile:              LDR    Dimensions:                 2D, 4x4    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0044 s    Coding time:                 0.0009 s    Coding rate:                 0.0183 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.astc 8x8 -medium
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png    Color profile:              LDR    Dimensions:                 2D, 2x2    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0046 s    Coding time:                 0.0013 s    Coding rate:                 0.0032 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.astc)}
-28.10.2024 05:11:11-debug: start compress astcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.astcastc_8x8
-28.10.2024 05:11:11-debug: astc compressed command: astcenc.exe -cl C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.astc 8x8 -medium
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: [compress astc]Source image============    Source:                     C:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png    Color profile:              LDR    Dimensions:                 2D, 1x1    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0047 s    Coding time:                 0.0011 s    Coding rate:                 0.0009 MT/s
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-log: Compress astc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.astc)}
-28.10.2024 05:11:11-debug: Merge mipmaps file of asset fe503c87-afe0-4463-bc30-ef5f60ec1aae success
-28.10.2024 05:11:11-debug: [compress astc]Child process exit width code 0
-28.10.2024 05:11:11-debug: execute compress task 1/4, 1 in progress}, progress: 24%
-28.10.2024 05:11:11-debug: start compress etcC:\Users\User\Desktop\simatap_frontend\library\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pkmetc1_rgb_a
-28.10.2024 05:11:11-debug: etc compress command :  .\etcpack.exe C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\etc_alpha\library\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe -c etc1 -s fast
-28.10.2024 05:11:11-log: [compress etc][malitc-1]Compressing. Output file: C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pkm
-28.10.2024 05:11:16-log: [compress etc][malitc-4]Compression time: 3614 ms
-28.10.2024 05:11:16-log: [compress etc][malitc-5]RMSE: 3.40136[malitc-6]PSNR: 42.269[malitc-7]Perceptually weighted RMSE: 3.18883[malitc-8]Perceptual PSNR: 42.8294
-28.10.2024 05:11:16-debug: [compress etc]Child process exit width code 0
-28.10.2024 05:11:16-log: compress etc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pkm)}
-28.10.2024 05:11:16-debug: Start merge mipmaps file of asset fe503c87-afe0-4463-bc30-ef5f60ec1aae
-28.10.2024 05:11:16-debug: start compress etcC:\Users\User\Desktop\simatap_frontend\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pngC:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pkmetc1_rgb_a
-28.10.2024 05:11:16-debug: [compress etc]Child process exit width code 0
-28.10.2024 05:11:16-debug: etc compress command :  .\etcpack.exe C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\etc_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps -c etc1 -s fast
-28.10.2024 05:11:17-log: [compress etc][malitc-1]Compressing. Output file: C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pkm
-28.10.2024 05:11:18-log: [compress etc][malitc-4]Compression time: 1098 ms
-28.10.2024 05:11:18-log: [compress etc][malitc-5]RMSE: 6.66871[malitc-6]PSNR: 36.4212[malitc-7]Perceptually weighted RMSE: 5.98284[malitc-8]Perceptual PSNR: 37.3639
-28.10.2024 05:11:18-error: [compress etc]Child process exit width code 3221226505:.\etcpack.exe C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\etc_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png,C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps,-c,etc1,-s,fast
-28.10.2024 05:11:18-error: Generate {asset(fe503c87-afe0-4463-bc30-ef5f60ec1aae)} compress texture mipmap files failed!
-28.10.2024 05:11:18-debug: execute compress task 2/4, 1 in progress}, progress: 24%
-28.10.2024 05:11:18-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\library\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:18-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\library\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:30-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pvr
-28.10.2024 05:11:30-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:30-debug: Start merge mipmaps file of asset fe503c87-afe0-4463-bc30-ef5f60ec1aae
-28.10.2024 05:11:30-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:30-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pvr)}
-28.10.2024 05:11:30-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:30-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:34-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pvr
-28.10.2024 05:11:34-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.pvr)}
-28.10.2024 05:11:34-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:34-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:34-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:34-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:34-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.pvr
-28.10.2024 05:11:34-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:34-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.pvr)}
-28.10.2024 05:11:34-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:34-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.pvr
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.pvr)}
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.pvr)}
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.pvr)}
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.pvr)}
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.pvr)}
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.pvr)}
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.pvr)}
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.pvr)}
-28.10.2024 05:11:35-debug: start compress pvr{"format":"pvrtc_4bits_rgb_a","src":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png","dest":"C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\builder\\CompressTexture\\fe\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.pvr","compressOptions":{"quality":"fast"},"uuid":"fe503c87-afe0-4463-bc30-ef5f60ec1aae","mipmapFiles":["C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_11.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_10.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_9.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_8.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_7.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_6.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_5.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_4.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_3.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_2.png","C:\\Users\\User\\Desktop\\simatap_frontend\\temp\\asset-db\\assets\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae\\build1.0.1\\mipmaps\\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png"],"suffix":".pvr@1025","formatType":"pvr"}
-28.10.2024 05:11:35-debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.4\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i C:\Users\User\Desktop\simatap_frontend\temp\CompressTexture\pvr_alpha\temp\asset-db\assets\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae\build1.0.1\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.png -o C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
-28.10.2024 05:11:35-log: [compress pvrtc]Compressing...Saved texture to C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.pvr
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-log: compress pvrtc success {link(C:\Users\User\Desktop\simatap_frontend\temp\builder\CompressTexture\fe\mipmaps\fe503c87-afe0-4463-bc30-ef5f60ec1aae@mipmap_1.pvr)}
-28.10.2024 05:11:35-debug: Merge mipmaps file of asset fe503c87-afe0-4463-bc30-ef5f60ec1aae success
-28.10.2024 05:11:35-debug: [compress pvrtc]Child process exit width code 0
-28.10.2024 05:11:35-debug: execute compress task 3/4, 1 in progress}, progress: 24%
-28.10.2024 05:11:40-debug: builder:compress-texture (29646ms)
-28.10.2024 05:11:40-error: texture compress task width asset fe503c87-afe0-4463-bc30-ef5f60ec1aae, format: etc1_rgb_a failed!
-28.10.2024 05:11:40-debug: builder:compress-texture: 29 s
-28.10.2024 05:11:40-debug: Compress image success..., progress: 24%
-28.10.2024 05:11:40-debug: Output asset in bundles start, progress: 24%
-28.10.2024 05:11:40-debug: Num of sorted image asset: 1
-28.10.2024 05:11:40-debug: Handle all json groups in bundle internal
-28.10.2024 05:11:40-debug: handle json group
-28.10.2024 05:11:40-debug: Handle all json groups in bundle main
-28.10.2024 05:11:40-debug: handle json group
-28.10.2024 05:11:40-debug: Json group(06585a170) compile success，json number: 6
-28.10.2024 05:11:40-debug: handle single json
-28.10.2024 05:11:40-debug: Json group(0cecc5d65) compile success，json number: 6
-28.10.2024 05:11:40-debug: handle single json
-28.10.2024 05:11:40-debug: Output asset in bundles success, progress: 24%
-28.10.2024 05:11:40-debug: Output asset in bundles start, progress: 24%
-28.10.2024 05:11:40-debug: compress config of bundle internal success
-28.10.2024 05:11:40-debug: compress config of bundle main...
-28.10.2024 05:11:40-debug: compress config of bundle internal...
-28.10.2024 05:11:40-debug: output config of bundle internal success
-28.10.2024 05:11:40-debug: output config of bundle internal
-28.10.2024 05:11:40-debug: compress config of bundle main success
-28.10.2024 05:11:40-debug: output config of bundle main success
-28.10.2024 05:11:40-debug: Output asset in bundles success, progress: 24%
-28.10.2024 05:11:40-debug: output config of bundle main
-28.10.2024 05:11:40-debug: // ---- build task Build Assets ---- (31488ms)
-28.10.2024 05:11:40-debug: run build task Build Assets success in 31 s√, progress: 29%
-28.10.2024 05:11:40-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 05:11:40-debug: [Build Memory track]: Build Assets start:169.09MB, end 163.71MB, increase: -5507.86KB
-28.10.2024 05:11:40-debug: Sort some build options to settings.json start, progress: 29%
-28.10.2024 05:11:40-debug: // ---- build task Sort some build options to settings.json ---- (44ms)
-28.10.2024 05:11:40-debug: run build task Sort some build options to settings.json success in 44 ms√, progress: 31%
-28.10.2024 05:11:40-debug: [Build Memory track]: Sort some build options to settings.json start:163.81MB, end 163.89MB, increase: 79.54KB
-28.10.2024 05:11:40-debug: Fill script data to settings start, progress: 31%
-28.10.2024 05:11:40-debug: // ---- build task Fill script data to settings ----
-28.10.2024 05:11:40-debug: // ---- build task Fill script data to settings ---- (43ms)
-28.10.2024 05:11:40-debug: run build task Fill script data to settings success in 43 ms√, progress: 32%
-28.10.2024 05:11:40-debug: [Build Memory track]: Fill script data to settings start:163.92MB, end 163.99MB, increase: 69.30KB
-28.10.2024 05:11:40-debug: Sort some build options to settings.json start, progress: 32%
-28.10.2024 05:11:40-debug: // ---- build task Sort some build options to settings.json ----
-28.10.2024 05:11:41-debug: // ---- build task Sort some build options to settings.json ---- (731ms)
-28.10.2024 05:11:41-debug: run build task Sort some build options to settings.json success in 731 ms√, progress: 34%
-28.10.2024 05:11:41-debug: // ---- build task web-mobile：onBeforeCompressSettings ----
-28.10.2024 05:11:41-debug: [Build Memory track]: Sort some build options to settings.json start:164.03MB, end 164.20MB, increase: 178.99KB
-28.10.2024 05:11:41-debug: web-mobile:(onBeforeCompressSettings) start..., progress: 34%
-28.10.2024 05:11:41-debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (58ms)
-28.10.2024 05:11:41-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 36%
-28.10.2024 05:11:41-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
-28.10.2024 05:11:41-debug: web-mobile:(onBeforeCompressSettings) in 58 ms ✓, progress: 36%
-28.10.2024 05:11:42-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (511ms)
-28.10.2024 05:11:42-debug: cocos-service:(onBeforeCompressSettings) in 511 ms ✓, progress: 38%
-28.10.2024 05:11:42-debug: Sort build template start, progress: 38%
-28.10.2024 05:11:42-debug: // ---- build task Sort build template ----
-28.10.2024 05:11:42-debug: // ---- build task Sort build template ---- (308ms)
-28.10.2024 05:11:42-debug: run build task Sort build template success in 308 ms√, progress: 43%
-28.10.2024 05:11:42-debug: [Build Memory track]: Sort build template start:164.48MB, end 166.28MB, increase: 1.79MB
-28.10.2024 05:11:42-debug: cocos-service:(onAfterCompressSettings) start..., progress: 43%
-28.10.2024 05:11:42-debug: // ---- build task cocos-service：onAfterCompressSettings ----
-28.10.2024 05:11:42-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (511ms)
-28.10.2024 05:11:42-debug: web-mobile:(onBeforeCopyBuildTemplate) start..., progress: 45%
-28.10.2024 05:11:42-debug: cocos-service:(onAfterCompressSettings) in 511 ms ✓, progress: 45%
-28.10.2024 05:11:42-debug: // ---- build task web-mobile：onBeforeCopyBuildTemplate ----
-28.10.2024 05:11:42-debug: // ---- build task web-mobile：onBeforeCopyBuildTemplate ---- (108ms)
-28.10.2024 05:11:42-debug: web-mobile:(onBeforeCopyBuildTemplate) in 108 ms ✓, progress: 46%
-28.10.2024 05:11:42-debug: Add md5 suffix to assets start, progress: 46%
-28.10.2024 05:11:42-debug: // ---- build task Add md5 suffix to assets ----
-28.10.2024 05:11:43-debug: run build task Add md5 suffix to assets success in 97 ms√, progress: 56%
-28.10.2024 05:11:43-debug: [Build Memory track]: Add md5 suffix to assets start:163.68MB, end 163.77MB, increase: 87.52KB
-28.10.2024 05:11:43-debug: // ---- build task Add md5 suffix to assets ---- (97ms)
-28.10.2024 05:11:43-debug: // ---- build task cocos-service：onAfterBuild ----
-28.10.2024 05:11:43-debug: cocos-service:(onAfterBuild) start..., progress: 56%
-28.10.2024 05:11:43-debug: // ---- build task cocos-service：onAfterBuild ---- (490ms)
-28.10.2024 05:11:43-debug: cocos-service:(onAfterBuild) in 490 ms ✓, progress: 58%
-28.10.2024 05:11:43-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 58%
-28.10.2024 05:11:43-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
-28.10.2024 05:11:43-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (51ms)
-28.10.2024 05:11:43-debug: adsense-h5g-plugin:(onAfterBuild) in 51 ms ✓, progress: 60%
-28.10.2024 05:11:43-log: Asset DB is resume!
-28.10.2024 05:11:43-debug: builder:build-project-total (53713ms)
-28.10.2024 05:11:43-debug: build success in 53713!
-28.10.2024 05:11:43-debug: [Build Memory track]: builder:build-project-total start:166.44MB, end 170.92MB, increase: 4.48MB
-28.10.2024 05:11:43-debug: ================================ build Task (web-mobile) Finished in (53 s)ms ================================
-28.10.2024 05:11:43-debug: Stop record console. {file(C:\Users\User\Desktop\simatap_frontend\temp\builder\log\web-mobile23.10.2024 18-30.log)}
-28.10.2024 05:11:56-debug: refresh db internal success
-28.10.2024 05:11:56-debug: refresh db assets success
-28.10.2024 05:11:56-debug: Run asset db hook engine-extends:afterRefresh ...
-28.10.2024 05:11:56-debug: Run asset db hook engine-extends:afterRefresh success!
-28.10.2024 05:11:56-debug: asset-db:refresh-all-database (204ms)
-28.10.2024 05:11:56-debug: asset-db:worker-effect-data-processing (2ms)
-28.10.2024 05:11:56-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-28.10.2024 07:21:41-debug: refresh db internal success
-28.10.2024 07:21:41-debug: refresh db assets success
-28.10.2024 07:21:41-debug: Run asset db hook engine-extends:afterRefresh ...
-28.10.2024 07:21:41-debug: Run asset db hook engine-extends:afterRefresh success!
-28.10.2024 07:21:41-debug: asset-db:refresh-all-database (226ms)
-28.10.2024 07:21:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-28.10.2024 07:21:54-debug: refresh db internal success
-28.10.2024 07:21:54-debug: refresh db assets success
-28.10.2024 07:21:54-debug: Run asset db hook engine-extends:afterRefresh ...
-28.10.2024 07:21:54-debug: Run asset db hook engine-extends:afterRefresh success!
-28.10.2024 07:21:54-debug: asset-db:refresh-all-database (173ms)

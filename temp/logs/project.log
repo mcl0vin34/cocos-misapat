@@ -1,4 +1,4 @@
-11.11.2024 13:22:46 - error: Cannot read property 'result' of nullTypeError: Cannot read property 'result' of null
+11.11.2024 16:27:06 - error: Cannot read property 'result' of nullTypeError: Cannot read property 'result' of null
     at Object.queryAllInformation (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\information\dist\browser\index.ccc:1:1840)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async initInformationCache (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\information\dist\browser\index.ccc:1:516)
@@ -6,34 +6,23 @@
     at async Package.execLifeFunc (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\package\dist\browser\package.ccc:1:1172)
     at async Package.enable (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\package\dist\browser\package.ccc:1:3471)
     at async PackageManager.enable (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\package\dist\browser\index.js:1:1755)
-11.11.2024 13:22:46 - error: Init information cache failed!
-11.11.2024 13:22:47 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.4\resources\resources\3d\engine
-11.11.2024 13:22:47 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-11.11.2024 13:22:47 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\native
-11.11.2024 13:22:48 - log: Request namespace: device-list
-11.11.2024 13:22:49 - error: sentry.captureException is not a functionTypeError: sentry.captureException is not a function
+11.11.2024 16:27:06 - error: Init information cache failed!
+11.11.2024 16:27:07 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.4\resources\resources\3d\engine
+11.11.2024 16:27:07 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,spine,tiled-map,tween,ui,video,webview)
+11.11.2024 16:27:07 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\native
+11.11.2024 16:27:08 - log: Request namespace: device-list
+11.11.2024 16:27:09 - error: sentry.captureException is not a functionTypeError: sentry.captureException is not a function
     at queryDefaultDevice (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\modules\editor-extensions\extensions\device\dist\hooks.ccc:1:1282)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at registerDeviceConfig (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\modules\editor-extensions\extensions\device\dist\hooks.ccc:1:409)
     at Package.register (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\modules\editor-extensions\extensions\device\dist\hooks.ccc:1:273)
-11.11.2024 13:22:53 - warn: failed to connect login server... skipping login
-11.11.2024 13:23:10 - log: waiting the ready of builder worker...
-11.11.2024 13:23:13 - log: [Scene] meshopt wasm decoder initialized
-11.11.2024 13:23:13 - log: [Scene] [box2d]:box2d wasm lib loaded.
-11.11.2024 13:23:13 - log: [Scene] [bullet]:bullet wasm lib loaded.
-11.11.2024 13:23:13 - log: [Scene] [PHYSICS]: using builtin.
-11.11.2024 13:23:13 - log: [Scene] Cocos Creator v3.8.4
-11.11.2024 13:23:13 - log: [Scene] Using custom pipeline: Builtin
-11.11.2024 13:23:14 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-11.11.2024 13:23:49 - warn: [Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the scriptWarn: [Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script
-    at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
-    at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
-    at findVsCode (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\handler\utils.ccc:1:3546)
-    at Object.openCode [as open] (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\handler\utils.ccc:1:3282)
-    at Ipc.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:526)
-11.11.2024 13:24:05 - warn: [Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the scriptWarn: [Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script
-    at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
-    at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
-    at findVsCode (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\handler\utils.ccc:1:3546)
-    at Object.openCode [as open] (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\handler\utils.ccc:1:3282)
-    at Ipc.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:526)
+11.11.2024 16:27:15 - warn: failed to connect login server due to request timeout
+11.11.2024 16:27:16 - warn: failed to connect login server... skipping login
+11.11.2024 16:27:17 - log: waiting the ready of builder worker...
+11.11.2024 16:27:18 - log: [Scene] meshopt wasm decoder initialized
+11.11.2024 16:27:18 - log: [Scene] [box2d]:box2d wasm lib loaded.
+11.11.2024 16:27:18 - log: [Scene] [bullet]:bullet wasm lib loaded.
+11.11.2024 16:27:18 - log: [Scene] [PHYSICS]: using builtin.
+11.11.2024 16:27:18 - log: [Scene] Cocos Creator v3.8.4
+11.11.2024 16:27:18 - log: [Scene] Using custom pipeline: Builtin
+11.11.2024 16:27:19 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
