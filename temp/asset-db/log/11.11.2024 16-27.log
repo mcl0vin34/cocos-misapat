@@ -1,0 +1,578 @@
+11.11.2024 16:27:10-debug: start **** info
+11.11.2024 16:27:11-log: Cannot access game frame or container.
+11.11.2024 16:27:11-debug: asset-db:require-engine-code (711ms)
+11.11.2024 16:27:11-log: meshopt wasm decoder initialized
+11.11.2024 16:27:11-log: [box2d]:box2d wasm lib loaded.
+11.11.2024 16:27:12-log: [bullet]:bullet wasm lib loaded.
+11.11.2024 16:27:12-log: Forward render pipeline initialized.
+11.11.2024 16:27:12-log: Using legacy pipeline
+11.11.2024 16:27:12-log: Cocos Creator v3.8.4
+11.11.2024 16:27:12-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:28.89MB, end 81.63MB, increase: 52.74MB
+11.11.2024 16:27:13-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:171.06MB, end 174.21MB, increase: 3.15MB
+11.11.2024 16:27:12-debug: [Assets Memory track]: asset-db-plugin-register: programming start:82.40MB, end 85.77MB, increase: 3.37MB
+11.11.2024 16:27:13-debug: [Assets Memory track]: asset-db-plugin-register: project start:82.28MB, end 174.28MB, increase: 92.00MB
+11.11.2024 16:27:13-debug: [Assets Memory track]: asset-db-plugin-register: builder start:85.80MB, end 170.82MB, increase: 85.02MB
+11.11.2024 16:27:13-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:81.65MB, end 174.31MB, increase: 92.66MB
+11.11.2024 16:27:13-debug: run package(im-plugin) handler(enable) start
+11.11.2024 16:27:13-debug: run package(placeholder) handler(enable) start
+11.11.2024 16:27:13-debug: run package(im-plugin) handler(enable) success!
+11.11.2024 16:27:13-debug: run package(placeholder) handler(enable) success!
+11.11.2024 16:27:13-debug: asset-db:worker-init: initPlugin (1147ms)
+11.11.2024 16:27:13-debug: [Assets Memory track]: asset-db:worker-init start:28.89MB, end 174.48MB, increase: 145.59MB
+11.11.2024 16:27:13-debug: Run asset db hook programming:beforePreStart ...
+11.11.2024 16:27:13-debug: Run asset db hook programming:beforePreStart success!
+11.11.2024 16:27:13-debug: Run asset db hook engine-extends:beforePreStart success!
+11.11.2024 16:27:13-debug: Run asset db hook engine-extends:beforePreStart ...
+11.11.2024 16:27:13-debug: asset-db:worker-init (2641ms)
+11.11.2024 16:27:13-debug: asset-db-hook-programming-beforePreStart (97ms)
+11.11.2024 16:27:13-debug: asset-db-hook-engine-extends-beforePreStart (96ms)
+11.11.2024 16:27:13-debug: Preimport db internal success
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animationsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\mainbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\prefabsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\imagesbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\internalbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lionbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\backgroundsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UIbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scriptsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\iconsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\internal\importbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\importbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\internal\import\06background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\nativebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\01background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\02background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\03background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\04background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\05background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\06background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\08background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0bbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0ebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0cbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\13background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\1dbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\20background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\22background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\21background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\24background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\28background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\38background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\2cbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\33background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\48background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\54background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\5ebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\65background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\7ebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\96background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\92background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\9ebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\95background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\98background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\9fbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\afbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\babackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\b7background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\bdbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\dcbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\c4background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\e2background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\d8background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\fabackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\fdbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\febackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\01background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\ffbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\05background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\13background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\20background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\1dbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\21background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\22background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\24background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\2cbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\33background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\28background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\48background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\5ebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\54background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\38background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\65background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\7ebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\92background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\95background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\98background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\96background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9fbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\afbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\b7background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9ebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\bdbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\c4background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\d8background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\dcbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\e2background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fabackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\febackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\BoostController.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\ffbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\FloatingText.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\FriendsPage.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\IncomeManager.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\LeadersPage.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\PassiveIncomeModal.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\ReferralLinkManager.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\SocketManager.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\socket.io-client.d.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lion\SpineController.ts.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\scripts\TabBarController.tsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:13-debug: Preimport db assets success
+11.11.2024 16:27:13-debug: starting packer-driver...
+11.11.2024 16:27:13-debug: Run asset db hook programming:afterPreStart ...
+11.11.2024 16:27:14-debug: initialize scripting environment...
+11.11.2024 16:27:14-debug: Set detail map pack:///resolution-detail-map.json: {}
+11.11.2024 16:27:14-debug: Run asset db hook programming:afterPreStart success!
+11.11.2024 16:27:14-debug: Run asset db hook engine-extends:afterPreStart success!
+11.11.2024 16:27:14-debug: [Assets Memory track]: asset-db:worker-init: preStart start:174.50MB, end 176.09MB, increase: 1.60MB
+11.11.2024 16:27:14-debug: Run asset db hook engine-extends:afterPreStart ...
+11.11.2024 16:27:14-debug: Start up the 'internal' database...
+11.11.2024 16:27:15-debug: asset-db-hook-programming-afterPreStart (1519ms)
+11.11.2024 16:27:15-debug: asset-db:worker-effect-data-processing (277ms)
+11.11.2024 16:27:15-debug: asset-db-hook-engine-extends-afterPreStart (278ms)
+11.11.2024 16:27:15-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:174.58MB, end 187.77MB, increase: 13.19MB
+11.11.2024 16:27:15-debug: Start up the 'assets' database...
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\internal\index.jsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\index.jsbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: asset-db:worker-startup-database[internal] (1810ms)
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\MainScene.scenebackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\config.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\internal\config.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\prefabs\FloatingText.prefabbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\prefabs\FriendItem.prefabbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\prefabs\LeaderItem.prefabbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lion\all.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lion\all.atlasbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-log: UUID is initialized for "%s".C:\GitHub\cocos-misapat\assets\animations\lion\all.png
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\backgrounds\background.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lion\all.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\backgrounds\background2.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\backgrounds\background.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\1st.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\avatar.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\backgrounds\background.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\backgrounds\background2.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\backgrounds\background2.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\avatar.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\1st.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\avatar.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\1st.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\boost.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\coin.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\boost.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\coin.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\boost.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\coin.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\energyIcon.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconFriends.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconLeaders.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconHome.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\energyIcon.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconFriends.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\energyIcon.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconHome.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconLeaders.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconFriends.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconHome.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconLeaders.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconTasks.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\activeButton.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\button.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\CopyButton.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconTasks.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\button.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\activeButton.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\CopyButton.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\icons\iconTasks.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\button.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\activeButton.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\CopyButton.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\FriendItem.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\FullScreenModal.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\LeaderItem.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\FriendItem.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\FullScreenModal.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\FriendItem.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\FullScreenModal.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\LeaderItem.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\LeaderItem.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lion\all.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\LinkButton.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lion\all.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\tabbar.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\LinkButton.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\LinkButton.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\tabbar.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\tabbar.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\tabbar.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\UserLeaderItem.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\плашка.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\tabbar.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\tabbar.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\UserLeaderItem.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\плашка.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\UserLeaderItem.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\images\UI\плашка.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\internal\import\06\06585a170.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\01\011f1178-9ba1-4609-93f4-9b6da3e96a59.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:15-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\01\013c3e689.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\01\0184f8b41.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\01\018672e52.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\02\0261b8545.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\02\0269f9dfc.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\02\02e85a214.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\04\04010be32.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\03\03791706f.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\04\04df50cfc.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\04\04e2d1ce0.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\05\052f9037b.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\05\057cf2d4-bd03-4163-b564-5739af8aebb6.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\06\06d956106.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\06\06ef326da.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\08\088494e67.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\08\0854cc7c0.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0a\0ae36c2af.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0b\0b4979591.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0b\0b5b2446f.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0c\0cecc5d65.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\0e\0e592cec1.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\13\13dac75b-cd89-4b4c-92f5-88629d78c8ad.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\1d\1d84908d-83a9-41fe-9431-0de9b6bcc984.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\20\20835ba4-6145-4fbc-a58a-051ce700aa3e.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\21\2135ab57-1f29-4a13-a2f7-6063a4a6d0b0.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\21\21e2e594-d52f-4c5a-af2a-19431f7eb9f7.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\22\2218bb72-54e0-4ae7-98b2-6b39bc0407f9.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\24\24a704da-2867-446d-8d1a-5e920c75e09d.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\28\28dd8f07-0cf0-4cfc-b532-368d69818968.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\2c\2cb197ce-21f5-43b3-b148-69d57dc0282a.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\33\33e16312-0ce2-411a-8c5c-b7270d3e220e.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\38\389f79e0-ae5e-4eba-ac1a-b5fc9482ca40.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\48\486a4560-b4cf-4782-8308-4b9c200295e4.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\5e\5ef351b1-0f9f-430b-acba-af2e274a2417.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\54\544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\65\656442ff-7225-4219-a6b7-54e6ce6bb182.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\7e\7e3cefac-1b7b-44c5-8ad0-3820d6c888e0.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\92\92ae78ca-8ef3-4161-8a7c-0b83281093c9.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\95\951249e0-9f16-456d-8b85-a6ca954da16b.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\96\9637b66d-cd1b-4733-80b2-cd7f965055d3.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\98\98944e60-3359-4e66-b821-e7b5e4a65acb.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\9e\9eeb81f4-5276-4cc9-89ed-bd6b2c8ef04f.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\9f\9fd900dd-221b-4f89-8f2c-fba34243c835.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\af\afc47931-f066-46b0-90be-9fe61f213428.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\b7\b730527c-3233-41c2-aaf7-7cdab58f9749.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\ba\ba21476f-2866-4f81-9c4d-6e359316e448.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\bd\bd1bcaba-bd7d-4a71-b143-997c882383e4.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\c4\c47a6f2a-9129-4e94-99b0-2b136a5878c1.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\dc\dca611a7-9c03-465d-9a13-00ae32a1d6bb.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\d8\d8f771e4-c31c-4c3a-ad9b-542d7bdd32bc.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\e2\e2b0c40c-ee35-402a-878b-4f3c11dbaf5c.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\fa\fae465e6-5fb5-45fe-afc0-88023bd4e4d5.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\fd\fd8ec536-a354-4a17-9c74-4f3883c378c8.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\import\ff\ffb88a8f-af62-48f4-8f1d-3cb606443a43.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\01\011f1178-9ba1-4609-93f4-9b6da3e96a59.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\13\13dac75b-cd89-4b4c-92f5-88629d78c8ad.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\05\057cf2d4-bd03-4163-b564-5739af8aebb6.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\1d\1d84908d-83a9-41fe-9431-0de9b6bcc984.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\20\20835ba4-6145-4fbc-a58a-051ce700aa3e.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\01\011f1178-9ba1-4609-93f4-9b6da3e96a59.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\13\13dac75b-cd89-4b4c-92f5-88629d78c8ad.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\05\057cf2d4-bd03-4163-b564-5739af8aebb6.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\01\011f1178-9ba1-4609-93f4-9b6da3e96a59.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\1d\1d84908d-83a9-41fe-9431-0de9b6bcc984.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\13\13dac75b-cd89-4b4c-92f5-88629d78c8ad.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\05\057cf2d4-bd03-4163-b564-5739af8aebb6.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\20\20835ba4-6145-4fbc-a58a-051ce700aa3e.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\1d\1d84908d-83a9-41fe-9431-0de9b6bcc984.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\20\20835ba4-6145-4fbc-a58a-051ce700aa3e.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\21\2135ab57-1f29-4a13-a2f7-6063a4a6d0b0.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\21\21e2e594-d52f-4c5a-af2a-19431f7eb9f7.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\22\2218bb72-54e0-4ae7-98b2-6b39bc0407f9.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\21\21e2e594-d52f-4c5a-af2a-19431f7eb9f7.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\21\2135ab57-1f29-4a13-a2f7-6063a4a6d0b0.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\24\24a704da-2867-446d-8d1a-5e920c75e09d.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\21\21e2e594-d52f-4c5a-af2a-19431f7eb9f7.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\21\2135ab57-1f29-4a13-a2f7-6063a4a6d0b0.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\22\2218bb72-54e0-4ae7-98b2-6b39bc0407f9.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\22\2218bb72-54e0-4ae7-98b2-6b39bc0407f9.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\24\24a704da-2867-446d-8d1a-5e920c75e09d.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\28\28dd8f07-0cf0-4cfc-b532-368d69818968.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\24\24a704da-2867-446d-8d1a-5e920c75e09d.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\2c\2cb197ce-21f5-43b3-b148-69d57dc0282a.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\28\28dd8f07-0cf0-4cfc-b532-368d69818968.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\28\28dd8f07-0cf0-4cfc-b532-368d69818968.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\2c\2cb197ce-21f5-43b3-b148-69d57dc0282a.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\33\33e16312-0ce2-411a-8c5c-b7270d3e220e.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:16-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\2c\2cb197ce-21f5-43b3-b148-69d57dc0282a.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\38\389f79e0-ae5e-4eba-ac1a-b5fc9482ca40.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\33\33e16312-0ce2-411a-8c5c-b7270d3e220e.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\48\486a4560-b4cf-4782-8308-4b9c200295e4.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\33\33e16312-0ce2-411a-8c5c-b7270d3e220e.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\38\389f79e0-ae5e-4eba-ac1a-b5fc9482ca40.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\54\544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\38\389f79e0-ae5e-4eba-ac1a-b5fc9482ca40.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\5e\5ef351b1-0f9f-430b-acba-af2e274a2417.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\48\486a4560-b4cf-4782-8308-4b9c200295e4.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\48\486a4560-b4cf-4782-8308-4b9c200295e4.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\54\544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\54\544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\5e\5ef351b1-0f9f-430b-acba-af2e274a2417.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\5e\5ef351b1-0f9f-430b-acba-af2e274a2417.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\65\656442ff-7225-4219-a6b7-54e6ce6bb182.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\7e\7e3cefac-1b7b-44c5-8ad0-3820d6c888e0.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\92\92ae78ca-8ef3-4161-8a7c-0b83281093c9.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\65\656442ff-7225-4219-a6b7-54e6ce6bb182.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\7e\7e3cefac-1b7b-44c5-8ad0-3820d6c888e0.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\96\9637b66d-cd1b-4733-80b2-cd7f965055d3.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\95\951249e0-9f16-456d-8b85-a6ca954da16b.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\65\656442ff-7225-4219-a6b7-54e6ce6bb182.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\7e\7e3cefac-1b7b-44c5-8ad0-3820d6c888e0.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\92\92ae78ca-8ef3-4161-8a7c-0b83281093c9.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\92\92ae78ca-8ef3-4161-8a7c-0b83281093c9.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\96\9637b66d-cd1b-4733-80b2-cd7f965055d3.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\95\951249e0-9f16-456d-8b85-a6ca954da16b.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\96\9637b66d-cd1b-4733-80b2-cd7f965055d3.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\95\951249e0-9f16-456d-8b85-a6ca954da16b.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\98\98944e60-3359-4e66-b821-e7b5e4a65acb.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\98\98944e60-3359-4e66-b821-e7b5e4a65acb.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9e\9eeb81f4-5276-4cc9-89ed-bd6b2c8ef04f.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\98\98944e60-3359-4e66-b821-e7b5e4a65acb.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9f\9fd900dd-221b-4f89-8f2c-fba34243c835.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9e\9eeb81f4-5276-4cc9-89ed-bd6b2c8ef04f.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9e\9eeb81f4-5276-4cc9-89ed-bd6b2c8ef04f.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9f\9fd900dd-221b-4f89-8f2c-fba34243c835.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\9f\9fd900dd-221b-4f89-8f2c-fba34243c835.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\af\afc47931-f066-46b0-90be-9fe61f213428.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\b7\b730527c-3233-41c2-aaf7-7cdab58f9749.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\bd\bd1bcaba-bd7d-4a71-b143-997c882383e4.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\c4\c47a6f2a-9129-4e94-99b0-2b136a5878c1.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\af\afc47931-f066-46b0-90be-9fe61f213428.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\b7\b730527c-3233-41c2-aaf7-7cdab58f9749.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\af\afc47931-f066-46b0-90be-9fe61f213428.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\b7\b730527c-3233-41c2-aaf7-7cdab58f9749.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\bd\bd1bcaba-bd7d-4a71-b143-997c882383e4.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\bd\bd1bcaba-bd7d-4a71-b143-997c882383e4.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\c4\c47a6f2a-9129-4e94-99b0-2b136a5878c1.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\c4\c47a6f2a-9129-4e94-99b0-2b136a5878c1.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\d8\d8f771e4-c31c-4c3a-ad9b-542d7bdd32bc.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\dc\dca611a7-9c03-465d-9a13-00ae32a1d6bb.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\e2\e2b0c40c-ee35-402a-878b-4f3c11dbaf5c.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fa\fae465e6-5fb5-45fe-afc0-88023bd4e4d5.webpbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\d8\d8f771e4-c31c-4c3a-ad9b-542d7bdd32bc.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\dc\dca611a7-9c03-465d-9a13-00ae32a1d6bb.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\d8\d8f771e4-c31c-4c3a-ad9b-542d7bdd32bc.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\e2\e2b0c40c-ee35-402a-878b-4f3c11dbaf5c.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\dc\dca611a7-9c03-465d-9a13-00ae32a1d6bb.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\e2\e2b0c40c-ee35-402a-878b-4f3c11dbaf5c.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fa\fae465e6-5fb5-45fe-afc0-88023bd4e4d5.webp@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fa\fae465e6-5fb5-45fe-afc0-88023bd4e4d5.webp@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.astcbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.pvrbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\ff\ffb88a8f-af62-48f4-8f1d-3cb606443a43.pngbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\fe\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\ff\ffb88a8f-af62-48f4-8f1d-3cb606443a43.png@6c48abackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\main\native\ff\ffb88a8f-af62-48f4-8f1d-3cb606443a43.png@f9941background: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-debug: %cImport%c: C:\GitHub\cocos-misapat\assets\animations\lion\all.jsonbackground: #aaff85; color: #000;color: #000;
+11.11.2024 16:27:17-log: UUID is initialized for "%s".C:\GitHub\cocos-misapat\assets\animations\lion\all.png
+11.11.2024 16:27:17-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:173.71MB, end 204.09MB, increase: 30.38MB
+11.11.2024 16:27:17-debug: lazy register asset handler *
+11.11.2024 16:27:17-debug: lazy register asset handler directory
+11.11.2024 16:27:17-debug: [Assets Memory track]: asset-db:worker-init: startup start:176.10MB, end 204.10MB, increase: 28.00MB
+11.11.2024 16:27:17-debug: lazy register asset handler spine-data
+11.11.2024 16:27:17-debug: lazy register asset handler text
+11.11.2024 16:27:17-debug: lazy register asset handler dragonbones
+11.11.2024 16:27:17-debug: lazy register asset handler dragonbones-atlas
+11.11.2024 16:27:17-debug: lazy register asset handler javascript
+11.11.2024 16:27:17-debug: lazy register asset handler json
+11.11.2024 16:27:17-debug: lazy register asset handler terrain
+11.11.2024 16:27:17-debug: lazy register asset handler typescript
+11.11.2024 16:27:17-debug: lazy register asset handler sprite-frame
+11.11.2024 16:27:17-debug: lazy register asset handler prefab
+11.11.2024 16:27:17-debug: lazy register asset handler tiled-map
+11.11.2024 16:27:17-debug: lazy register asset handler scene
+11.11.2024 16:27:17-debug: lazy register asset handler buffer
+11.11.2024 16:27:17-debug: lazy register asset handler sign-image
+11.11.2024 16:27:17-debug: lazy register asset handler alpha-image
+11.11.2024 16:27:17-debug: lazy register asset handler image
+11.11.2024 16:27:17-debug: lazy register asset handler texture
+11.11.2024 16:27:17-debug: lazy register asset handler texture-cube
+11.11.2024 16:27:17-debug: lazy register asset handler erp-texture-cube
+11.11.2024 16:27:17-debug: lazy register asset handler texture-cube-face
+11.11.2024 16:27:17-debug: lazy register asset handler gltf
+11.11.2024 16:27:17-debug: lazy register asset handler render-texture
+11.11.2024 16:27:17-debug: lazy register asset handler rt-sprite-frame
+11.11.2024 16:27:17-debug: lazy register asset handler gltf-mesh
+11.11.2024 16:27:17-debug: lazy register asset handler gltf-animation
+11.11.2024 16:27:17-debug: lazy register asset handler gltf-skeleton
+11.11.2024 16:27:17-debug: lazy register asset handler gltf-material
+11.11.2024 16:27:17-debug: lazy register asset handler gltf-embeded-image
+11.11.2024 16:27:17-debug: lazy register asset handler gltf-scene
+11.11.2024 16:27:17-debug: lazy register asset handler fbx
+11.11.2024 16:27:17-debug: lazy register asset handler material
+11.11.2024 16:27:17-debug: lazy register asset handler physics-material
+11.11.2024 16:27:17-debug: lazy register asset handler audio-clip
+11.11.2024 16:27:17-debug: lazy register asset handler effect-header
+11.11.2024 16:27:17-debug: lazy register asset handler animation-clip
+11.11.2024 16:27:17-debug: lazy register asset handler animation-graph
+11.11.2024 16:27:17-debug: lazy register asset handler animation-graph-variant
+11.11.2024 16:27:17-debug: lazy register asset handler ttf-font
+11.11.2024 16:27:17-debug: lazy register asset handler animation-mask
+11.11.2024 16:27:17-debug: lazy register asset handler bitmap-font
+11.11.2024 16:27:17-debug: lazy register asset handler particle
+11.11.2024 16:27:17-debug: lazy register asset handler sprite-atlas
+11.11.2024 16:27:17-debug: lazy register asset handler label-atlas
+11.11.2024 16:27:17-debug: lazy register asset handler effect
+11.11.2024 16:27:17-debug: lazy register asset handler auto-atlas
+11.11.2024 16:27:17-debug: lazy register asset handler render-stage
+11.11.2024 16:27:17-debug: lazy register asset handler instantiation-material
+11.11.2024 16:27:17-debug: lazy register asset handler render-flow
+11.11.2024 16:27:17-debug: lazy register asset handler instantiation-mesh
+11.11.2024 16:27:17-debug: lazy register asset handler instantiation-skeleton
+11.11.2024 16:27:17-debug: lazy register asset handler instantiation-animation
+11.11.2024 16:27:17-debug: lazy register asset handler render-pipeline
+11.11.2024 16:27:17-debug: lazy register asset handler video-clip
+11.11.2024 16:27:17-debug: asset-db:worker-startup-database[assets] (3741ms)
+11.11.2024 16:27:17-debug: asset-db:start-database (3875ms)
+11.11.2024 16:27:17-debug: asset-db:ready (8875ms)
+11.11.2024 16:27:17-debug: init worker message success
+11.11.2024 16:27:17-debug: programming:execute-script (5ms)
+11.11.2024 16:27:17-debug: [Build Memory track]: builder:worker-init start:200.02MB, end 213.75MB, increase: 13.73MB
+11.11.2024 16:27:17-debug: builder:worker-init (478ms)
+11.11.2024 16:27:17-debug: Query all assets info in project
+11.11.2024 16:27:17-debug: init custom config: keepNodeUuid: false, useCache: true
+11.11.2024 16:27:17-debug: Query asset bundle start, progress: 0%
+11.11.2024 16:27:17-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:17-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
+11.11.2024 16:27:17-debug:   Number of all scenes: 1
+11.11.2024 16:27:17-debug:   Number of all scripts: 16
+11.11.2024 16:27:17-debug:   Number of other assets: 547
+11.11.2024 16:27:17-debug: // ---- build task Query asset bundle ---- (7ms)
+11.11.2024 16:27:17-debug: run build task Query asset bundle success in 7 ms√, progress: 5%
+11.11.2024 16:27:17-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:17-debug: [Build Memory track]: Query asset bundle start:210.64MB, end 211.29MB, increase: 672.79KB
+11.11.2024 16:27:17-debug: Query asset bundle start, progress: 5%
+11.11.2024 16:27:17-debug: // ---- build task Query asset bundle ---- (3ms)
+11.11.2024 16:27:17-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+11.11.2024 16:27:17-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:17-debug: [Build Memory track]: Query asset bundle start:211.32MB, end 211.44MB, increase: 119.58KB
+11.11.2024 16:27:17-debug: Sort some build options to settings.json start, progress: 10%
+11.11.2024 16:27:17-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+11.11.2024 16:27:17-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+11.11.2024 16:27:17-debug: // ---- build task Fill script data to settings ----
+11.11.2024 16:27:17-debug: [Build Memory track]: Sort some build options to settings.json start:211.47MB, end 211.50MB, increase: 28.79KB
+11.11.2024 16:27:17-debug: Fill script data to settings start, progress: 12%
+11.11.2024 16:27:17-debug: // ---- build task Fill script data to settings ---- (1ms)
+11.11.2024 16:27:17-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+11.11.2024 16:27:17-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:17-debug: [Build Memory track]: Fill script data to settings start:211.53MB, end 211.56MB, increase: 29.15KB
+11.11.2024 16:27:17-debug: Sort some build options to settings.json start, progress: 13%
+11.11.2024 16:27:17-debug: // ---- build task Sort some build options to settings.json ---- (4ms)
+11.11.2024 16:27:17-debug: run build task Sort some build options to settings.json success in 4 ms√, progress: 15%
+11.11.2024 16:27:17-debug: [Build Memory track]: Sort some build options to settings.json start:211.59MB, end 211.73MB, increase: 135.45KB
+11.11.2024 16:27:21-debug: Query all assets info in project
+11.11.2024 16:27:21-debug: init custom config: keepNodeUuid: false, useCache: true
+11.11.2024 16:27:21-debug: Query asset bundle start, progress: 0%
+11.11.2024 16:27:21-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:21-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
+11.11.2024 16:27:21-debug:   Number of all scripts: 16
+11.11.2024 16:27:21-debug:   Number of other assets: 547
+11.11.2024 16:27:21-debug:   Number of all scenes: 1
+11.11.2024 16:27:21-debug: // ---- build task Query asset bundle ---- (5ms)
+11.11.2024 16:27:21-debug: run build task Query asset bundle success in 5 ms√, progress: 5%
+11.11.2024 16:27:21-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:21-debug: [Build Memory track]: Query asset bundle start:214.45MB, end 215.09MB, increase: 656.43KB
+11.11.2024 16:27:21-debug: Query asset bundle start, progress: 5%
+11.11.2024 16:27:21-debug: // ---- build task Query asset bundle ---- (3ms)
+11.11.2024 16:27:21-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+11.11.2024 16:27:21-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:21-debug: [Build Memory track]: Query asset bundle start:215.12MB, end 215.24MB, increase: 118.50KB
+11.11.2024 16:27:21-debug: Sort some build options to settings.json start, progress: 10%
+11.11.2024 16:27:21-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+11.11.2024 16:27:21-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+11.11.2024 16:27:21-debug: [Build Memory track]: Sort some build options to settings.json start:215.27MB, end 215.30MB, increase: 27.50KB
+11.11.2024 16:27:21-debug: // ---- build task Fill script data to settings ----
+11.11.2024 16:27:21-debug: Fill script data to settings start, progress: 12%
+11.11.2024 16:27:21-debug: // ---- build task Fill script data to settings ---- (1ms)
+11.11.2024 16:27:21-debug: [Build Memory track]: Fill script data to settings start:215.33MB, end 215.35MB, increase: 27.63KB
+11.11.2024 16:27:21-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+11.11.2024 16:27:21-debug: Sort some build options to settings.json start, progress: 13%
+11.11.2024 16:27:21-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:21-debug: // ---- build task Sort some build options to settings.json ---- (4ms)
+11.11.2024 16:27:21-debug: run build task Sort some build options to settings.json success in 4 ms√, progress: 15%
+11.11.2024 16:27:21-debug: [Build Memory track]: Sort some build options to settings.json start:215.39MB, end 215.52MB, increase: 135.60KB
+11.11.2024 16:27:24-debug: Query all assets info in project
+11.11.2024 16:27:24-debug: init custom config: keepNodeUuid: false, useCache: true
+11.11.2024 16:27:24-debug: Query asset bundle start, progress: 0%
+11.11.2024 16:27:24-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:24-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
+11.11.2024 16:27:24-debug:   Number of all scenes: 1
+11.11.2024 16:27:24-debug:   Number of other assets: 547
+11.11.2024 16:27:24-debug:   Number of all scripts: 16
+11.11.2024 16:27:24-debug: // ---- build task Query asset bundle ---- (7ms)
+11.11.2024 16:27:24-debug: run build task Query asset bundle success in 7 ms√, progress: 5%
+11.11.2024 16:27:24-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:24-debug: [Build Memory track]: Query asset bundle start:215.89MB, end 210.40MB, increase: -5625.16KB
+11.11.2024 16:27:24-debug: Query asset bundle start, progress: 5%
+11.11.2024 16:27:24-debug: // ---- build task Query asset bundle ---- (3ms)
+11.11.2024 16:27:24-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+11.11.2024 16:27:24-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:24-debug: [Build Memory track]: Query asset bundle start:210.43MB, end 210.55MB, increase: 119.34KB
+11.11.2024 16:27:24-debug: Sort some build options to settings.json start, progress: 10%
+11.11.2024 16:27:24-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+11.11.2024 16:27:24-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+11.11.2024 16:27:24-debug: // ---- build task Fill script data to settings ----
+11.11.2024 16:27:24-debug: [Build Memory track]: Sort some build options to settings.json start:210.58MB, end 210.61MB, increase: 28.60KB
+11.11.2024 16:27:24-debug: Fill script data to settings start, progress: 12%
+11.11.2024 16:27:24-debug: // ---- build task Fill script data to settings ---- (2ms)
+11.11.2024 16:27:24-debug: run build task Fill script data to settings success in 2 ms√, progress: 13%
+11.11.2024 16:27:24-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:24-debug: [Build Memory track]: Fill script data to settings start:210.64MB, end 210.67MB, increase: 30.70KB
+11.11.2024 16:27:24-debug: Sort some build options to settings.json start, progress: 13%
+11.11.2024 16:27:24-debug: // ---- build task Sort some build options to settings.json ---- (4ms)
+11.11.2024 16:27:24-debug: run build task Sort some build options to settings.json success in 4 ms√, progress: 15%
+11.11.2024 16:27:24-debug: [Build Memory track]: Sort some build options to settings.json start:210.70MB, end 210.83MB, increase: 131.52KB
+11.11.2024 16:27:28-debug: Query all assets info in project
+11.11.2024 16:27:28-debug: init custom config: keepNodeUuid: false, useCache: true
+11.11.2024 16:27:28-debug: Query asset bundle start, progress: 0%
+11.11.2024 16:27:28-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:28-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
+11.11.2024 16:27:28-debug:   Number of all scripts: 16
+11.11.2024 16:27:28-debug:   Number of other assets: 547
+11.11.2024 16:27:28-debug:   Number of all scenes: 1
+11.11.2024 16:27:28-debug: // ---- build task Query asset bundle ---- (12ms)
+11.11.2024 16:27:28-debug: run build task Query asset bundle success in 12 ms√, progress: 5%
+11.11.2024 16:27:28-debug: [Build Memory track]: Query asset bundle start:158.04MB, end 157.84MB, increase: -212.64KB
+11.11.2024 16:27:28-debug: Query asset bundle start, progress: 5%
+11.11.2024 16:27:28-debug: // ---- build task Query asset bundle ----
+11.11.2024 16:27:28-debug: // ---- build task Query asset bundle ---- (7ms)
+11.11.2024 16:27:28-debug: run build task Query asset bundle success in 7 ms√, progress: 10%
+11.11.2024 16:27:28-debug: [Build Memory track]: Query asset bundle start:157.88MB, end 158.02MB, increase: 140.72KB
+11.11.2024 16:27:28-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:28-debug: Sort some build options to settings.json start, progress: 10%
+11.11.2024 16:27:28-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+11.11.2024 16:27:28-debug: [Build Memory track]: Sort some build options to settings.json start:158.05MB, end 158.08MB, increase: 32.07KB
+11.11.2024 16:27:28-debug: // ---- build task Fill script data to settings ----
+11.11.2024 16:27:28-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+11.11.2024 16:27:28-debug: Fill script data to settings start, progress: 12%
+11.11.2024 16:27:28-debug: run build task Fill script data to settings success in 3 ms√, progress: 13%
+11.11.2024 16:27:28-debug: [Build Memory track]: Fill script data to settings start:158.12MB, end 158.14MB, increase: 28.07KB
+11.11.2024 16:27:28-debug: Sort some build options to settings.json start, progress: 13%
+11.11.2024 16:27:28-debug: // ---- build task Fill script data to settings ---- (3ms)
+11.11.2024 16:27:28-debug: // ---- build task Sort some build options to settings.json ----
+11.11.2024 16:27:28-debug: // ---- build task Sort some build options to settings.json ---- (10ms)
+11.11.2024 16:27:28-debug: run build task Sort some build options to settings.json success in 10 ms√, progress: 15%
+11.11.2024 16:27:28-debug: [Build Memory track]: Sort some build options to settings.json start:158.18MB, end 158.31MB, increase: 136.50KB
