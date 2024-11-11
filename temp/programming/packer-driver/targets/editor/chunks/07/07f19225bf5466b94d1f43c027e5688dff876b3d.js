@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, ScrollView, Prefab, instantiate, Label, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, LeaderBoardPage;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, ScrollView, Prefab, instantiate, Label, SocketManager, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, LeaderBoardPage;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,8 +9,14 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfSocketManager(extras) {
+    _reporterNs.report("SocketManager", "./SocketManager", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
@@ -20,6 +26,8 @@ System.register(["cc"], function (_export, _context) {
       Prefab = _cc.Prefab;
       instantiate = _cc.instantiate;
       Label = _cc.Label;
+    }, function (_unresolved_2) {
+      SocketManager = _unresolved_2.SocketManager;
     }],
     execute: function () {
       _crd = true;
@@ -27,15 +35,16 @@ System.register(["cc"], function (_export, _context) {
       _cclegacy._RF.push({}, "509aaKVAOZOU4SArmn1DqkK", "LeadersPage", undefined); // assets/scripts/LeaderBoard/LeaderBoardPage.ts
 
 
-      __checkObsolete__(['_decorator', 'Component', 'ScrollView', 'Prefab', 'instantiate', 'Label', 'Vec3', 'Color']);
+      __checkObsolete__(['_decorator', 'Component', 'ScrollView', 'Prefab', 'instantiate', 'Label', 'Color']);
 
+      // Импортируем SocketManager
       ({
         ccclass,
         property
       } = _decorator); // Интерфейс для Лидера
       // Интерфейс для ответа API
 
-      _export("LeaderBoardPage", LeaderBoardPage = (_dec = ccclass('LeaderBoardPage'), _dec2 = property(ScrollView), _dec3 = property(Prefab), _dec4 = property(Label), _dec5 = property(Label), _dec6 = property(Label), _dec(_class = (_class2 = class LeaderBoardPage extends Component {
+      _export("LeaderBoardPage", LeaderBoardPage = (_dec = ccclass("LeaderBoardPage"), _dec2 = property(ScrollView), _dec3 = property(Prefab), _dec4 = property(Label), _dec5 = property(Label), _dec6 = property(Label), _dec(_class = (_class2 = class LeaderBoardPage extends Component {
         constructor(...args) {
           super(...args);
 
@@ -54,12 +63,31 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "currentCoinsLabel", _descriptor5, this);
 
           _initializerDefineProperty(this, "apiBaseUrl", _descriptor6, this);
-
-          this.userId = 777270195;
         }
 
-        // Замените на актуальный userId или получите его из других источников
+        // Удаляем локальную переменную userId
+        // private userId: number = 777270195; // Замените на актуальный userId или получите его из других источников
         start() {
+          // Проверяем, инициализирован ли SocketManager
+          if (!(_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance) {
+            console.error("SocketManager не инициализирован."); // Можно показать сообщение об ошибке пользователю
+
+            return;
+          } // Получаем userId из SocketManager
+
+
+          const userId = (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance.getUserId();
+
+          if (!userId) {
+            console.error("userId не установлен в SocketManager."); // Можно показать сообщение об ошибке пользователю
+
+            return;
+          }
+
           this.fetchLeaders();
         }
         /**
@@ -68,21 +96,32 @@ System.register(["cc"], function (_export, _context) {
 
 
         async fetchLeaders() {
+          // Получаем userId из SocketManager
+          const userId = (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance.getUserId();
+
+          if (!userId) {
+            console.error("userId не установлен в SocketManager."); // Можно показать сообщение об ошибке пользователю
+
+            return;
+          }
+
           try {
-            const response = await fetch(`${this.apiBaseUrl}?userId=${this.userId}`);
+            const response = await fetch(`${this.apiBaseUrl}?userId=${userId}`);
 
             if (!response.ok) {
               if (response.status === 404) {
                 // Если топ-лидеров нет, можно скрыть список или показать сообщение
-                console.warn('Топ-лидеров пока нет.');
+                console.warn("Топ-лидеров пока нет.");
                 return;
               }
 
-              throw new Error('Network response was not ok');
+              throw new Error("Network response was not ok");
             }
 
             const data = await response.json();
-            console.log('Fetched leaderboard data:', data); // Убираем строку с общим количеством лидеров
+            console.log("Fetched leaderboard data:", data); // Убираем строку с общим количеством лидеров
             // this.totalLeadersLabel.string = `Топ-50 лидеров: ${data.top50.length}`;
 
             this.populateLeadersList(data.top50); // Отображаем информацию о текущем игроке
@@ -97,7 +136,7 @@ System.register(["cc"], function (_export, _context) {
               // this.scrollView.content.setPosition(new Vec3(0, 0, 0));
             }
           } catch (error) {
-            console.error('Ошибка при загрузке списка лидеров:', error); // Убираем строку с общим количеством лидеров и показываем ошибку
+            console.error("Ошибка при загрузке списка лидеров:", error); // Убираем строку с общим количеством лидеров и показываем ошибку
             // if (this.totalLeadersLabel) {
             //     this.totalLeadersLabel.string = 'Не удалось загрузить список лидеров.';
             // }
@@ -111,7 +150,7 @@ System.register(["cc"], function (_export, _context) {
 
         populateLeadersList(leaders) {
           const content = this.scrollView.content;
-          console.log('Populating leaderboard list with', leaders.length, 'leaders.'); // Очистить предыдущие элементы
+          console.log("Populating leaderboard list with", leaders.length, "leaders."); // Очистить предыдущие элементы
 
           content.removeAllChildren();
           leaders.forEach((leader, index) => {
@@ -127,12 +166,12 @@ System.register(["cc"], function (_export, _context) {
             labels.forEach(label => {
               const nodeName = label.node.name;
 
-              if (nodeName === 'NumberLabel') {
+              if (nodeName === "NumberLabel") {
                 // Используем NumberLabel
                 numberLabel = label;
-              } else if (nodeName === 'UsernameLabel') {
+              } else if (nodeName === "UsernameLabel") {
                 usernameLabel = label;
-              } else if (nodeName === 'CoinsLabel') {
+              } else if (nodeName === "CoinsLabel") {
                 coinsLabel = label;
               }
             });
@@ -143,8 +182,8 @@ System.register(["cc"], function (_export, _context) {
               coinsLabel.string = this.formatCoins(leader.coins);
               console.log(`Set Number: ${leader.rank}, Username: ${leader.username}, Coins: ${leader.coins}`);
             } else {
-              console.warn('Не удалось найти один из Label компонентов в LeaderItem');
-              console.log('Найденные Label узлы:', labels.map(label => label.node.name));
+              console.warn("Не удалось найти один из Label компонентов в LeaderItem");
+              console.log("Найденные Label узлы:", labels.map(label => label.node.name));
             }
           });
         }
@@ -158,19 +197,19 @@ System.register(["cc"], function (_export, _context) {
           if (this.currentRankLabel) {
             this.currentRankLabel.string = `#${user.rank}`;
           } else {
-            console.warn('currentRankLabel не назначен в LeaderBoardPage.');
+            console.warn("currentRankLabel не назначен в LeaderBoardPage.");
           }
 
           if (this.currentUsernameLabel) {
             this.currentUsernameLabel.string = `${user.username}`;
           } else {
-            console.warn('currentUsernameLabel не назначен в LeaderBoardPage.');
+            console.warn("currentUsernameLabel не назначен в LeaderBoardPage.");
           }
 
           if (this.currentCoinsLabel) {
             this.currentCoinsLabel.string = `${this.formatCoins(user.coins)}`;
           } else {
-            console.warn('currentCoinsLabel не назначен в LeaderBoardPage.');
+            console.warn("currentCoinsLabel не назначен в LeaderBoardPage.");
           }
         }
         /**
@@ -187,7 +226,7 @@ System.register(["cc"], function (_export, _context) {
             const millions = Math.round(coins / 1000000);
             return `${millions}M`;
           } else {
-            return Math.round(coins).toLocaleString('ru-RU'); // Указываем локаль для правильного форматирования
+            return Math.round(coins).toLocaleString("ru-RU"); // Указываем локаль для правильного форматирования
           }
         }
 
@@ -231,7 +270,7 @@ System.register(["cc"], function (_export, _context) {
         enumerable: true,
         writable: true,
         initializer: function () {
-          return 'https://dev.simatap.ru/api/users/leaders';
+          return "https://dev.simatap.ru/api/users/leaders";
         }
       })), _class2)) || _class));
 

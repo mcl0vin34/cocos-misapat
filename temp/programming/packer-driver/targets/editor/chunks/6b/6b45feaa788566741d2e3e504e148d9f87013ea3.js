@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Label, Vec3, Color, tween, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, ReferralLinkManager;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Label, Vec3, Color, tween, SocketManager, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, ReferralLinkManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,8 +9,14 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfSocketManager(extras) {
+    _reporterNs.report("SocketManager", "./SocketManager", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
@@ -21,6 +27,8 @@ System.register(["cc"], function (_export, _context) {
       Vec3 = _cc.Vec3;
       Color = _cc.Color;
       tween = _cc.tween;
+    }, function (_unresolved_2) {
+      SocketManager = _unresolved_2.SocketManager;
     }],
     execute: function () {
       _crd = true;
@@ -30,18 +38,19 @@ System.register(["cc"], function (_export, _context) {
 
       __checkObsolete__(['_decorator', 'Component', 'Node', 'Label', 'Vec3', 'Color', 'tween']);
 
+      // Импортируйте SocketManager
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("ReferralLinkManager", ReferralLinkManager = (_dec = ccclass('ReferralLinkManager'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Label), _dec5 = property(Label), _dec(_class = (_class2 = class ReferralLinkManager extends Component {
+      _export("ReferralLinkManager", ReferralLinkManager = (_dec = ccclass("ReferralLinkManager"), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Label), _dec5 = property(Label), _dec(_class = (_class2 = class ReferralLinkManager extends Component {
         constructor(...args) {
           super(...args);
 
           _initializerDefineProperty(this, "generateLinkNode", _descriptor, this);
 
-          // Нода для создания ссылки
+          // Нода для создания ссылки (если нужна)
           _initializerDefineProperty(this, "copyLinkNode", _descriptor2, this);
 
           // Нода для копирования ссылки
@@ -51,10 +60,8 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "copyNotificationLabel", _descriptor4, this);
 
           // Метка для уведомления о копировании
-          this.referralLink = '';
-          this.userId = 777270195;
+          this.referralLink = "";
 
-          // Фиксированный user_id
           // Параметры анимации
           _initializerDefineProperty(this, "animationDuration", _descriptor5, this);
 
@@ -67,31 +74,24 @@ System.register(["cc"], function (_export, _context) {
 
         start() {
           // Проверка наличия всех нод
-          if (!this.generateLinkNode) {
-            console.error('generateLinkNode не назначен в ReferralLinkManager.');
-          }
-
           if (!this.copyLinkNode) {
-            console.error('copyLinkNode не назначен в ReferralLinkManager.');
+            console.error("copyLinkNode не назначен в ReferralLinkManager.");
           }
 
           if (!this.referralLinkLabel) {
-            console.error('referralLinkLabel не назначен в ReferralLinkManager.');
+            console.error("referralLinkLabel не назначен в ReferralLinkManager.");
           }
 
           if (!this.copyNotificationLabel) {
-            console.error('copyNotificationLabel не назначен в ReferralLinkManager.');
-          } // Назначаем обработчик нажатия на ноду "Создать ссылку"
+            console.error("copyNotificationLabel не назначен в ReferralLinkManager.");
+          } // Генерируем ссылку автоматически при старте
 
 
-          if (this.generateLinkNode) {
-            this.generateLinkNode.on(Node.EventType.TOUCH_END, this.onGenerateLinkClicked, this);
-          } // Назначаем обработчик нажатия на ноду "Копировать ссылку" и скрываем её по умолчанию
-
+          this.generateReferralLink(); // Назначаем обработчик нажатия на ноду "Копировать ссылку"
 
           if (this.copyLinkNode) {
             this.copyLinkNode.on(Node.EventType.TOUCH_END, this.onCopyLinkClicked, this);
-            this.copyLinkNode.active = false; // Скрыть кнопку копирования до создания ссылки
+            this.copyLinkNode.active = true; // Сделать кнопку копирования всегда видимой
           } // Инициализируем уведомление как скрытое и сохраняем начальную позицию
 
 
@@ -99,21 +99,48 @@ System.register(["cc"], function (_export, _context) {
             this.copyNotificationLabel.node.active = false; // Скрыть уведомление по умолчанию
 
             this.initialPosition = this.copyNotificationLabel.node.position.clone();
+          } // Если у вас всё ещё есть кнопка "Создать ссылку" и она нужна:
+
+
+          if (this.generateLinkNode) {
+            this.generateLinkNode.on(Node.EventType.TOUCH_END, this.onGenerateLinkClicked, this); // Опционально: можно скрыть кнопку, если ссылка генерируется автоматически
+            // this.generateLinkNode.active = false;
           }
         }
         /**
+         * Генерирует реферальную ссылку автоматически при старте
+         */
+
+
+        generateReferralLink() {
+          if (!(_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance) {
+            console.error("SocketManager не инициализирован.");
+            return;
+          }
+
+          const userId = (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance.getUserId();
+
+          if (!userId) {
+            console.error("userId не установлен в SocketManager.");
+            return;
+          }
+
+          this.referralLink = this.getReferralLink(userId);
+          this.referralLinkLabel.string = this.referralLink;
+          console.log(`Реферальная ссылка создана: ${this.referralLink}`);
+        }
+        /**
          * Обработчик нажатия на ноду "Создать ссылку"
+         * (Если необходимо оставить возможность генерации ссылки вручную)
          */
 
 
         onGenerateLinkClicked() {
-          this.referralLink = this.getReferralLink(this.userId);
-          this.referralLinkLabel.string = this.referralLink;
-          console.log(`Реферальная ссылка создана: ${this.referralLink}`);
-
-          if (this.copyLinkNode) {
-            this.copyLinkNode.active = true; // Показать кнопку копирования после создания ссылки
-          }
+          this.generateReferralLink();
         }
         /**
          * Генерирует реферальную ссылку на основе user_id
@@ -155,15 +182,15 @@ System.register(["cc"], function (_export, _context) {
 
 
           if (!this.referralLink) {
-            console.warn('Реферальная ссылка не создана.');
+            console.warn("Реферальная ссылка не создана.");
             return;
           }
 
           try {
             await navigator.clipboard.writeText(this.referralLink);
-            console.log('Реферальная ссылка скопирована в буфер обмена.');
+            console.log("Реферальная ссылка скопирована в буфер обмена.");
           } catch (err) {
-            console.error('Не удалось скопировать ссылку: ', err); // Можно добавить уведомление об ошибке, если необходимо
+            console.error("Не удалось скопировать ссылку: ", err); // Можно добавить уведомление об ошибке, если необходимо
           }
         }
 

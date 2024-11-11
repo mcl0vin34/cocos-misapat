@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 18734.477199971676,
+      "mTimestamp": 232299.58199995756,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -187,7 +187,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/profiler",
+          "value": "cce:/internal/x/cc-fu/spine",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -196,12 +196,12 @@
             },
             "end": {
               "line": 14,
-              "column": 46
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/spine",
+          "value": "cce:/internal/x/cc-fu/tiled-map",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -210,12 +210,12 @@
             },
             "end": {
               "line": 15,
-              "column": 43
+              "column": 47
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "value": "cce:/internal/x/cc-fu/tween",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -224,12 +224,12 @@
             },
             "end": {
               "line": 16,
-              "column": 47
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tween",
+          "value": "cce:/internal/x/cc-fu/ui",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -238,12 +238,12 @@
             },
             "end": {
               "line": 17,
-              "column": 43
+              "column": 40
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/ui",
+          "value": "cce:/internal/x/cc-fu/video",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -252,12 +252,12 @@
             },
             "end": {
               "line": 18,
-              "column": 40
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/video",
+          "value": "cce:/internal/x/cc-fu/webview",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -266,20 +266,6 @@
             },
             "end": {
               "line": 19,
-              "column": 43
-            }
-          }
-        },
-        {
-          "value": "cce:/internal/x/cc-fu/webview",
-          "resolved": "__unresolved_19",
-          "loc": {
-            "start": {
-              "line": 20,
-              "column": 14
-            },
-            "end": {
-              "line": 20,
               "column": 45
             }
           }
@@ -381,13 +367,6 @@
         {
           "resolved": {
             "type": "external",
-            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "external",
             "specifierOrURL": "cce:/internal/x/cc-fu/spine"
           },
           "messages": []
@@ -430,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 26917.56449997425,
+      "mTimestamp": 2695529.598999977,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -2871,7 +2850,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts": {
       "mTimestamp": {
-        "mtime": 1730113399978.059,
+        "mtime": 1731316058780,
         "uuid": "a0c39559-ea3e-4d46-b4fa-731307a83181"
       },
       "chunkId": "6a9a1563b2cec67e273547f75ce5f37519f08765",
@@ -2891,11 +2870,11 @@
           "loc": {
             "start": {
               "line": 3,
-              "column": 65
+              "column": 71
             },
             "end": {
               "line": 3,
-              "column": 69
+              "column": 75
             }
           }
         },
@@ -2976,11 +2955,15 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts": {
       "mTimestamp": {
-        "mtime": 1730113956976.459,
+        "mtime": 1731314012499.954,
         "uuid": "a359996e-304e-4720-b51c-8d655adef2fa"
       },
       "chunkId": "07e6e055772b7ee7085ad33649b3961d156434ee",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -2992,11 +2975,25 @@
           "loc": {
             "start": {
               "line": 3,
-              "column": 71
+              "column": 45
             },
             "end": {
               "line": 3,
-              "column": 75
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./SocketManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 30
+            },
+            "end": {
+              "line": 4,
+              "column": 47
             }
           }
         }
@@ -3006,7 +3003,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -3021,6 +3018,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts"
           },
           "messages": []
         }
@@ -3216,11 +3227,15 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts": {
       "mTimestamp": {
-        "mtime": 1730113383085.5293,
+        "mtime": 1731316024622.265,
         "uuid": "829ceed1-6209-4f57-a926-405fd66e66e6"
       },
       "chunkId": "8f2720277df655e43b77b76e1c23b7311755f15e",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -3231,12 +3246,26 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 91
+              "line": 10,
+              "column": 7
             },
             "end": {
-              "line": 3,
-              "column": 95
+              "line": 10,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./SocketManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 30
+            },
+            "end": {
+              "line": 11,
+              "column": 47
             }
           }
         }
@@ -3246,7 +3275,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -3261,6 +3290,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts"
           },
           "messages": []
         }
@@ -3268,11 +3311,15 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts": {
       "mTimestamp": {
-        "mtime": 1730113383085.5293,
+        "mtime": 1731314081220.618,
         "uuid": "509aa295-00e6-4e53-8480-ae69f50ea90a"
       },
       "chunkId": "07f19225bf5466b94d1f43c027e5688dff876b3d",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -3283,12 +3330,26 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 91
+              "line": 11,
+              "column": 7
             },
             "end": {
-              "line": 3,
-              "column": 95
+              "line": 11,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./SocketManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 30
+            },
+            "end": {
+              "line": 12,
+              "column": 47
             }
           }
         }
@@ -3298,7 +3359,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -3313,6 +3374,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts"
           },
           "messages": []
         }
@@ -3320,11 +3395,15 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts": {
       "mTimestamp": {
-        "mtime": 1730113383085.5293,
+        "mtime": 1731316025098.965,
         "uuid": "18bc3c94-b83d-4660-8e6b-25588625ca79"
       },
       "chunkId": "6b45feaa788566741d2e3e504e148d9f87013ea3",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -3343,6 +3422,20 @@
               "column": 75
             }
           }
+        },
+        {
+          "value": "./SocketManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 30
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
         }
       ],
       "type": "esm",
@@ -3350,7 +3443,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -3365,6 +3458,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts"
           },
           "messages": []
         }

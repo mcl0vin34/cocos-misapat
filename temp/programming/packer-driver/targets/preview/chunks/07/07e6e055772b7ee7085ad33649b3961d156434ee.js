@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, IncomeManager;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, SocketManager, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, IncomeManager;
 
   function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -13,14 +13,22 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfSocketManager(extras) {
+    _reporterNs.report("SocketManager", "./SocketManager", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Label = _cc.Label;
+    }, function (_unresolved_2) {
+      SocketManager = _unresolved_2.SocketManager;
     }],
     execute: function () {
       _crd = true;
@@ -28,26 +36,36 @@ System.register(["cc"], function (_export, _context) {
       _cclegacy._RF.push({}, "a3599luME5HILUcjWVa3vL6", "IncomeManager", undefined); // assets/scripts/Income/IncomeManager.ts
 
 
-      __checkObsolete__(['_decorator', 'Component', 'Label', 'Vec3', 'Color', 'tween', 'Node']);
+      __checkObsolete__(['_decorator', 'Component', 'Label']);
 
+      // Импортируйте SocketManager
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("IncomeManager", IncomeManager = (_dec = ccclass('IncomeManager'), _dec2 = property(Label), _dec(_class = (_class2 = class IncomeManager extends Component {
+      _export("IncomeManager", IncomeManager = (_dec = ccclass("IncomeManager"), _dec2 = property(Label), _dec(_class = (_class2 = class IncomeManager extends Component {
         constructor() {
           super(...arguments);
 
           _initializerDefineProperty(this, "incomeLabel", _descriptor, this);
 
           // Метка для отображения суммы дохода
-          this.apiUrl = 'https://dev.simatap.ru/api/upgrades?userId=422840434';
+          this.apiUrl = "https://dev.simatap.ru/api/upgrades";
         }
 
         start() {
           if (!this.incomeLabel) {
-            console.error('incomeLabel не назначен в IncomeManager.');
+            console.error("incomeLabel не назначен в IncomeManager.");
+            return;
+          } // Убедитесь, что SocketManager инициализирован
+
+
+          if (!(_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance) {
+            console.error("SocketManager не инициализирован.");
+            this.updateIncomeLabel("+ 0 доход в час");
             return;
           }
 
@@ -62,8 +80,20 @@ System.register(["cc"], function (_export, _context) {
           var _this = this;
 
           return _asyncToGenerator(function* () {
+            var userId = (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+              error: Error()
+            }), SocketManager) : SocketManager).instance.getUserId();
+
+            if (!userId) {
+              console.error("userId не установлен в SocketManager.");
+
+              _this.updateIncomeLabel("+ 0 доход в час");
+
+              return;
+            }
+
             try {
-              var response = yield fetch(_this.apiUrl);
+              var response = yield fetch(_this.apiUrl + "?userId=" + userId);
 
               if (!response.ok) {
                 throw new Error("HTTP error! status: " + response.status);
@@ -79,9 +109,9 @@ System.register(["cc"], function (_export, _context) {
 
               console.log("\u041E\u0431\u0449\u0438\u0439 \u0434\u043E\u0445\u043E\u0434: " + formattedIncome);
             } catch (error) {
-              console.error('Ошибка при получении данных с API:', error);
+              console.error("Ошибка при получении данных с API:", error);
 
-              _this.updateIncomeLabel('+ 0 доход в час'); // Устанавливаем 0 доход в случае ошибки
+              _this.updateIncomeLabel("+ 0 доход в час"); // Устанавливаем 0 доход в случае ошибки
 
             }
           })();
