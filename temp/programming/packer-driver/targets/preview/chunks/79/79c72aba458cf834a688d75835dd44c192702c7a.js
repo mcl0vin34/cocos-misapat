@@ -44,7 +44,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         property
       } = _decorator);
 
-      _export("SpineController", SpineController = (_dec = ccclass('SpineController'), _dec2 = property(sp.Skeleton), _dec3 = property(_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+      _export("SpineController", SpineController = (_dec = ccclass("SpineController"), _dec2 = property(sp.Skeleton), _dec3 = property(_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
         error: Error()
       }), SocketManager) : SocketManager), _dec4 = property(Prefab), _dec(_class = (_class2 = class SpineController extends Component {
         constructor() {
@@ -74,17 +74,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (this.spine) {
             // Устанавливаем основную анимацию на треке 0
-            this.spine.setAnimation(0, 'Основная', true); // Устанавливаем слушатель завершения анимации
+            this.spine.setAnimation(0, "Основная", true); // Устанавливаем слушатель завершения анимации
 
             this.spine.setCompleteListener(this.onAnimationComplete.bind(this));
           } else {
-            console.warn('Spine компонент не установлен в SpineController.');
+            console.warn("Spine компонент не установлен в SpineController.");
           }
         }
 
         onSpineClicked(event) {
-          console.log('Spine animation clicked'); // Проверяем, установлен ли SocketManager
-
+          // Проверяем, установлен ли SocketManager
           if (this.socketManager) {
             var currentEnergy = this.socketManager.getCurrentEnergy(); // Проверяем, достаточно ли энергии для тапа (13 и больше)
 
@@ -92,33 +91,30 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               // Если энергии достаточно, выполняем анимацию и отправляем событие тапа
               if (this.spine) {
                 // Устанавливаем анимацию 'Нажатие' на треке 1
-                this.spine.setAnimation(1, 'Нажатие', false); // Добавляем возврат к основной анимации после завершения 'Нажатие'
+                this.spine.setAnimation(1, "Нажатие", false); // Добавляем возврат к основной анимации после завершения 'Нажатие'
 
-                this.spine.addAnimation(1, 'Основная', true, 0);
+                this.spine.addAnimation(1, "Основная", true, 0);
               } // Вызываем метод onTap() из SocketManager
 
 
-              console.log('Calling socketManager.onTap()');
               this.socketManager.onTap(); // Создаём и анимируем всплывающий текст
 
               var tapPosition = event.getUILocation(); // Vec2
 
-              console.log('Tap Position (UILocation):', tapPosition);
               this.spawnFloatingText(tapPosition);
             } else {
               // Если энергии недостаточно, выводим сообщение и не запускаем анимацию
-              console.log('Not enough energy to tap');
-              this.socketManager.showMessage('Не хватает энергии для тапа.', 'warning');
+              this.socketManager.showMessage("Не хватает энергии для тапа.", "warning");
             }
           } else {
-            console.warn('SocketManager не установлен в SpineController.');
+            console.warn("SocketManager не установлен в SpineController.");
           }
         }
 
         onAnimationComplete(entry) {
           if (entry && entry.trackIndex === 1) {
             // После завершения анимации 'Нажатие' возвращаемся к 'Основная'
-            this.spine.setAnimation(1, 'Основная', true);
+            this.spine.setAnimation(1, "Основная", true);
           }
         }
         /**
@@ -129,15 +125,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         spawnFloatingText(tapPosition) {
           if (!this.floatingTextPrefab) {
-            console.warn('floatingTextPrefab не установлен в SpineController.');
+            console.warn("floatingTextPrefab не установлен в SpineController.");
             return;
           } // Получаем Canvas
 
 
-          var canvas = this.node.scene.getChildByName('Canvas');
+          var canvas = this.node.scene.getChildByName("Canvas");
 
           if (!canvas) {
-            console.warn('Canvas не найден.');
+            console.warn("Canvas не найден.");
             return;
           } // Получаем размер Canvas
 
@@ -145,24 +141,21 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           var canvasUITransform = canvas.getComponent(UITransform);
 
           if (!canvasUITransform) {
-            console.warn('UITransform не найден на Canvas.');
+            console.warn("UITransform не найден на Canvas.");
             return;
           }
 
-          var canvasSize = canvasUITransform.contentSize;
-          console.log('Canvas Size:', canvasSize); // Преобразуем позицию тапа из экранных координат в локальные координаты Canvas
+          var canvasSize = canvasUITransform.contentSize; // Преобразуем позицию тапа из экранных координат в локальные координаты Canvas
 
           var localPosX = tapPosition.x - canvasSize.width / 2;
           var localPosY = tapPosition.y - canvasSize.height / 2;
-          var localPos = new Vec3(localPosX, localPosY, 100);
-          console.log('Converted Local Position:', localPos); // Создаём экземпляр префаба
+          var localPos = new Vec3(localPosX, localPosY, 100); // Создаём экземпляр префаба
 
           var floatingText = instantiate(this.floatingTextPrefab);
           floatingText.setParent(canvas); // Устанавливаем родителем Canvas
           // Устанавливаем позицию всплывающего текста относительно Canvas
 
-          floatingText.setPosition(localPos);
-          console.log('FloatingText Position Set To:', floatingText.getPosition()); // Запускаем анимацию (скрипт FloatingText.ts уже запускает анимацию в методе start)
+          floatingText.setPosition(localPos); // Запускаем анимацию (скрипт FloatingText.ts уже запускает анимацию в методе start)
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "spine", [_dec2], {

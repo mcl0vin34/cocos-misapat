@@ -703,7 +703,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 10141.343899965286,
+      "mTimestamp": 77831793.08539999,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -3060,7 +3060,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts": {
       "mTimestamp": {
-        "mtime": 1731324399425.3633,
+        "mtime": 1731391312471.01,
         "uuid": "7af28cd9-1243-4a61-8d6e-4813c6a1cc7f"
       },
       "chunkId": "79c72aba458cf834a688d75835dd44c192702c7a",
@@ -3079,12 +3079,12 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 106
+              "line": 14,
+              "column": 7
             },
             "end": {
-              "line": 3,
-              "column": 110
+              "line": 14,
+              "column": 11
             }
           }
         },
@@ -3093,11 +3093,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 4,
+              "line": 15,
               "column": 30
             },
             "end": {
-              "line": 4,
+              "line": 15,
               "column": 59
             }
           }
@@ -3144,7 +3144,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts": {
       "mTimestamp": {
-        "mtime": 1731324400298.6433,
+        "mtime": 1731402255800.9685,
         "uuid": "a0c39559-ea3e-4d46-b4fa-731307a83181"
       },
       "chunkId": "6a9a1563b2cec67e273547f75ce5f37519f08765",
@@ -3689,7 +3689,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts": {
       "mTimestamp": {
-        "mtime": 1731324400294.4626,
+        "mtime": 1731401957568.8425,
         "uuid": "18bc3c94-b83d-4660-8e6b-25588625ca79"
       },
       "chunkId": "6b45feaa788566741d2e3e504e148d9f87013ea3",
@@ -3708,12 +3708,12 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 71
+              "line": 12,
+              "column": 7
             },
             "end": {
-              "line": 3,
-              "column": 75
+              "line": 12,
+              "column": 11
             }
           }
         },
@@ -3722,11 +3722,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 4,
+              "line": 13,
               "column": 30
             },
             "end": {
-              "line": 4,
+              "line": 13,
               "column": 47
             }
           }
@@ -4092,6 +4092,90 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GitHub/cocos-misapat/assets/scripts/GenerateLink.ts": {
+      "mTimestamp": {
+        "mtime": 1731400360497.1328,
+        "uuid": "b576bdad-66b9-4d12-bbde-4f7f54cc674a"
+      },
+      "chunkId": "ae7f9a4ae341b2552dbab46d7a2821a01c3b038a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./SocketManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts"
           },
           "messages": []
         }

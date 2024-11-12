@@ -5,8 +5,8 @@
       "polyfills": {
         "asyncFunctions": true
       },
-      "buildPath": "project://build",
-      "outputName": "web-mobile",
+      "buildPath": "",
+      "outputName": "",
       "mainBundleCompressionType": "merge_dep",
       "platform": "web-mobile",
       "scenes": [
@@ -15,7 +15,8 @@
           "uuid": "09136ac6-441e-4d95-b9ef-d60ba9e50594"
         }
       ],
-      "useSplashScreen": false
+      "useSplashScreen": false,
+      "debug": false
     },
     "taskOptionsMap": {
       "1729690251144": {
