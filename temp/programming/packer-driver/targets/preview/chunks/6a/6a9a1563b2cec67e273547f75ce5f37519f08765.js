@@ -80,8 +80,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
           // Ссылка на компонент модального окна
           this.socket = null;
-          this.userId = 124124124;
-          // Инициализируйте или получите динамически
+          this.userId = null;
+          // Инициализируем динамически
+          this.userData = null;
+          // Храним данные пользователя
           this.maxEnergy = 2000;
           // Максимальное значение энергии
           this.currentEnergy = 0;
@@ -130,12 +132,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             } else {
               console.warn("IncomeManager не найден в сцене.");
             }
-          }
+          } // Инициализируем пользователя
 
-          this.autoConnect();
-          this.showUserInfo(false); // Проверяем пассивный доход
 
-          this.checkPassiveIncome();
+          this.initializeUser();
+          this.showUserInfo(false);
         }
 
         onDestroy() {
@@ -149,7 +150,121 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           }
         }
         /**
-         * Автоматически подключается к серверу Socket.IO с фиксированным userId
+         * Инициализирует пользователя, получая данные из Telegram WebApp API или используя моковые данные
+         */
+
+
+        initializeUser() {
+          var _this = this;
+
+          return _asyncToGenerator(function* () {
+            try {
+              var _Telegram;
+
+              var tg = (_Telegram = window.Telegram) == null ? void 0 : _Telegram.WebApp;
+
+              if (tg) {
+                var _tg$initDataUnsafe;
+
+                console.log("Telegram WebApp доступен."); // Ждём, пока Telegram WebApp будет готов
+
+                yield new Promise(resolve => {
+                  tg.onEvent("webAppReady", () => {
+                    resolve();
+                  });
+                  tg.ready();
+                });
+
+                if ((_tg$initDataUnsafe = tg.initDataUnsafe) != null && (_tg$initDataUnsafe = _tg$initDataUnsafe.user) != null && _tg$initDataUnsafe.id) {
+                  var userData = {
+                    id: tg.initDataUnsafe.user.id,
+                    username: tg.initDataUnsafe.user.username,
+                    first_name: tg.initDataUnsafe.user.first_name,
+                    last_name: tg.initDataUnsafe.user.last_name || "",
+                    language_code: tg.initDataUnsafe.user.language_code || "",
+                    is_premium: tg.initDataUnsafe.user.is_premium || false,
+                    photo_url: tg.initDataUnsafe.user.photo_url || "",
+                    full_name: tg.initDataUnsafe.user.first_name + " " + (tg.initDataUnsafe.user.last_name || "")
+                  };
+                  console.log("Данные пользователя Telegram:", userData);
+                  _this.userId = userData.id;
+                  _this.userData = userData;
+                } else {
+                  console.warn("Данные пользователя не найдены в tg.initDataUnsafe.");
+
+                  _this.useMockData();
+                }
+              } else {
+                console.warn("Telegram WebApp недоступен. Используем моковые данные.");
+
+                _this.useMockData();
+              } // Продолжаем инициализацию
+
+
+              yield _this.createOrUpdateUser(_this.userData);
+              yield _this.fetchInitialData();
+
+              _this.autoConnect();
+
+              _this.showUserInfo(true);
+
+              _this.checkPassiveIncome();
+            } catch (error) {
+              console.error("Ошибка при инициализации пользователя:", error);
+            }
+          })();
+        }
+
+        useMockData() {
+          var userData = {
+            id: 230230230,
+            username: "230 bro's",
+            first_name: "madesta",
+            last_name: "",
+            language_code: "en",
+            is_premium: false,
+            photo_url: "",
+            full_name: "Test User"
+          };
+          this.userId = userData.id;
+          this.userData = userData;
+        }
+        /**
+         * Создает или обновляет пользователя на сервере
+         * @param userData Данные пользователя
+         */
+
+
+        createOrUpdateUser(userData) {
+          return _asyncToGenerator(function* () {
+            try {
+              var queryParams = new URLSearchParams({
+                id: userData.id.toString(),
+                username: userData.username || "",
+                first_name: userData.first_name || "",
+                last_name: userData.last_name || ""
+              });
+              var postResponse = yield fetch("https://dev.simatap.ru/api/users?" + queryParams.toString(), {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json"
+                },
+                body: JSON.stringify({})
+              });
+
+              if (!postResponse.ok) {
+                throw new Error("\u041E\u0448\u0438\u0431\u043A\u0430 \u043F\u0440\u0438 \u043E\u0442\u043F\u0440\u0430\u0432\u043A\u0435 POST \u0437\u0430\u043F\u0440\u043E\u0441\u0430: " + postResponse.statusText);
+              }
+
+              console.log("Пользователь успешно создан или обновлен.");
+              console.log("это версия артемия");
+            } catch (error) {
+              console.warn("Ошибка при создании или обновлении пользователя. Используем моковые данные.", error);
+            }
+          })();
+        }
+        /**
+         * Автоматически подключается к серверу Socket.IO с userId
          */
 
 
@@ -164,17 +279,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               this.socket.emit("register", {
                 userId: this.userId
               });
-              this.showUserInfo(true); // Получаем начальные данные
-
-              this.fetchInitialData();
+              this.showUserInfo(true);
             });
             this.socket.on("disconnect", () => {
               this.showMessage("Отключено от сервера.", "danger");
               this.showUserInfo(false);
             });
             this.socket.on("energyUpdated", data => {
-              console.log("Received energyUpdated event:", data);
-
               if (data.energy_left !== undefined) {
                 this.updateEnergy(Math.round(data.energy_left));
               } else {
@@ -190,11 +301,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               } else {
                 console.warn("boostsUpdated event received, but boosts_left is undefined.");
               }
-            }); // Обработчик события обновления монет (если сервер отправляет такое событие)
+            }); // Обработчик события обновления монет
 
             this.socket.on("coinsUpdated", data => {
-              console.log("Received coinsUpdated event:", data);
-
               if (data.coins !== undefined) {
                 this.updateCoins(Math.round(data.coins));
               } else {
@@ -230,17 +339,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             console.error("Socket connection error:", error);
           }
         }
-        /**
-         * Получает начальные данные с API и обновляет состояние
-         */
-
 
         fetchInitialData() {
-          var _this = this;
+          var _this2 = this;
 
           return _asyncToGenerator(function* () {
             try {
-              var response = yield fetch("https://dev.simatap.ru/api/users/" + _this.userId);
+              var response = yield fetch("https://dev.simatap.ru/api/users/" + _this2.userId);
 
               if (!response.ok) {
                 throw new Error("HTTP error! status: " + response.status);
@@ -250,7 +355,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               console.log("API response:", data); // Обновляем энергию
 
               if (data.energy_left !== undefined) {
-                _this.updateEnergy(Math.round(data.energy_left));
+                _this2.updateEnergy(Math.round(data.energy_left));
 
                 console.log("Initial energy fetched: " + Math.round(data.energy_left));
               } else {
@@ -259,23 +364,49 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
 
               if (data.boosts_left !== undefined) {
-                _this.updateBoosts(data.boosts_left);
+                _this2.updateBoosts(data.boosts_left);
 
                 console.log("Initial boosts fetched: " + data.boosts_left);
               } else {
                 console.warn("Boosts data not found in API response.");
-              } // Если в ответе есть поле с монетами, обновляем его
+              } // Получаем общее количество монет
 
+
+              yield _this2.fetchTotalCoins();
+            } catch (error) {
+              console.error("Error fetching initial data:", error);
+            }
+          })();
+        }
+        /**
+         * Получает общее количество монет пользователя
+         */
+
+
+        fetchTotalCoins() {
+          var _this3 = this;
+
+          return _asyncToGenerator(function* () {
+            try {
+              var response = yield fetch("https://dev.simatap.ru/api/totalCoins/" + _this3.userId);
+
+              if (!response.ok) {
+                throw new Error("HTTP error! status: " + response.status);
+              }
+
+              var data = yield response.json();
 
               if (data.coins !== undefined) {
-                _this.updateCoins(Math.round(data.coins));
+                _this3.updateCoins(Math.round(data.coins));
 
-                console.log("Initial coins fetched: " + Math.round(data.coins));
+                console.log("Total coins fetched: " + Math.round(data.coins));
               } else {
                 console.warn("Coins data not found in API response.");
               }
             } catch (error) {
-              console.error("Error fetching initial data:", error);
+              console.warn("Ошибка при получении количества монет. Используем значение по умолчанию 0.", error);
+
+              _this3.updateCoins(0);
             }
           })();
         }
@@ -300,22 +431,22 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
 
         checkPassiveIncome() {
-          var _this2 = this;
+          var _this4 = this;
 
           return _asyncToGenerator(function* () {
-            var income = yield _this2.fetchPassiveIncome();
+            var income = yield _this4.fetchPassiveIncome();
 
             if (income > 0) {
-              if (_this2.passiveIncomeModal) {
-                _this2.passiveIncomeModal.show(income);
+              if (_this4.passiveIncomeModal) {
+                _this4.passiveIncomeModal.show(income);
               } else {
                 console.warn("PassiveIncomeModal не назначен в SocketManager.");
               } // Обновляем количество монет
 
 
-              _this2.currentCoins += income;
+              _this4.currentCoins += income;
 
-              _this2.updateCoins(_this2.currentCoins);
+              _this4.updateCoins(_this4.currentCoins);
             }
           })();
         }
@@ -325,11 +456,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
 
         fetchPassiveIncome() {
-          var _this3 = this;
+          var _this5 = this;
 
           return _asyncToGenerator(function* () {
             try {
-              var response = yield fetch("https://dev.simatap.ru/api/passiveIncome?userId=" + _this3.userId);
+              var response = yield fetch("https://dev.simatap.ru/api/passiveIncome?userId=" + _this5.userId);
 
               if (!response.ok) {
                 var errorText = yield response.text();
@@ -380,7 +511,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         updateEnergy(currentEnergy) {
           currentEnergy = Math.round(Math.max(0, Math.min(this.maxEnergy, currentEnergy)));
           this.currentEnergy = currentEnergy;
-          console.log("Energy updated:", this.currentEnergy);
           var progress = currentEnergy / this.maxEnergy;
           this.energyProgressBar.progress = progress;
           this.energyValueLabel.string = currentEnergy + "/" + this.maxEnergy;
@@ -470,8 +600,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
 
         onTap() {
-          console.log("Current energy in onTap:", this.currentEnergy);
-
           if (!this.userId) {
             this.showMessage("Пользователь не подключен.", "danger");
             return;
@@ -513,15 +641,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               userId: this.userId
             }); // Дополнительные действия при изменении userId, если необходимо
           }
-        }
-        /**
-         * Инициализирует пользователя (например, после логина)
-         * @param id ID пользователя
-         */
-
-
-        initializeUser(id) {
-          this.setUserId(id); // Другие действия по инициализации пользователя
         }
 
       }, _class3._instance = null, _class3), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "coinsLabel", [_dec2], {

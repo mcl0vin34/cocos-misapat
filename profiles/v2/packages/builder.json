@@ -7,8 +7,8 @@
     "polyfills": {
       "asyncFunctions": true
     },
-    "buildPath": "project://build",
-    "outputName": "web-mobile",
+    "buildPath": "",
+    "outputName": "",
     "mainBundleCompressionType": "merge_dep",
     "platform": "web-mobile",
     "scenes": [
@@ -17,7 +17,8 @@
         "uuid": "09136ac6-441e-4d95-b9ef-d60ba9e50594"
       }
     ],
-    "useSplashScreen": false
+    "useSplashScreen": false,
+    "debug": false
   },
   "BuildTaskManager": {
     "taskMap": {
@@ -27,8 +28,8 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "28.10.2024 19:07:08 build success in 15 s!",
-        "detailMessage": "Output asset in bundles success, progress: 24%\r",
+        "message": "12.11.2024 10:44:19 build success in 10 s!",
+        "detailMessage": "// ---- build task Sort some build options to settings.json ----\r",
         "options": {
           "name": "simatap_frontend",
           "server": "",
@@ -68,7 +69,7 @@
           "bundleCommonChunk": false,
           "packAutoAtlas": true,
           "startScene": "09136ac6-441e-4d95-b9ef-d60ba9e50594",
-          "outputName": "web-mobile",
+          "outputName": "web-mobile-001",
           "taskName": "web-mobile",
           "scenes": [
             {
@@ -81,7 +82,7 @@
           "__version__": "1.3.8",
           "logDest": "project://temp/builder/log/web-mobile23.10.2024 18-30.log"
         },
-        "time": "28.10.2024 19:06:52",
+        "time": "12.11.2024 10:44:09",
         "dirty": false
       }
     }

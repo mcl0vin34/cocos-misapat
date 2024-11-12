@@ -3186,7 +3186,7 @@
       "uuid": "362cbfc0-2046-41fb-b332-910af78e035e"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts": {
-      "time": 1731324400308.491,
+      "time": 1731402040333.1963,
       "uuid": "153ad9e3-2931-4e72-a041-eb34f70e3dd4"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\animations\\lion": {
@@ -3554,7 +3554,7 @@
       "uuid": "dacc2c8d-b237-41cf-84c5-358eb8c1d839"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\ReferralLinkManager.ts": {
-      "time": 1731324400294.4626,
+      "time": 1731401957568.8425,
       "uuid": "18bc3c94-b83d-4660-8e6b-25588625ca79"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\socket.io-client.d.ts": {
@@ -3562,7 +3562,7 @@
       "uuid": "014f933d-00b2-434b-850a-8c7fa322108a"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\SocketManager.ts": {
-      "time": 1731324400298.6433,
+      "time": 1731402255800.9685,
       "uuid": "a0c39559-ea3e-4d46-b4fa-731307a83181"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\TabBarController.ts": {
@@ -3570,7 +3570,7 @@
       "uuid": "4049728d-2116-4cf7-a5b7-141fdcaf4ad1"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\animations\\lion\\SpineController.ts.ts": {
-      "time": 1731324399425.3633,
+      "time": 1731391312471.01,
       "uuid": "7af28cd9-1243-4a61-8d6e-4813c6a1cc7f"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\animations.meta": {
@@ -5007,6 +5007,11 @@
       "path": "D:\\simatap_frontend\\assets\\images\\UI\\плашка.png",
       "time": 1730114809823.4265,
       "removeTime": 1730114859312
+    },
+    "b576bdad-66b9-4d12-bbde-4f7f54cc674a": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\scripts\\GenerateLink.ts",
+      "time": 1731400360497.1328,
+      "removeTime": 1731402047365
     }
   }
 }
