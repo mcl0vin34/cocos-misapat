@@ -378,8 +378,8 @@
             "18bc3yUuD1GYI5rJViGJcp5",
             [
                 "node",
-                "generateLinkNode",
                 "copyLinkNode",
+                "inviteFriendNode",
                 "referralLinkLabel",
                 "copyNotificationLabel"
             ],
@@ -1295,7 +1295,7 @@
                     [
                         5,
                         1080,
-                        1920
+                        1920.0000000000002
                     ]
                 ],
                 [
@@ -2013,7 +2013,7 @@
         ],
         [
             4,
-            "GenerateLinkNode",
+            "InviteFriendNode",
             33554432,
             2,
             [
@@ -3666,8 +3666,8 @@
                 [
                     64,
                     -275,
-                    20,
                     29,
+                    20,
                     -274,
                     -273
                 ]
@@ -4389,7 +4389,7 @@
         [
             42,
             0,
-            960,
+            960.0000000000001,
             0,
             2000,
             1108344832,

@@ -1,23 +1,9 @@
-// assets/scripts/Referral/ReferralLinkManager.ts
-
-import {
-  _decorator,
-  Component,
-  Node,
-  Label,
-  Vec3,
-  Color,
-  tween,
-  sys,
-} from "cc";
+import { _decorator, Component, Node, Label, Vec3, Color, tween } from "cc";
 import { SocketManager } from "./SocketManager";
 const { ccclass, property } = _decorator;
 
 @ccclass("ReferralLinkManager")
 export class ReferralLinkManager extends Component {
-  @property(Node)
-  generateLinkNode: Node = null;
-
   @property(Node)
   copyLinkNode: Node = null;
 
@@ -79,27 +65,14 @@ export class ReferralLinkManager extends Component {
       this.copyNotificationLabel.node.active = false;
       this.initialPosition = this.copyNotificationLabel.node.position.clone();
     }
-
-    if (this.generateLinkNode) {
-      this.generateLinkNode.on(
-        Node.EventType.TOUCH_END,
-        this.onGenerateLinkClicked,
-        this
-      );
-    }
   }
 
   generateReferralLink() {
-    if (!SocketManager.instance) {
-      console.error("SocketManager не инициализирован.");
-      return;
-    }
-
-    const userId = SocketManager.instance.getUserId();
+    const userId = SocketManager.instance?.getUserId() || 230230230; // Используйте реальный userId или моковые данные
     console.log("User ID:", userId);
 
     if (!userId) {
-      console.error("userId не установлен в SocketManager.");
+      console.error("userId не установлен.");
       return;
     }
 
@@ -108,11 +81,6 @@ export class ReferralLinkManager extends Component {
       this.referralLinkLabel.string = this.referralLink;
     }
     console.log(`Реферальная ссылка создана: ${this.referralLink}`);
-  }
-
-  onGenerateLinkClicked() {
-    console.log("onGenerateLinkClicked called");
-    this.generateReferralLink();
   }
 
   async onCopyLinkClicked() {
@@ -159,15 +127,22 @@ export class ReferralLinkManager extends Component {
       console.warn("Реферальная ссылка не создана.");
       return;
     }
-    console.log("Открываем ссылку:", this.referralLink);
+
+    const shareReferralLinkText = "Тапай и зарабатывай!";
+    const shareUrl = `https://t.me/share/url?url=${encodeURIComponent(
+      this.referralLink
+    )}&text=${encodeURIComponent(shareReferralLinkText)}`;
 
     const tg = (window as any).Telegram?.WebApp;
     if (tg && tg.openTelegramLink) {
       console.log("Используем tg.openTelegramLink для открытия ссылки");
-      tg.openTelegramLink(this.referralLink);
+      tg.openTelegramLink(shareUrl);
     } else {
-      console.log("Используем sys.openURL для открытия ссылки");
-      sys.openURL(this.referralLink);
+      console.warn(
+        "Не удалось открыть Telegram для совместного использования."
+      );
+      // Попробуем открыть ссылку в браузере
+      window.open(shareUrl, "_blank");
     }
   }
 }
