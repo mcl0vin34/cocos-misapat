@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Label, Vec3, Color, tween, sys, SocketManager, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _crd, ccclass, property, ReferralLinkManager;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Label, Vec3, Color, tween, SocketManager, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, ReferralLinkManager;
 
   function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -31,42 +31,38 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Vec3 = _cc.Vec3;
       Color = _cc.Color;
       tween = _cc.tween;
-      sys = _cc.sys;
     }, function (_unresolved_2) {
       SocketManager = _unresolved_2.SocketManager;
     }],
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "18bc3yUuD1GYI5rJViGJcp5", "ReferralLinkManager", undefined); // assets/scripts/Referral/ReferralLinkManager.ts
+      _cclegacy._RF.push({}, "18bc3yUuD1GYI5rJViGJcp5", "ReferralLinkManager", undefined);
 
-
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'Label', 'Vec3', 'Color', 'tween', 'sys']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'Label', 'Vec3', 'Color', 'tween']);
 
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("ReferralLinkManager", ReferralLinkManager = (_dec = ccclass("ReferralLinkManager"), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Label), _dec6 = property(Label), _dec(_class = (_class2 = class ReferralLinkManager extends Component {
+      _export("ReferralLinkManager", ReferralLinkManager = (_dec = ccclass("ReferralLinkManager"), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Label), _dec5 = property(Label), _dec(_class = (_class2 = class ReferralLinkManager extends Component {
         constructor() {
           super(...arguments);
 
-          _initializerDefineProperty(this, "generateLinkNode", _descriptor, this);
+          _initializerDefineProperty(this, "copyLinkNode", _descriptor, this);
 
-          _initializerDefineProperty(this, "copyLinkNode", _descriptor2, this);
+          _initializerDefineProperty(this, "inviteFriendNode", _descriptor2, this);
 
-          _initializerDefineProperty(this, "inviteFriendNode", _descriptor3, this);
+          _initializerDefineProperty(this, "referralLinkLabel", _descriptor3, this);
 
-          _initializerDefineProperty(this, "referralLinkLabel", _descriptor4, this);
-
-          _initializerDefineProperty(this, "copyNotificationLabel", _descriptor5, this);
+          _initializerDefineProperty(this, "copyNotificationLabel", _descriptor4, this);
 
           this.referralLink = "";
 
-          _initializerDefineProperty(this, "animationDuration", _descriptor6, this);
+          _initializerDefineProperty(this, "animationDuration", _descriptor5, this);
 
-          _initializerDefineProperty(this, "moveUpDistance", _descriptor7, this);
+          _initializerDefineProperty(this, "moveUpDistance", _descriptor6, this);
 
           this.initialPosition = new Vec3();
         }
@@ -104,27 +100,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             this.copyNotificationLabel.node.active = false;
             this.initialPosition = this.copyNotificationLabel.node.position.clone();
           }
-
-          if (this.generateLinkNode) {
-            this.generateLinkNode.on(Node.EventType.TOUCH_END, this.onGenerateLinkClicked, this);
-          }
         }
 
         generateReferralLink() {
-          if (!(_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
-            error: Error()
-          }), SocketManager) : SocketManager).instance) {
-            console.error("SocketManager не инициализирован.");
-            return;
-          }
+          var _instance;
 
-          var userId = (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+          var userId = ((_instance = (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
             error: Error()
-          }), SocketManager) : SocketManager).instance.getUserId();
+          }), SocketManager) : SocketManager).instance) == null ? void 0 : _instance.getUserId()) || 230230230; // Используйте реальный userId или моковые данные
+
           console.log("User ID:", userId);
 
           if (!userId) {
-            console.error("userId не установлен в SocketManager.");
+            console.error("userId не установлен.");
             return;
           }
 
@@ -135,11 +123,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }
 
           console.log("\u0420\u0435\u0444\u0435\u0440\u0430\u043B\u044C\u043D\u0430\u044F \u0441\u0441\u044B\u043B\u043A\u0430 \u0441\u043E\u0437\u0434\u0430\u043D\u0430: " + this.referralLink);
-        }
-
-        onGenerateLinkClicked() {
-          console.log("onGenerateLinkClicked called");
-          this.generateReferralLink();
         }
 
         onCopyLinkClicked() {
@@ -191,61 +174,56 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             return;
           }
 
-          console.log("Открываем ссылку:", this.referralLink);
+          var shareReferralLinkText = "Тапай и зарабатывай!";
+          var shareUrl = "https://t.me/share/url?url=" + encodeURIComponent(this.referralLink) + "&text=" + encodeURIComponent(shareReferralLinkText);
           var tg = (_Telegram = window.Telegram) == null ? void 0 : _Telegram.WebApp;
 
           if (tg && tg.openTelegramLink) {
             console.log("Используем tg.openTelegramLink для открытия ссылки");
-            tg.openTelegramLink(this.referralLink);
+            tg.openTelegramLink(shareUrl);
           } else {
-            console.log("Используем sys.openURL для открытия ссылки");
-            sys.openURL(this.referralLink);
+            console.warn("Не удалось открыть Telegram для совместного использования."); // Попробуем открыть ссылку в браузере
+
+            window.open(shareUrl, "_blank");
           }
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "generateLinkNode", [_dec2], {
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "copyLinkNode", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "copyLinkNode", [_dec3], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "inviteFriendNode", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "inviteFriendNode", [_dec4], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "referralLinkLabel", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "referralLinkLabel", [_dec5], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "copyNotificationLabel", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "copyNotificationLabel", [_dec6], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "animationDuration", [property], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "animationDuration", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return 1.5;
         }
-      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "moveUpDistance", [property], {
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "moveUpDistance", [property], {
         configurable: true,
         enumerable: true,
         writable: true,

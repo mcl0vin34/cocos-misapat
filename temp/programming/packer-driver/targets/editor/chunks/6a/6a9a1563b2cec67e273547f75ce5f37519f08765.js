@@ -37,14 +37,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "a0c39VZ6j5NRrT6cxMHqDGB", "SocketManager", undefined); // assets/scripts/SocketManager.ts
+      _cclegacy._RF.push({}, "a0c39VZ6j5NRrT6cxMHqDGB", "SocketManager", undefined); // cocos-project/assets/scripts/SocketManager.ts
 
 
-      __checkObsolete__(['_decorator', 'Component', 'Label', 'Color', 'ProgressBar', 'Node']); // Убедитесь, что путь корректный
+      __checkObsolete__(['_decorator', 'Component', 'Label', 'Color', 'ProgressBar', 'Node']);
 
-
-      // Импортируем модальное окно пассивного дохода
-      // Глобальная переменная для socket.io
       ({
         ccclass,
         property
@@ -68,30 +65,20 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
           _initializerDefineProperty(this, "boostsLabel", _descriptor5, this);
 
-          // Свойство для отображения количества бустов
           _initializerDefineProperty(this, "incomeManager", _descriptor6, this);
 
-          // Ссылка на IncomeManager
           _initializerDefineProperty(this, "passiveIncomeModal", _descriptor7, this);
 
-          // Ссылка на компонент модального окна
           this.socket = null;
           this.userId = null;
-          // Инициализируем динамически
           this.userData = null;
-          // Храним данные пользователя
           this.maxEnergy = 2000;
-          // Максимальное значение энергии
           this.currentEnergy = 0;
-          // Текущее значение энергии
           this.currentBoosts = 0;
-          // Текущее количество бустов
           this.maxBoosts = 6;
-          // Максимальное количество бустов
           this.currentCoins = 0;
         }
 
-        // Геттер для доступа к экземпляру Singleton
         static get instance() {
           if (!SocketManager._instance) {
             console.error("SocketManager не инициализирован. Убедитесь, что он добавлен на ноду в сцене.");
@@ -100,7 +87,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           return SocketManager._instance;
         }
 
-        // Текущее количество монет
         onLoad() {
           if (SocketManager._instance && SocketManager._instance !== this) {
             console.warn("SocketManager уже существует. Удаление дубликата.");
@@ -115,11 +101,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           if (!this.coinsLabel || !this.energyProgressBar || !this.energyValueLabel || !this.messagesLabel || !this.boostsLabel) {
             console.error("Не все необходимые компоненты назначены в SocketManager.");
             return;
-          } // Если incomeManager не установлен в инспекторе, пытаемся найти его в сцене
-
+          }
 
           if (!this.incomeManager) {
-            const incomeManagerNode = this.node.scene.getChildByName("IncomeManagerNode"); // Замените на реальное имя узла
+            const incomeManagerNode = this.node.scene.getChildByName("IncomeManagerNode");
 
             if (incomeManagerNode) {
               this.incomeManager = incomeManagerNode.getComponent(_crd && IncomeManager === void 0 ? (_reportPossibleCrUseOfIncomeManager({
@@ -128,8 +113,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             } else {
               console.warn("IncomeManager не найден в сцене.");
             }
-          } // Инициализируем пользователя
-
+          }
 
           this.initializeUser();
           this.showUserInfo(false);
@@ -138,12 +122,37 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         onDestroy() {
           if (this.socket) {
             this.socket.disconnect();
-          } // Очистка экземпляра Singleton при уничтожении
-
+          }
 
           if (SocketManager._instance === this) {
             SocketManager._instance = null;
           }
+        }
+        /**
+         * Динамически загружает Telegram Web Apps SDK
+         */
+
+
+        loadTelegramSDK() {
+          return new Promise((resolve, reject) => {
+            if (window.Telegram) {
+              resolve();
+              return;
+            }
+
+            const script = document.createElement("script");
+            script.src = "https://telegram.org/js/telegram-web-app.js";
+
+            script.onload = () => {
+              resolve();
+            };
+
+            script.onerror = () => {
+              reject(new Error("Не удалось загрузить Telegram Web Apps SDK."));
+            };
+
+            document.head.appendChild(script);
+          });
         }
         /**
          * Инициализирует пользователя, получая данные из Telegram WebApp API или используя моковые данные
@@ -152,21 +161,22 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
         async initializeUser() {
           try {
-            var _Telegram;
+            var _Telegram, _tg$initDataUnsafe2;
 
+            await this.loadTelegramSDK();
             const tg = (_Telegram = window.Telegram) == null ? void 0 : _Telegram.WebApp;
 
             if (tg) {
               var _tg$initDataUnsafe;
 
-              console.log("Telegram WebApp доступен."); // Ждём, пока Telegram WebApp будет готов
+              console.log("Telegram WebApp API доступен");
+              console.log(tg.initDataUnsafe); // Ждём, пока Telegram WebApp будет готов
 
               await new Promise(resolve => {
-                tg.onEvent("webAppReady", () => {
-                  resolve();
-                });
                 tg.ready();
+                resolve();
               });
+              console.log("tg.initDataUnsafe после готовности:", tg.initDataUnsafe);
 
               if ((_tg$initDataUnsafe = tg.initDataUnsafe) != null && (_tg$initDataUnsafe = _tg$initDataUnsafe.user) != null && _tg$initDataUnsafe.id) {
                 const userData = {
@@ -196,7 +206,43 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             await this.fetchInitialData();
             this.autoConnect();
             this.showUserInfo(true);
-            this.checkPassiveIncome();
+            this.checkPassiveIncome(); // Обработка реферальных параметров
+
+            if (tg && (_tg$initDataUnsafe2 = tg.initDataUnsafe) != null && _tg$initDataUnsafe2.start_param) {
+              const startParam = tg.initDataUnsafe.start_param;
+              console.log("start_param:", startParam);
+
+              if (startParam.startsWith("refId")) {
+                const referrerId = startParam.replace("refId", "");
+                const referralId = this.userId;
+
+                if (referralId && referrerId && referralId.toString() !== referrerId) {
+                  try {
+                    const response = await fetch(`https://dev.simatap.ru/api/referrals?referrer_id=${referrerId}&referral_id=${referralId}`, {
+                      method: "POST",
+                      headers: {
+                        "Content-Type": "application/json"
+                      },
+                      body: JSON.stringify({})
+                    });
+
+                    if (response.ok) {
+                      console.log("Реферал успешно зарегистрирован.");
+                    } else {
+                      const data = await response.json();
+
+                      if (data.message === "Такая запись о реферале уже существует") {
+                        console.log("Реферал уже существует.");
+                      } else {
+                        console.error("Ошибка при регистрации реферала:", data.message);
+                      }
+                    }
+                  } catch (error) {
+                    console.error("Ошибка при регистрации реферала:", error);
+                  }
+                }
+              }
+            }
           } catch (error) {
             console.error("Ошибка при инициализации пользователя:", error);
           }
@@ -243,9 +289,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             }
 
             console.log("Пользователь успешно создан или обновлен.");
-            console.log("это версия артемия");
           } catch (error) {
-            console.warn("Ошибка при создании или обновлении пользователя. Используем моковые данные.", error);
+            console.warn("Ошибка при создании или обновлении пользователя.", error);
           }
         }
         /**
@@ -294,8 +339,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               } else {
                 console.warn("coinsUpdated event received, but coins is undefined.");
               }
-            }); // Остальные обработчики событий
-
+            });
             this.socket.on("tapError", data => {
               this.showMessage(data.message, "warning");
             });
@@ -308,16 +352,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             }); // Обработчик ответа на активацию буста
 
             this.socket.on("boostActivated", data => {
-              console.log("Boost activation response:", data); // Обновляем энергию, если сервер вернул новое значение
+              console.log("Boost activation response:", data);
 
               if (data.newEnergyValue !== undefined) {
                 this.updateEnergy(Math.round(data.newEnergyValue));
-              } // Обновление количества бустов будет обработано через событие 'boostsUpdated'
-
+              }
             }); // Обработчик ошибки при активации буста
 
             this.socket.on("boostError", data => {
-              console.error("Ошибка активации буста:", data.message); // Ошибки при активации буста будут обработаны в BoostController
+              console.error("Ошибка активации буста:", data.message);
             });
           } catch (error) {
             this.showMessage("Ошибка подключения к серверу.", "danger");
@@ -334,23 +377,21 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             }
 
             const data = await response.json();
-            console.log("API response:", data); // Обновляем энергию
+            console.log("API response:", data);
 
             if (data.energy_left !== undefined) {
               this.updateEnergy(Math.round(data.energy_left));
               console.log(`Initial energy fetched: ${Math.round(data.energy_left)}`);
             } else {
               console.warn("Energy data not found in API response.");
-            } // Обновляем количество бустов
-
+            }
 
             if (data.boosts_left !== undefined) {
               this.updateBoosts(data.boosts_left);
               console.log(`Initial boosts fetched: ${data.boosts_left}`);
             } else {
               console.warn("Boosts data not found in API response.");
-            } // Получаем общее количество монет
-
+            }
 
             await this.fetchTotalCoins();
           } catch (error) {
@@ -411,8 +452,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               this.passiveIncomeModal.show(income);
             } else {
               console.warn("PassiveIncomeModal не назначен в SocketManager.");
-            } // Обновляем количество монет
-
+            }
 
             this.currentCoins += income;
             this.updateCoins(this.currentCoins);
@@ -599,7 +639,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           if (this.socket && this.socket.connected) {
             this.socket.emit("register", {
               userId: this.userId
-            }); // Дополнительные действия при изменении userId, если необходимо
+            });
           }
         }
 

@@ -21,6 +21,7 @@
       "0_0_2_4_0",
       "0_0_2_4_1",
       "0_0_2_4_1_0",
+      "0_0_2_5",
       "0_0_3",
       "0_0_4_2_0",
       "0_0_4_2_0_0",
@@ -36,6 +37,13 @@
   },
   "1df08850-b52e-4cf7-b6c4-bc1ae01f7bf9": {
     "assetUuid": "1df08850-b52e-4cf7-b6c4-bc1ae01f7bf9",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "993cbeff-d65f-4d52-b0cb-e7fd92428edd": {
+    "assetUuid": "993cbeff-d65f-4d52-b0cb-e7fd92428edd",
     "animationUuid": "",
     "expandLevels": [
       "0"

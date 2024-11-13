@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5993.1675000190735,
+      "mTimestamp": 6808.381399989128,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 77831935.36500001,
+      "mTimestamp": 11419072.859499991,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -858,7 +858,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1731324427694,
+      "mTimestamp": 1731411747276,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1710,7 +1710,7 @@
       ]
     },
     "cce:/internal/ml/cjs-loader.mjs": {
-      "mTimestamp": 1731324427694,
+      "mTimestamp": 1731411747276,
       "chunkId": "a0d063530de23ddade53e1a935bf64c81277c061",
       "imports": [],
       "type": "esm",
@@ -2850,7 +2850,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts": {
       "mTimestamp": {
-        "mtime": 1731402255800.9685,
+        "mtime": 1731423162508.3523,
         "uuid": "a0c39559-ea3e-4d46-b4fa-731307a83181"
       },
       "chunkId": "6a9a1563b2cec67e273547f75ce5f37519f08765",
@@ -3395,7 +3395,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts": {
       "mTimestamp": {
-        "mtime": 1731401957568.8425,
+        "mtime": 1731412289187.8777,
         "uuid": "18bc3c94-b83d-4660-8e6b-25588625ca79"
       },
       "chunkId": "6b45feaa788566741d2e3e504e148d9f87013ea3",
@@ -3414,12 +3414,12 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 12,
-              "column": 7
+              "line": 1,
+              "column": 71
             },
             "end": {
-              "line": 12,
-              "column": 11
+              "line": 1,
+              "column": 75
             }
           }
         },
@@ -3428,11 +3428,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 13,
+              "line": 2,
               "column": 30
             },
             "end": {
-              "line": 13,
+              "line": 2,
               "column": 47
             }
           }
