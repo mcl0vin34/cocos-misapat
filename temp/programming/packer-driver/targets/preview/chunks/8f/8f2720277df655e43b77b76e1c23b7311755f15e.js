@@ -58,8 +58,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "totalFriendsLabel", _descriptor3, this);
 
           _initializerDefineProperty(this, "apiBaseUrl", _descriptor4, this);
+
+          this.hasFetchedFriends = false;
         }
 
+        // Флаг, чтобы избежать повторных вызовов
         start() {
           // Убедитесь, что SocketManager инициализирован
           if (!(_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
@@ -68,9 +71,39 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             console.error("SocketManager не инициализирован.");
             this.totalFriendsLabel.string = "Ошибка инициализации.";
             return;
-          }
+          } // Подпишитесь на событие завершения инициализации пользователя
 
-          this.fetchFriends();
+
+          (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance.on("userInitialized", this.onUserInitialized, this); // Дополнительная проверка на случай, если пользователь уже инициализирован
+
+          var userId = (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance.getUserId();
+
+          if (userId) {
+            this.fetchFriends();
+            this.hasFetchedFriends = true;
+          }
+        }
+
+        onDestroy() {
+          // Отписка от события при уничтожении компонента
+          if ((_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+            error: Error()
+          }), SocketManager) : SocketManager).instance) {
+            (_crd && SocketManager === void 0 ? (_reportPossibleCrUseOfSocketManager({
+              error: Error()
+            }), SocketManager) : SocketManager).instance.off("userInitialized", this.onUserInitialized, this);
+          }
+        }
+
+        onUserInitialized() {
+          if (!this.hasFetchedFriends) {
+            this.fetchFriends();
+            this.hasFetchedFriends = true;
+          }
         }
 
         fetchFriends() {

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6761.184099972248,
+      "mTimestamp": 7632.31719994545,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -703,7 +703,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 11418936.048999965,
+      "mTimestamp": 24786836.632200003,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -819,7 +819,7 @@
           }
         },
         {
-          "value": "file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts",
+          "value": "file:///C:/GitHub/cocos-misapat/assets/scripts/LoadingScreen.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -828,73 +828,87 @@
             },
             "end": {
               "line": 5,
-              "column": 745
+              "column": 740
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 756
+            },
+            "end": {
+              "line": 5,
+              "column": 826
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GitHub/cocos-misapat/assets/scripts/ProfileModal.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 842
+            },
+            "end": {
+              "line": 5,
+              "column": 906
             }
           }
         },
         {
           "value": "file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 761
+              "column": 922
             },
             "end": {
               "line": 5,
-              "column": 832
+              "column": 993
             }
           }
         },
         {
           "value": "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 848
+              "column": 1009
             },
             "end": {
               "line": 5,
-              "column": 913
+              "column": 1074
             }
           }
         },
         {
           "value": "file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts",
-          "resolved": "__unresolved_11",
+          "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 929
+              "column": 1090
             },
             "end": {
               "line": 5,
-              "column": 997
+              "column": 1158
             }
           }
         },
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1013
-            },
-            "end": {
-              "line": 5,
-              "column": 1161
-            }
-          }
-        },
-        {
-          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
-          "resolved": "__unresolved_13",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 1177
+              "column": 1174
             },
             "end": {
               "line": 5,
@@ -903,8 +917,8 @@
           }
         },
         {
-          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
-          "resolved": "__unresolved_14",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
@@ -912,21 +926,35 @@
             },
             "end": {
               "line": 5,
-              "column": 1477
+              "column": 1483
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1499
+            },
+            "end": {
+              "line": 5,
+              "column": 1638
             }
           }
         },
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1493
+              "column": 1654
             },
             "end": {
               "line": 5,
-              "column": 1625
+              "column": 1786
             }
           }
         }
@@ -992,7 +1020,21 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/LoadingScreen.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/ProfileModal.ts"
           },
           "messages": []
         },
@@ -1152,7 +1194,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1731411747276,
+      "mTimestamp": 1731641579530,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2004,7 +2046,7 @@
       ]
     },
     "cce:/internal/ml/cjs-loader.mjs": {
-      "mTimestamp": 1731411747276,
+      "mTimestamp": 1731641579530,
       "chunkId": "a0d063530de23ddade53e1a935bf64c81277c061",
       "imports": [],
       "type": "esm",
@@ -3144,7 +3186,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts": {
       "mTimestamp": {
-        "mtime": 1731423162508.3523,
+        "mtime": 1731647394652.3801,
         "uuid": "a0c39559-ea3e-4d46-b4fa-731307a83181"
       },
       "chunkId": "6a9a1563b2cec67e273547f75ce5f37519f08765",
@@ -3163,12 +3205,12 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 71
+              "line": 11,
+              "column": 7
             },
             "end": {
-              "line": 3,
-              "column": 75
+              "line": 11,
+              "column": 11
             }
           }
         },
@@ -3177,11 +3219,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 4,
+              "line": 12,
               "column": 30
             },
             "end": {
-              "line": 4,
+              "line": 12,
               "column": 47
             }
           }
@@ -3191,11 +3233,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 5,
+              "line": 13,
               "column": 35
             },
             "end": {
-              "line": 5,
+              "line": 13,
               "column": 57
             }
           }
@@ -3521,7 +3563,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts": {
       "mTimestamp": {
-        "mtime": 1731324400277.7341,
+        "mtime": 1731647394094.4421,
         "uuid": "829ceed1-6209-4f57-a926-405fd66e66e6"
       },
       "chunkId": "8f2720277df655e43b77b76e1c23b7311755f15e",
@@ -3773,7 +3815,7 @@
     },
     "file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts": {
       "mTimestamp": {
-        "mtime": 1731324400303.3306,
+        "mtime": 1731647845475.242,
         "uuid": "4049728d-2116-4cf7-a5b7-141fdcaf4ad1"
       },
       "chunkId": "598f094d3f5bfbbab73e85943bab94c1281ac0ca",
@@ -3788,12 +3830,12 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 82
+              "line": 12,
+              "column": 7
             },
             "end": {
-              "line": 3,
-              "column": 86
+              "line": 12,
+              "column": 11
             }
           }
         }
@@ -4176,6 +4218,110 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GitHub/cocos-misapat/assets/scripts/LoadingScreen.ts": {
+      "mTimestamp": {
+        "mtime": 1731656946458.089,
+        "uuid": "97f03bba-f747-45e4-aa29-a9d5ddfd21c9"
+      },
+      "chunkId": "0f41842eafdf8dfd0387acd0a3d157716944f917",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 48
+            },
+            "end": {
+              "line": 1,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GitHub/cocos-misapat/assets/scripts/ProfileModal.ts": {
+      "mTimestamp": {
+        "mtime": 1731666364162.1204,
+        "uuid": "bc556645-467a-4c9d-822f-194a75287031"
+      },
+      "chunkId": "fd04271f5613b91adc60dfdb428c950cfdee6701",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }

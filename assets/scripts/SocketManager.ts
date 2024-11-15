@@ -1,6 +1,14 @@
-// cocos-project/assets/scripts/SocketManager.ts
+// assets/scripts/SocketManager.ts
 
-import { _decorator, Component, Label, Color, ProgressBar, Node } from "cc";
+import {
+  _decorator,
+  Component,
+  Label,
+  Color,
+  ProgressBar,
+  Node,
+  EventTarget,
+} from "cc";
 import { IncomeManager } from "./IncomeManager";
 import { PassiveIncomeModal } from "./PassiveIncomeModal";
 declare const io: any;
@@ -49,6 +57,19 @@ export class SocketManager extends Component {
   private currentBoosts: number = 0;
   private maxBoosts: number = 6;
   private currentCoins: number = 0;
+
+  // Добавление EventTarget для управления событиями
+  private eventTarget: EventTarget = new EventTarget();
+
+  // Метод для подписки на события
+  public on(event: string, callback: Function, target?: any) {
+    this.eventTarget.on(event, callback, target);
+  }
+
+  // Метод для отписки от событий
+  public off(event: string, callback: Function, target?: any) {
+    this.eventTarget.off(event, callback, target);
+  }
 
   onLoad() {
     if (SocketManager._instance && SocketManager._instance !== this) {
@@ -138,6 +159,18 @@ export class SocketManager extends Component {
 
         console.log("tg.initDataUnsafe после готовности:", tg.initDataUnsafe);
 
+        // Применяем настройки Telegram WebApp
+        tg.expand?.();
+        tg.disableVerticalSwipes?.();
+        tg.isVerticalSwipesEnabled = false;
+        tg.setBackgroundColor?.("#272727");
+
+        if (tg?.web_app_setup_swipe_behavior) {
+          tg.web_app_setup_swipe_behavior({
+            allow_vertical_swipe: false,
+          });
+        }
+
         if (tg.initDataUnsafe?.user?.id) {
           const userData = {
             id: tg.initDataUnsafe.user.id,
@@ -170,7 +203,7 @@ export class SocketManager extends Component {
       await this.fetchInitialData();
       this.autoConnect();
       this.showUserInfo(true);
-      this.checkPassiveIncome();
+      await this.checkPassiveIncome(); // Добавлено для немедленной проверки пассивного дохода
 
       // Обработка реферальных параметров
       if (tg && tg.initDataUnsafe?.start_param) {
@@ -217,6 +250,9 @@ export class SocketManager extends Component {
           }
         }
       }
+
+      // Эмитируем событие завершения инициализации пользователя
+      this.eventTarget.emit("userInitialized");
     } catch (error) {
       console.error("Ошибка при инициализации пользователя:", error);
     }
@@ -224,8 +260,8 @@ export class SocketManager extends Component {
 
   private useMockData() {
     const userData = {
-      id: 230230230,
-      username: "230 bro's",
+      id: 422840434,
+      username: "ceo bro's",
       first_name: "madesta",
       last_name: "",
       language_code: "en",
@@ -235,6 +271,9 @@ export class SocketManager extends Component {
     };
     this.userId = userData.id;
     this.userData = userData;
+    console.log(`Mock user data set. User ID: ${this.userId}`);
+    // Эмитируем событие при использовании моковых данных
+    this.eventTarget.emit("userInitialized");
   }
 
   /**
@@ -273,9 +312,6 @@ export class SocketManager extends Component {
     }
   }
 
-  /**
-   * Автоматически подключается к серверу Socket.IO с userId
-   */
   autoConnect() {
     try {
       this.socket = io("https://dev.simatap.ru", {
@@ -443,6 +479,11 @@ export class SocketManager extends Component {
 
       this.currentCoins += income;
       this.updateCoins(this.currentCoins);
+    } else {
+      // Если вы хотите открывать окно даже при нулевом доходе, раскомментируйте ниже
+      // if (this.passiveIncomeModal) {
+      //   this.passiveIncomeModal.show(0); // Или другой параметр по вашему усмотрению
+      // }
     }
   }
 
@@ -583,7 +624,7 @@ export class SocketManager extends Component {
   /**
    * Обработчик события "tap"
    */
-  onTap() {
+  async onTap() {
     if (!this.userId) {
       this.showMessage("Пользователь не подключен.", "danger");
       return;
@@ -595,6 +636,9 @@ export class SocketManager extends Component {
     if (this.socket && this.socket.connected) {
       this.socket.emit("tap", { userId: this.userId });
       this.showMessage("Тап отправлен!", "info");
+
+      // Добавляем вибрацию при клике
+      this.triggerHapticFeedback();
     } else {
       this.showMessage("Соединение с сервером отсутствует.", "danger");
     }
@@ -615,6 +659,18 @@ export class SocketManager extends Component {
     this.userId = id;
     if (this.socket && this.socket.connected) {
       this.socket.emit("register", { userId: this.userId });
+    }
+  }
+
+  /**
+   * Инициирует вибрацию через Telegram WebApp
+   */
+  private triggerHapticFeedback() {
+    const tg = (window as any).Telegram?.WebApp;
+    if (tg && tg.HapticFeedback) {
+      tg.HapticFeedback.impactOccurred("medium");
+    } else {
+      console.warn("HapticFeedback API недоступен.");
     }
   }
 }

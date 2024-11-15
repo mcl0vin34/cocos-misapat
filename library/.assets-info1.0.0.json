@@ -3186,23 +3186,23 @@
       "uuid": "362cbfc0-2046-41fb-b332-910af78e035e"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts": {
-      "time": 1731402040333.1963,
+      "time": 1731666201085.5862,
       "uuid": "153ad9e3-2931-4e72-a041-eb34f70e3dd4"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\animations\\lion": {
-      "time": 1731324399480.186,
+      "time": 1731656079728.3298,
       "uuid": "0314a2a5-358a-46d9-89ba-f8d8637af000"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds": {
-      "time": 1731324399564.7842,
+      "time": 1731660055327.141,
       "uuid": "168f3143-e65b-4e13-ba5f-af4cb9d2fcc0"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\images\\icons": {
-      "time": 1731324399611.3796,
+      "time": 1731667059959.1626,
       "uuid": "4324c8b2-bd79-4455-a201-123120d8822c"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\images\\UI": {
-      "time": 1731324399549.785,
+      "time": 1731664200119.382,
       "uuid": "9dadb039-0915-46d2-9e00-fcb24eebb3ad"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\internal\\import": {
@@ -3538,7 +3538,7 @@
       "uuid": "bd2af57a-1a37-448a-8189-e926fe6a9c38"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\FriendsPage.ts": {
-      "time": 1731324400277.7341,
+      "time": 1731647394094.4421,
       "uuid": "829ceed1-6209-4f57-a926-405fd66e66e6"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\IncomeManager.ts": {
@@ -3562,11 +3562,11 @@
       "uuid": "014f933d-00b2-434b-850a-8c7fa322108a"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\SocketManager.ts": {
-      "time": 1731423162508.3523,
+      "time": 1731647394652.3801,
       "uuid": "a0c39559-ea3e-4d46-b4fa-731307a83181"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\scripts\\TabBarController.ts": {
-      "time": 1731324400303.3306,
+      "time": 1731647845475.242,
       "uuid": "4049728d-2116-4cf7-a5b7-141fdcaf4ad1"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\animations\\lion\\SpineController.ts.ts": {
@@ -3880,7 +3880,7 @@
       "time": 1731324399427.3606
     },
     "C:\\GitHub\\cocos-misapat\\assets\\MainScene.scene": {
-      "time": 1731410644041.957,
+      "time": 1731674361975.301,
       "uuid": "09136ac6-441e-4d95-b9ef-d60ba9e50594"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\internal\\config.json": {
@@ -3930,10 +3930,6 @@
     "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\background2.webp": {
       "time": 1731324399561.785,
       "uuid": "e2b0c40c-ee35-402a-878b-4f3c11dbaf5c"
-    },
-    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\1st.webp": {
-      "time": 1731324399569.7854,
-      "uuid": "389f79e0-ae5e-4eba-ac1a-b5fc9482ca40"
     },
     "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\avatar.webp": {
       "time": 1731324399573.6277,
@@ -4416,9 +4412,6 @@
     "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\avatar.webp.meta": {
       "time": 1731324399575.1426
     },
-    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\1st.webp.meta": {
-      "time": 1731324399570.7854
-    },
     "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\background2.webp.meta": {
       "time": 1731324399564.7842
     },
@@ -4760,6 +4753,97 @@
     },
     "C:\\GitHub\\cocos-misapat\\assets\\main\\native\\fe\\fe503c87-afe0-4463-bc30-ef5f60ec1aae.png.meta": {
       "time": 1731324400201.4163
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\43089e0cef7578c9e8da94a6aa95fc85.png.meta": {
+      "time": 1731656070343.69
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\43089e0cef7578c9e8da94a6aa95fc85.png": {
+      "time": 1731645072560.2014,
+      "uuid": "902173b3-e9f7-4f93-9701-43607e3a4021"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\LoadingSreen.scene.meta": {
+      "time": 1731655749885.6516
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\LoadingSreen.scene": {
+      "time": 1731657033163.474,
+      "uuid": "b37b97cc-e250-4024-b195-33b1897cfb79"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\scripts\\LoadingScreen.ts.meta": {
+      "time": 1731656912934.4885
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\scripts\\LoadingScreen.ts": {
+      "time": 1731656946458.089,
+      "uuid": "97f03bba-f747-45e4-aa29-a9d5ddfd21c9"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\blur-modal-background.png.meta": {
+      "time": 1731659658324.687
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\blur-modal-background.png": {
+      "time": 1731659622388.4521,
+      "uuid": "d28a5db8-2040-4112-9314-6994a2284b8b"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\loading-screen.jpg.meta": {
+      "time": 1731660055350.2156
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\backgrounds\\loading-screen.jpg": {
+      "time": 1731660035530.4436,
+      "uuid": "6f5a5f4a-5dfb-4bd2-b111-5f374cf8b9bd"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\close.png.meta": {
+      "time": 1731661924876.483
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\close.png": {
+      "time": 1731661911724.4585,
+      "uuid": "26d6373e-8461-44cd-bd5d-2699499c5089"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\rightArrowIcon.png.meta": {
+      "time": 1731662429613.8298
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\rightArrowIcon.png": {
+      "time": 1731662406688.744,
+      "uuid": "87feae91-12d8-4bb3-a88e-012ba14fb717"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\leftArrowIcon.png.meta": {
+      "time": 1731662441955.4695
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\leftArrowIcon.png": {
+      "time": 1731662366735.097,
+      "uuid": "78aff798-2e4c-42ee-9864-2ca0de8b6901"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\profileButton.png.meta": {
+      "time": 1731664200137.6458
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\profileButton.png": {
+      "time": 1731663798615.9946,
+      "uuid": "b2310402-0ff5-41eb-b0c0-ef095bf84e40"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\scripts\\ProfileModal.ts.meta": {
+      "time": 1731666201086.5862
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\scripts\\ProfileModal.ts": {
+      "time": 1731666364162.1204,
+      "uuid": "bc556645-467a-4c9d-822f-194a75287031"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\second-place.png.meta": {
+      "time": 1731667050202.0579
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\second-place.png": {
+      "time": 1731666994286.4175,
+      "uuid": "1fa7b549-a9dc-4bde-b2ca-050be258c26e"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\third-place.png.meta": {
+      "time": 1731667054092.11
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\third-place.png": {
+      "time": 1731667000337.917,
+      "uuid": "52c73da4-d4e6-4f4c-9f59-cb215b735211"
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\first-place.webp.meta": {
+      "time": 1731667059990.8914
+    },
+    "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\first-place.webp": {
+      "time": 1731324399569.7854,
+      "uuid": "389f79e0-ae5e-4eba-ac1a-b5fc9482ca40"
     }
   },
   "missing": {
@@ -4954,9 +5038,9 @@
       "removeTime": 1730072998653
     },
     "389f79e0-ae5e-4eba-ac1a-b5fc9482ca40": {
-      "path": "C:\\Users\\User\\Desktop\\simatap_frontend\\assets\\images\\icons\\1st.webp",
-      "time": 1730060950100.6072,
-      "removeTime": 1730072998653
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\1st.webp",
+      "time": 1731324399569.7854,
+      "removeTime": 1731667059960
     },
     "28dd8f07-0cf0-4cfc-b532-368d69818968": {
       "path": "C:\\Users\\User\\Desktop\\simatap_frontend\\assets\\images\\UI\\LeaderItem.webp",
@@ -5012,6 +5096,46 @@
       "path": "C:\\GitHub\\cocos-misapat\\assets\\scripts\\GenerateLink.ts",
       "time": 1731400360497.1328,
       "removeTime": 1731402047365
+    },
+    "b37b97cc-e250-4024-b195-33b1897cfb79": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\LoadingScene.scene",
+      "time": 1731656604472.6262,
+      "removeTime": 1731656682929
+    },
+    "902173b3-e9f7-4f93-9701-43607e3a4021": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\animations\\lion\\43089e0cef7578c9e8da94a6aa95fc85.png",
+      "time": 1731645072560.2014,
+      "removeTime": 1731656079733
+    },
+    "26d6373e-8461-44cd-bd5d-2699499c5089": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\close.png",
+      "time": 1731661911724.4585,
+      "removeTime": 1731661974998
+    },
+    "7be974f8-c7f2-4c8c-a3ab-12166313f859": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\closeIcon.svg",
+      "time": 1731661960849.3567,
+      "removeTime": 1731662077340
+    },
+    "87feae91-12d8-4bb3-a88e-012ba14fb717": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\right-arrow-icon.png",
+      "time": 1731662406688.744,
+      "removeTime": 1731662429603
+    },
+    "78aff798-2e4c-42ee-9864-2ca0de8b6901": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\images\\UI\\left-arrow-icon.png",
+      "time": 1731662366735.097,
+      "removeTime": 1731662441944
+    },
+    "1fa7b549-a9dc-4bde-b2ca-050be258c26e": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\second-place (2).png",
+      "time": 1731666994286.4175,
+      "removeTime": 1731667050192
+    },
+    "52c73da4-d4e6-4f4c-9f59-cb215b735211": {
+      "path": "C:\\GitHub\\cocos-misapat\\assets\\images\\icons\\third-place (2).png",
+      "time": 1731667000337.917,
+      "removeTime": 1731667054081
     }
   }
 }
