@@ -31,6 +31,8 @@ export class FriendsPage extends Component {
   @property
   apiBaseUrl: string = "https://dev.simatap.ru/api/referrals";
 
+  private hasFetchedFriends: boolean = false; // Флаг, чтобы избежать повторных вызовов
+
   start() {
     // Убедитесь, что SocketManager инициализирован
     if (!SocketManager.instance) {
@@ -38,7 +40,34 @@ export class FriendsPage extends Component {
       this.totalFriendsLabel.string = "Ошибка инициализации.";
       return;
     }
-    this.fetchFriends();
+
+    // Подпишитесь на событие завершения инициализации пользователя
+    SocketManager.instance.on("userInitialized", this.onUserInitialized, this);
+
+    // Дополнительная проверка на случай, если пользователь уже инициализирован
+    const userId = SocketManager.instance.getUserId();
+    if (userId) {
+      this.fetchFriends();
+      this.hasFetchedFriends = true;
+    }
+  }
+
+  onDestroy() {
+    // Отписка от события при уничтожении компонента
+    if (SocketManager.instance) {
+      SocketManager.instance.off(
+        "userInitialized",
+        this.onUserInitialized,
+        this
+      );
+    }
+  }
+
+  onUserInitialized() {
+    if (!this.hasFetchedFriends) {
+      this.fetchFriends();
+      this.hasFetchedFriends = true;
+    }
   }
 
   async fetchFriends() {

@@ -26,7 +26,7 @@ System.register(["cc"], function (_export, _context) {
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "40497KNIRZM96W3FB/cr0rR", "TabBarController", undefined); // TabBarController.ts
+      _cclegacy._RF.push({}, "40497KNIRZM96W3FB/cr0rR", "TabBarController", undefined); // assets/scripts/TabBarController.ts
 
 
       __checkObsolete__(['_decorator', 'Component', 'Node', 'Label', 'Color', 'tween', 'UIOpacity', 'Vec3']);
@@ -36,7 +36,7 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("TabBarController", TabBarController = (_dec = ccclass('TabBarController'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(Node), _dec7 = property(Node), _dec8 = property(Node), _dec9 = property(Node), _dec10 = property(Node), _dec11 = property(Node), _dec12 = property(Label), _dec13 = property(Label), _dec14 = property(Label), _dec15 = property(Label), _dec16 = property(Label), _dec17 = property(Node), _dec18 = property(Node), _dec19 = property(Node), _dec20 = property(Node), _dec21 = property(Node), _dec(_class = (_class2 = class TabBarController extends Component {
+      _export("TabBarController", TabBarController = (_dec = ccclass("TabBarController"), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(Node), _dec7 = property(Node), _dec8 = property(Node), _dec9 = property(Node), _dec10 = property(Node), _dec11 = property(Node), _dec12 = property(Label), _dec13 = property(Label), _dec14 = property(Label), _dec15 = property(Label), _dec16 = property(Label), _dec17 = property(Node), _dec18 = property(Node), _dec19 = property(Node), _dec20 = property(Node), _dec21 = property(Node), _dec(_class = (_class2 = class TabBarController extends Component {
         constructor(...args) {
           super(...args);
 
@@ -86,29 +86,30 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "activeButton", _descriptor20, this);
 
           // Текущая активная вкладка
-          this.currentTab = 'home';
+          this.currentTab = "none";
         }
 
+        // Изменено с 'home' на 'none'
         onLoad() {
           // Проверка всех свойств на null и логирование
           this.checkProperties(); // Инициализация: показать главную страницу без анимации
 
-          this.showPage(this.currentTab, false); // Присоединение обработчиков событий к иконкам вкладок
+          this.showPage("home", false); // Присоединение обработчиков событий к иконкам вкладок
 
           this.iconHome.on(Node.EventType.TOUCH_END, () => {
-            this.showPage('home', true);
+            this.showPage("home", true);
           });
           this.iconFriends.on(Node.EventType.TOUCH_END, () => {
-            this.showPage('friends', true);
+            this.showPage("friends", true);
           });
           this.iconStore.on(Node.EventType.TOUCH_END, () => {
-            this.showPage('store', true);
+            this.showPage("store", true);
           });
           this.iconLeaders.on(Node.EventType.TOUCH_END, () => {
-            this.showPage('leaders', true);
+            this.showPage("leaders", true);
           });
           this.iconTasks.on(Node.EventType.TOUCH_END, () => {
-            this.showPage('tasks', true);
+            this.showPage("tasks", true);
           });
         }
         /**
@@ -118,64 +119,64 @@ System.register(["cc"], function (_export, _context) {
 
         checkProperties() {
           const properties = [{
-            name: 'mainPage',
+            name: "mainPage",
             value: this.mainPage
           }, {
-            name: 'friendsPage',
+            name: "friendsPage",
             value: this.friendsPage
           }, {
-            name: 'storePage',
+            name: "storePage",
             value: this.storePage
           }, {
-            name: 'leadersPage',
+            name: "leadersPage",
             value: this.leadersPage
           }, {
-            name: 'tasksPage',
+            name: "tasksPage",
             value: this.tasksPage
           }, {
-            name: 'iconHome',
+            name: "iconHome",
             value: this.iconHome
           }, {
-            name: 'iconFriends',
+            name: "iconFriends",
             value: this.iconFriends
           }, {
-            name: 'iconStore',
+            name: "iconStore",
             value: this.iconStore
           }, {
-            name: 'iconLeaders',
+            name: "iconLeaders",
             value: this.iconLeaders
           }, {
-            name: 'iconTasks',
+            name: "iconTasks",
             value: this.iconTasks
           }, {
-            name: 'textHome',
+            name: "textHome",
             value: this.textHome
           }, {
-            name: 'textFriends',
+            name: "textFriends",
             value: this.textFriends
           }, {
-            name: 'textStore',
+            name: "textStore",
             value: this.textStore
           }, {
-            name: 'textLeaders',
+            name: "textLeaders",
             value: this.textLeaders
           }, {
-            name: 'textTasks',
+            name: "textTasks",
             value: this.textTasks
           }, {
-            name: 'buttonHome',
+            name: "buttonHome",
             value: this.buttonHome
           }, {
-            name: 'buttonFriends',
+            name: "buttonFriends",
             value: this.buttonFriends
           }, {
-            name: 'buttonLeaders',
+            name: "buttonLeaders",
             value: this.buttonLeaders
           }, {
-            name: 'buttonTasks',
+            name: "buttonTasks",
             value: this.buttonTasks
           }, {
-            name: 'activeButton',
+            name: "activeButton",
             value: this.activeButton
           }];
           properties.forEach(prop => {
@@ -192,9 +193,13 @@ System.register(["cc"], function (_export, _context) {
 
 
         showPage(pageName, animate = true) {
-          if (pageName === this.currentTab) return; // Скрыть текущую страницу с анимацией
+          if (pageName === this.currentTab) return;
+          console.log(`Switching to page: ${pageName} from currentTab: ${this.currentTab}`); // Скрыть текущую страницу с анимацией
 
-          this.hidePage(this.currentTab, animate); // Показать новую страницу с анимацией
+          if (this.currentTab !== "none") {
+            this.hidePage(this.currentTab, animate);
+          } // Показать новую страницу с анимацией
+
 
           this.showNewPage(pageName, animate); // Обновить состояние вкладок
 
@@ -296,19 +301,19 @@ System.register(["cc"], function (_export, _context) {
 
         getPageNode(pageName) {
           switch (pageName) {
-            case 'home':
+            case "home":
               return this.mainPage;
 
-            case 'friends':
+            case "friends":
               return this.friendsPage;
 
-            case 'store':
+            case "store":
               return this.storePage;
 
-            case 'leaders':
+            case "leaders":
               return this.leadersPage;
 
-            case 'tasks':
+            case "tasks":
               return this.tasksPage;
 
             default:
@@ -337,27 +342,27 @@ System.register(["cc"], function (_export, _context) {
           this.buttonTasks.active = false;
 
           switch (activePage) {
-            case 'home':
+            case "home":
               this.textHome.color = Color.WHITE;
               this.buttonHome.active = true;
               break;
 
-            case 'friends':
+            case "friends":
               this.textFriends.color = Color.WHITE;
               this.buttonFriends.active = true;
               break;
 
-            case 'store':
+            case "store":
               this.textStore.color = Color.WHITE;
               this.activeButton.active = true;
               break;
 
-            case 'leaders':
+            case "leaders":
               this.textLeaders.color = Color.WHITE;
               this.buttonLeaders.active = true;
               break;
 
-            case 'tasks':
+            case "tasks":
               this.textTasks.color = Color.WHITE;
               this.buttonTasks.active = true;
               break;

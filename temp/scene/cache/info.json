@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "12th Gen Intel(R) Core(TM) i5-12400",
+        "version": "Windows 10 Enterprise LTSC 2021"
+    },
+    "sceneListMap": {
+        "09136ac6-441e-4d95-b9ef-d60ba9e50594": "C:\\GitHub\\cocos-misapat\\assets\\MainScene.scene",
+        "b37b97cc-e250-4024-b195-33b1897cfb79": "C:\\GitHub\\cocos-misapat\\assets\\LoadingScene.scene"
+    },
+    "deviceMd5": "e6bea2c1cf2cfc025db5e7f3a5e5c4c6"
+}

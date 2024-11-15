@@ -1,27 +1,27 @@
-16:42:33 debug: 12.11.2024, 16:42:33
-16:42:33 debug: Project: C:\GitHub\cocos-misapat
-16:42:33 debug: Targets: editor,preview
-16:42:33 debug: Incremental file seems great.
-16:42:33 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.4\resources\resources\3d\engine
-16:42:33 debug: Initializing target [Editor]
-16:42:33 debug: Loading cache
-16:42:33 debug: Loading cache costs 1.7135000228881836ms.
-16:42:33 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
-16:42:33 debug: Our import map(foo:/bar): {
+08:33:07 debug: 15.11.2024, 08:33:07
+08:33:07 debug: Project: C:\GitHub\cocos-misapat
+08:33:07 debug: Targets: editor,preview
+08:33:07 debug: Incremental file seems great.
+08:33:07 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.4\resources\resources\3d\engine
+08:33:07 debug: Initializing target [Editor]
+08:33:07 debug: Loading cache
+08:33:07 debug: Loading cache costs 8.002599954605103ms.
+08:33:07 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
+08:33:07 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-16:42:33 debug: Initializing target [Preview]
-16:42:33 debug: Loading cache
-16:42:33 debug: Loading cache costs 1.3357999920845032ms.
-16:42:33 debug: Our import map(foo:/bar): {
+08:33:07 debug: Initializing target [Preview]
+08:33:07 debug: Loading cache
+08:33:07 debug: Loading cache costs 2.54259991645813ms.
+08:33:07 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-16:42:34 debug: Sync engine features: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,spine,tiled-map,tween,ui,video,webview
-16:42:34 debug: Reset databases. Enumerated domains: [
+08:33:07 debug: Sync engine features: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,spine,tiled-map,tween,ui,video,webview
+08:33:07 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
     "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.4\\resources\\resources\\3d\\engine\\editor\\assets"
@@ -31,655 +31,513 @@
     "physical": "C:\\GitHub\\cocos-misapat\\assets"
   }
 ]
-16:42:34 debug: Our import map(foo:/bar): {
+08:33:07 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///C:/GitHub/cocos-misapat/assets/"
   }
 }
-16:42:34 debug: Our import map(foo:/bar): {
+08:33:07 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///C:/GitHub/cocos-misapat/assets/"
   }
 }
-16:42:34 debug: Pulling asset-db.
-16:42:34 debug: Fetch asset-db cost: 4.766200006008148ms.
-16:42:34 debug: Build iteration starts.
+08:33:07 debug: Pulling asset-db.
+08:33:07 debug: Fetch asset-db cost: 5.091800093650818ms.
+08:33:07 debug: Build iteration starts.
 Number of accumulated asset changes: 15
 Feature changed: false
-16:42:34 debug: Target(editor) build started.
-16:42:34 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:00:05 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:06 GMT+0500 (Екатеринбург, стандартное время)
-16:42:34 debug: Inspect cce:/internal/x/cc
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
-16:42:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:55:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:06 GMT+0500 (Екатеринбург, стандартное время)
-16:42:34 debug: Inspect cce:/internal/x/prerequisite-imports
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Nov 11 2024 16:27:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Tue Nov 12 2024 16:42:27 GMT+0500 (Екатеринбург, стандартное время)
-16:42:34 debug: Inspect cce:/internal/code-quality/cr.mjs
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ../../scripts/SocketManager from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
-16:42:34 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-16:42:34 debug: Target(editor) ends with cost 144.1632999777794ms.
-16:42:34 debug: Target(preview) build started.
-16:42:34 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:00:05 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:06 GMT+0500 (Екатеринбург, стандартное время)
-16:42:34 debug: Inspect cce:/internal/x/cc
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-16:42:34 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-16:42:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:55:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:06 GMT+0500 (Екатеринбург, стандартное время)
-16:42:34 debug: Inspect cce:/internal/x/prerequisite-imports
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Nov 11 2024 16:27:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Tue Nov 12 2024 16:42:27 GMT+0500 (Екатеринбург, стандартное время)
-16:42:34 debug: Inspect cce:/internal/code-quality/cr.mjs
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ../../scripts/SocketManager from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:34 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
-16:42:34 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-16:42:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-16:42:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-16:42:34 debug: Target(preview) ends with cost 97.03030002117157ms.
-16:42:34 debug: Pulling asset-db.
-16:42:35 debug: Fetch asset-db cost: 852.8866999745369ms.
-16:42:35 debug: Build iteration starts.
+08:33:07 debug: Target(editor) build started.
+08:33:07 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время)
+08:33:07 debug: Inspect cce:/internal/x/cc
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+08:33:07 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:08 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время)
+08:33:07 debug: Inspect cce:/internal/x/prerequisite-imports
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Nov 13 2024 15:17:41 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Fri Nov 15 2024 08:32:59 GMT+0500 (Екатеринбург, стандартное время)
+08:33:07 debug: Inspect cce:/internal/code-quality/cr.mjs
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ../../scripts/SocketManager from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+08:33:07 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+08:33:07 debug: Target(editor) ends with cost 143.8707000017166ms.
+08:33:07 debug: Target(preview) build started.
+08:33:07 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время)
+08:33:07 debug: Inspect cce:/internal/x/cc
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+08:33:07 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+08:33:07 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:08 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время)
+08:33:07 debug: Inspect cce:/internal/x/prerequisite-imports
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Nov 13 2024 15:17:41 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Fri Nov 15 2024 08:32:59 GMT+0500 (Екатеринбург, стандартное время)
+08:33:07 debug: Inspect cce:/internal/code-quality/cr.mjs
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ../../scripts/SocketManager from file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:07 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+08:33:07 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+08:33:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc/env from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve ./builtin-pipeline-types from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+08:33:07 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+08:33:07 debug: Target(preview) ends with cost 104.95740008354187ms.
+08:33:08 debug: Pulling asset-db.
+08:33:09 debug: Fetch asset-db cost: 555.1295000314713ms.
+08:33:09 debug: Build iteration starts.
 Number of accumulated asset changes: 17
 Feature changed: false
-16:42:35 debug: Target(editor) build started.
-16:42:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:06 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:08 GMT+0500 (Екатеринбург, стандартное время)
-16:42:35 debug: Inspect cce:/internal/x/prerequisite-imports
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-16:42:35 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-16:42:35 debug: Detected change: cce:/internal/ml/cjs-loader.mjs. Last mtime: Mon Nov 11 2024 16:27:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Tue Nov 12 2024 16:42:27 GMT+0500 (Екатеринбург, стандартное время)
-16:42:35 debug: Inspect cce:/internal/ml/cjs-loader.mjs
-16:42:35 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-16:42:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-16:42:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-16:42:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-16:42:35 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:42:35 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:42:35 debug: Target(editor) ends with cost 152.75300002098083ms.
-16:42:35 debug: Target(preview) build started.
-16:42:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:06 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:08 GMT+0500 (Екатеринбург, стандартное время)
-16:42:35 debug: Inspect cce:/internal/x/prerequisite-imports
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-16:42:35 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:42:35 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-16:42:35 debug: Detected change: cce:/internal/ml/cjs-loader.mjs. Last mtime: Mon Nov 11 2024 16:27:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Tue Nov 12 2024 16:42:27 GMT+0500 (Екатеринбург, стандартное время)
-16:42:35 debug: Inspect cce:/internal/ml/cjs-loader.mjs
-16:42:36 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:42:36 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-16:42:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-16:42:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:42:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-16:42:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-16:42:36 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:42:36 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:42:36 debug: Target(preview) ends with cost 837.6536999940872ms.
-16:58:30 debug: Dispatch build request for time accumulated 2 asset changes.
-16:58:30 debug: Build iteration starts.
+08:33:09 debug: Target(editor) build started.
+08:33:09 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:09 GMT+0500 (Екатеринбург, стандартное время)
+08:33:09 debug: Inspect cce:/internal/x/prerequisite-imports
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+08:33:09 debug: Detected change: cce:/internal/ml/cjs-loader.mjs. Last mtime: Wed Nov 13 2024 15:17:41 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Fri Nov 15 2024 08:32:59 GMT+0500 (Екатеринбург, стандартное время)
+08:33:09 debug: Inspect cce:/internal/ml/cjs-loader.mjs
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+08:33:09 debug: Target(editor) ends with cost 119.24549996852875ms.
+08:33:09 debug: Target(preview) build started.
+08:33:09 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:07 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:00:09 GMT+0500 (Екатеринбург, стандартное время)
+08:33:09 debug: Inspect cce:/internal/x/prerequisite-imports
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+08:33:09 debug: Detected change: cce:/internal/ml/cjs-loader.mjs. Last mtime: Wed Nov 13 2024 15:17:41 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Fri Nov 15 2024 08:32:59 GMT+0500 (Екатеринбург, стандартное время)
+08:33:09 debug: Inspect cce:/internal/ml/cjs-loader.mjs
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+08:33:09 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+08:33:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+08:33:09 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+08:33:09 debug: Target(preview) ends with cost 84.43540000915527ms.
+09:25:14 debug: Dispatch build request for time accumulated 1 asset changes.
+09:25:14 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+09:25:14 debug: Target(editor) build started.
+09:25:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:09 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:52:15 GMT+0500 (Екатеринбург, стандартное время)
+09:25:14 debug: Inspect cce:/internal/x/prerequisite-imports
+09:25:14 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+09:25:14 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Wed Nov 13 2024 15:01:09 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Fri Nov 15 2024 09:24:41 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
+09:25:14 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
+09:25:15 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
+09:25:15 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+09:25:15 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+09:25:15 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+09:25:15 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+09:25:15 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+09:25:15 debug: Target(editor) ends with cost 317.6756000518799ms.
+09:25:15 debug: Target(preview) build started.
+09:25:15 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:09 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:52:15 GMT+0500 (Екатеринбург, стандартное время)
+09:25:15 debug: Inspect cce:/internal/x/prerequisite-imports
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+09:25:15 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Wed Nov 13 2024 15:01:09 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Fri Nov 15 2024 09:24:41 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
+09:25:15 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
+09:25:15 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
+09:25:15 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+09:25:15 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+09:25:15 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+09:25:15 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+09:25:15 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+09:25:15 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:25:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+09:25:15 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+09:25:15 debug: Target(preview) ends with cost 390.3718000650406ms.
+10:09:58 debug: Dispatch build request for time accumulated 2 asset changes.
+10:09:58 debug: Build iteration starts.
 Number of accumulated asset changes: 2
 Feature changed: false
-16:58:30 debug: Target(editor) build started.
-16:58:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:08 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:16:03 GMT+0500 (Екатеринбург, стандартное время)
-16:58:30 debug: Inspect cce:/internal/x/prerequisite-imports
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-16:58:30 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 14:04:15 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 16:58:00 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-16:58:30 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-16:58:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:58:30 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-16:58:30 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts. Last mtime: Tue Nov 12 2024 16:22:10 GMT+0500 (Екатеринбург, стандартное время)@18bc3c94-b83d-4660-8e6b-25588625ca79, Current mtime: Tue Nov 12 2024 16:51:29 GMT+0500 (Екатеринбург, стандартное время)@18bc3c94-b83d-4660-8e6b-25588625ca79
-16:58:30 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts
-16:58:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/code-quality/cr.mjs.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:58:30 debug: Target(editor) ends with cost 271.86620002985ms.
-16:58:30 debug: Target(preview) build started.
-16:58:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:00:08 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:16:03 GMT+0500 (Екатеринбург, стандартное время)
-16:58:30 debug: Inspect cce:/internal/x/prerequisite-imports
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-16:58:30 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 14:04:15 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 16:58:00 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-16:58:30 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-16:58:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:58:30 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-16:58:30 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts. Last mtime: Tue Nov 12 2024 16:22:10 GMT+0500 (Екатеринбург, стандартное время)@18bc3c94-b83d-4660-8e6b-25588625ca79, Current mtime: Tue Nov 12 2024 16:51:29 GMT+0500 (Екатеринбург, стандартное время)@18bc3c94-b83d-4660-8e6b-25588625ca79
-16:58:30 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts
-16:58:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/code-quality/cr.mjs.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as cce:/internal/x/cc.
-16:58:30 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-16:58:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-16:58:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-16:58:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-16:58:30 debug: Target(preview) ends with cost 239.1937000155449ms.
-17:27:01 debug: Dispatch build request for time accumulated 1 asset changes.
-17:27:01 debug: Build iteration starts.
+10:09:58 debug: Target(editor) build started.
+10:09:58 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:52:15 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 06:36:59 GMT+0500 (Екатеринбург, стандартное время)
+10:09:58 debug: Inspect cce:/internal/x/prerequisite-imports
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+10:09:59 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Fri Nov 15 2024 09:24:41 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Fri Nov 15 2024 10:09:54 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
+10:09:59 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
+10:09:59 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+10:09:59 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+10:09:59 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts. Last mtime: Mon Nov 11 2024 16:26:40 GMT+0500 (Екатеринбург, стандартное время)@829ceed1-6209-4f57-a926-405fd66e66e6, Current mtime: Fri Nov 15 2024 10:09:54 GMT+0500 (Екатеринбург, стандартное время)@829ceed1-6209-4f57-a926-405fd66e66e6
+10:09:59 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts
+10:09:59 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/code-quality/cr.mjs.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:09:59 debug: Target(editor) ends with cost 283.97290003299713ms.
+10:09:59 debug: Target(preview) build started.
+10:09:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:52:15 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 06:36:59 GMT+0500 (Екатеринбург, стандартное время)
+10:09:59 debug: Inspect cce:/internal/x/prerequisite-imports
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+10:09:59 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Fri Nov 15 2024 09:24:41 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Fri Nov 15 2024 10:09:54 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
+10:09:59 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
+10:09:59 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+10:09:59 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+10:09:59 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts. Last mtime: Mon Nov 11 2024 16:26:40 GMT+0500 (Екатеринбург, стандартное время)@829ceed1-6209-4f57-a926-405fd66e66e6, Current mtime: Fri Nov 15 2024 10:09:54 GMT+0500 (Екатеринбург, стандартное время)@829ceed1-6209-4f57-a926-405fd66e66e6
+10:09:59 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts
+10:09:59 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/code-quality/cr.mjs.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as cce:/internal/x/cc.
+10:09:59 debug: Resolve ./SocketManager from file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+10:09:59 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:09:59 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:09:59 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:09:59 debug: Target(preview) ends with cost 251.64069998264313ms.
+10:17:29 debug: Dispatch build request for time accumulated 1 asset changes.
+10:17:29 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
-17:27:01 debug: Target(editor) build started.
-17:27:01 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:16:03 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:44:34 GMT+0500 (Екатеринбург, стандартное время)
-17:27:01 debug: Inspect cce:/internal/x/prerequisite-imports
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-17:27:01 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 16:58:00 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 17:26:58 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-17:27:01 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-17:27:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-17:27:01 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-17:27:01 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-17:27:01 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-17:27:01 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-17:27:01 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-17:27:01 debug: Target(editor) ends with cost 126.06299996376038ms.
-17:27:01 debug: Target(preview) build started.
-17:27:01 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:16:03 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 05:44:34 GMT+0500 (Екатеринбург, стандартное время)
-17:27:01 debug: Inspect cce:/internal/x/prerequisite-imports
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-17:27:01 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 16:58:00 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 17:26:58 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-17:27:01 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-17:27:01 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-17:27:01 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-17:27:01 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-17:27:01 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-17:27:01 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-17:27:01 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-17:27:01 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-17:27:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-17:27:01 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-17:27:01 debug: Target(preview) ends with cost 171.19110000133514ms.
-19:37:30 debug: Dispatch build request for time accumulated 1 asset changes.
-19:37:30 debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-19:37:30 debug: Target(editor) build started.
-19:37:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:44:34 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 07:55:03 GMT+0500 (Екатеринбург, стандартное время)
-19:37:30 debug: Inspect cce:/internal/x/prerequisite-imports
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-19:37:30 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 17:26:58 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 19:37:27 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-19:37:30 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-19:37:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-19:37:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:37:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:37:30 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:37:30 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:37:30 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:37:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-19:37:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-19:37:30 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-19:37:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-19:37:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-19:37:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-19:37:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:37:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:37:30 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:37:31 debug: Target(editor) ends with cost 202.878300011158ms.
-19:37:31 debug: Target(preview) build started.
-19:37:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:44:34 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 07:55:03 GMT+0500 (Екатеринбург, стандартное время)
-19:37:31 debug: Inspect cce:/internal/x/prerequisite-imports
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-19:37:31 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 17:26:58 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 19:37:27 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-19:37:31 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-19:37:31 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-19:37:31 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:37:31 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:37:31 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:37:31 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:37:31 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:37:31 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-19:37:31 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-19:37:31 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-19:37:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-19:37:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-19:37:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-19:37:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:37:31 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:37:31 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:37:31 debug: Target(preview) ends with cost 236.5004000067711ms.
-19:38:04 debug: Dispatch build request for time accumulated 1 asset changes.
-19:38:04 debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-19:38:04 debug: Target(editor) build started.
-19:38:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:03 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 07:55:37 GMT+0500 (Екатеринбург, стандартное время)
-19:38:04 debug: Inspect cce:/internal/x/prerequisite-imports
-19:38:04 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-19:38:04 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 19:37:27 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 19:38:01 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-19:38:04 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-19:38:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-19:38:05 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:38:05 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:38:05 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:38:05 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:38:05 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:38:05 debug: Target(editor) ends with cost 157.91439998149872ms.
-19:38:05 debug: Target(preview) build started.
-19:38:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:03 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 07:55:38 GMT+0500 (Екатеринбург, стандартное время)
-19:38:05 debug: Inspect cce:/internal/x/prerequisite-imports
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-19:38:05 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 19:37:27 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 19:38:01 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-19:38:05 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-19:38:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-19:38:05 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:38:05 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:38:05 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:38:05 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:38:05 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-19:38:05 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-19:38:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:38:05 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:38:05 debug: Target(preview) ends with cost 211.73399996757507ms.
-19:52:45 debug: Dispatch build request for time accumulated 1 asset changes.
-19:52:45 debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-19:52:45 debug: Target(editor) build started.
-19:52:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:37 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 08:10:18 GMT+0500 (Екатеринбург, стандартное время)
-19:52:45 debug: Inspect cce:/internal/x/prerequisite-imports
-19:52:45 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-19:52:45 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 19:38:01 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 19:52:42 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-19:52:45 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-19:52:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-19:52:46 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:52:46 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:52:46 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:52:46 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:52:46 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:52:46 debug: Target(editor) ends with cost 136.53850001096725ms.
-19:52:46 debug: Target(preview) build started.
-19:52:46 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:38 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 08:10:19 GMT+0500 (Екатеринбург, стандартное время)
-19:52:46 debug: Inspect cce:/internal/x/prerequisite-imports
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
-19:52:46 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts. Last mtime: Tue Nov 12 2024 19:38:01 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181, Current mtime: Tue Nov 12 2024 19:52:42 GMT+0500 (Екатеринбург, стандартное время)@a0c39559-ea3e-4d46-b4fa-731307a83181
-19:52:46 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts
-19:52:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/code-quality/cr.mjs.
-19:52:46 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:52:46 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:52:46 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as cce:/internal/x/cc.
-19:52:46 debug: Resolve ./IncomeManager from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:52:46 debug: Resolve ./PassiveIncomeModal from file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
-19:52:46 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-19:52:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
-19:52:46 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
-19:52:46 debug: Target(preview) ends with cost 186.59500002861023ms.
+10:17:29 debug: Target(editor) build started.
+10:17:29 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 06:36:59 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 06:44:29 GMT+0500 (Екатеринбург, стандартное время)
+10:17:29 debug: Inspect cce:/internal/x/prerequisite-imports
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+10:17:29 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts. Last mtime: Mon Nov 11 2024 16:26:40 GMT+0500 (Екатеринбург, стандартное время)@4049728d-2116-4cf7-a5b7-141fdcaf4ad1, Current mtime: Fri Nov 15 2024 10:17:25 GMT+0500 (Екатеринбург, стандартное время)@4049728d-2116-4cf7-a5b7-141fdcaf4ad1
+10:17:29 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts
+10:17:29 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+10:17:29 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+10:17:29 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:17:29 debug: Target(editor) ends with cost 102.55289995670319ms.
+10:17:29 debug: Target(preview) build started.
+10:17:29 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 06:36:59 GMT+0500 (Екатеринбург, стандартное время), Current mtime: Thu Jan 01 1970 06:44:29 GMT+0500 (Екатеринбург, стандартное время)
+10:17:29 debug: Inspect cce:/internal/x/prerequisite-imports
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/animations/lion/SpineController.ts.ts.
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/internal/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/internal/index.mjs?cjs=&original=.js.
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/main/index.js from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/main/index.mjs?cjs=&original=.js.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/BoostController.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FloatingText.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/FriendsPage.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/IncomeManager.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/LeadersPage.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/PassiveIncomeModal.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/ReferralLinkManager.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/SocketManager.ts.
+10:17:29 debug: Resolve file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts from cce:/internal/x/prerequisite-imports as file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts.
+10:17:29 debug: Detected change: file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts. Last mtime: Mon Nov 11 2024 16:26:40 GMT+0500 (Екатеринбург, стандартное время)@4049728d-2116-4cf7-a5b7-141fdcaf4ad1, Current mtime: Fri Nov 15 2024 10:17:25 GMT+0500 (Екатеринбург, стандартное время)@4049728d-2116-4cf7-a5b7-141fdcaf4ad1
+10:17:29 debug: Inspect file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts
+10:17:29 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+10:17:29 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+10:17:29 debug: Resolve cc from file:///C:/GitHub/cocos-misapat/assets/scripts/TabBarController.ts as cce:/internal/x/cc.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:17:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/internal/index.js'
+10:17:29 debug: Create cjs interop url for 'file:///C:/GitHub/cocos-misapat/assets/main/index.js'
+10:17:29 debug: Target(preview) ends with cost 156.4186999797821ms.

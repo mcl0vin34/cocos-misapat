@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, Color, ProgressBar, IncomeManager, PassiveIncomeModal, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _class3, _crd, ccclass, property, SocketManager;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, Color, ProgressBar, EventTarget, IncomeManager, PassiveIncomeModal, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _class3, _crd, ccclass, property, SocketManager;
 
   function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -33,6 +33,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       Label = _cc.Label;
       Color = _cc.Color;
       ProgressBar = _cc.ProgressBar;
+      EventTarget = _cc.EventTarget;
     }, function (_unresolved_2) {
       IncomeManager = _unresolved_2.IncomeManager;
     }, function (_unresolved_3) {
@@ -41,10 +42,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "a0c39VZ6j5NRrT6cxMHqDGB", "SocketManager", undefined); // cocos-project/assets/scripts/SocketManager.ts
+      _cclegacy._RF.push({}, "a0c39VZ6j5NRrT6cxMHqDGB", "SocketManager", undefined); // assets/scripts/SocketManager.ts
 
 
-      __checkObsolete__(['_decorator', 'Component', 'Label', 'Color', 'ProgressBar', 'Node']);
+      __checkObsolete__(['_decorator', 'Component', 'Label', 'Color', 'ProgressBar', 'Node', 'EventTarget']);
 
       ({
         ccclass,
@@ -81,6 +82,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.currentBoosts = 0;
           this.maxBoosts = 6;
           this.currentCoins = 0;
+          // Добавление EventTarget для управления событиями
+          this.eventTarget = new EventTarget();
         }
 
         static get instance() {
@@ -89,6 +92,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           }
 
           return SocketManager._instance;
+        }
+
+        // Метод для подписки на события
+        on(event, callback, target) {
+          this.eventTarget.on(event, callback, target);
+        } // Метод для отписки от событий
+
+
+        off(event, callback, target) {
+          this.eventTarget.off(event, callback, target);
         }
 
         onLoad() {
@@ -183,7 +196,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
                   tg.ready();
                   resolve();
                 });
-                console.log("tg.initDataUnsafe после готовности:", tg.initDataUnsafe);
+                console.log("tg.initDataUnsafe после готовности:", tg.initDataUnsafe); // Применяем настройки Telegram WebApp
+
+                tg.expand == null || tg.expand();
+                tg.disableVerticalSwipes == null || tg.disableVerticalSwipes();
+                tg.isVerticalSwipesEnabled = false;
+                tg.setBackgroundColor == null || tg.setBackgroundColor("#272727");
+
+                if (tg != null && tg.web_app_setup_swipe_behavior) {
+                  tg.web_app_setup_swipe_behavior({
+                    allow_vertical_swipe: false
+                  });
+                }
 
                 if ((_tg$initDataUnsafe = tg.initDataUnsafe) != null && (_tg$initDataUnsafe = _tg$initDataUnsafe.user) != null && _tg$initDataUnsafe.id) {
                   var userData = {
@@ -218,8 +242,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
               _this.showUserInfo(true);
 
-              _this.checkPassiveIncome(); // Обработка реферальных параметров
-
+              yield _this.checkPassiveIncome(); // Добавлено для немедленной проверки пассивного дохода
+              // Обработка реферальных параметров
 
               if (tg && (_tg$initDataUnsafe2 = tg.initDataUnsafe) != null && _tg$initDataUnsafe2.start_param) {
                 var startParam = tg.initDataUnsafe.start_param;
@@ -255,7 +279,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
                     }
                   }
                 }
-              }
+              } // Эмитируем событие завершения инициализации пользователя
+
+
+              _this.eventTarget.emit("userInitialized");
             } catch (error) {
               console.error("Ошибка при инициализации пользователя:", error);
             }
@@ -264,8 +291,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
         useMockData() {
           var userData = {
-            id: 230230230,
-            username: "230 bro's",
+            id: 422840434,
+            username: "ceo bro's",
             first_name: "madesta",
             last_name: "",
             language_code: "en",
@@ -275,6 +302,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           };
           this.userId = userData.id;
           this.userData = userData;
+          console.log("Mock user data set. User ID: " + this.userId); // Эмитируем событие при использовании моковых данных
+
+          this.eventTarget.emit("userInitialized");
         }
         /**
          * Создает или обновляет пользователя на сервере
@@ -309,10 +339,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             }
           })();
         }
-        /**
-         * Автоматически подключается к серверу Socket.IO с userId
-         */
-
 
         autoConnect() {
           try {
@@ -488,6 +514,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               _this4.currentCoins += income;
 
               _this4.updateCoins(_this4.currentCoins);
+            } else {// Если вы хотите открывать окно даже при нулевом доходе, раскомментируйте ниже
+              // if (this.passiveIncomeModal) {
+              //   this.passiveIncomeModal.show(0); // Или другой параметр по вашему усмотрению
+              // }
             }
           })();
         }
@@ -641,24 +671,34 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
 
         onTap() {
-          if (!this.userId) {
-            this.showMessage("Пользователь не подключен.", "danger");
-            return;
-          }
+          var _this6 = this;
 
-          if (this.currentEnergy < 13) {
-            this.showMessage("Не хватает энергии для тапа.", "warning");
-            return;
-          }
+          return _asyncToGenerator(function* () {
+            if (!_this6.userId) {
+              _this6.showMessage("Пользователь не подключен.", "danger");
 
-          if (this.socket && this.socket.connected) {
-            this.socket.emit("tap", {
-              userId: this.userId
-            });
-            this.showMessage("Тап отправлен!", "info");
-          } else {
-            this.showMessage("Соединение с сервером отсутствует.", "danger");
-          }
+              return;
+            }
+
+            if (_this6.currentEnergy < 13) {
+              _this6.showMessage("Не хватает энергии для тапа.", "warning");
+
+              return;
+            }
+
+            if (_this6.socket && _this6.socket.connected) {
+              _this6.socket.emit("tap", {
+                userId: _this6.userId
+              });
+
+              _this6.showMessage("Тап отправлен!", "info"); // Добавляем вибрацию при клике
+
+
+              _this6.triggerHapticFeedback();
+            } else {
+              _this6.showMessage("Соединение с сервером отсутствует.", "danger");
+            }
+          })();
         }
         /**
          * Получает текущий userId
@@ -681,6 +721,22 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             this.socket.emit("register", {
               userId: this.userId
             });
+          }
+        }
+        /**
+         * Инициирует вибрацию через Telegram WebApp
+         */
+
+
+        triggerHapticFeedback() {
+          var _Telegram2;
+
+          var tg = (_Telegram2 = window.Telegram) == null ? void 0 : _Telegram2.WebApp;
+
+          if (tg && tg.HapticFeedback) {
+            tg.HapticFeedback.impactOccurred("medium");
+          } else {
+            console.warn("HapticFeedback API недоступен.");
           }
         }
 
